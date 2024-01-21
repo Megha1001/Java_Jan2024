@@ -10,6 +10,7 @@ public class SumNNaturalNumbers {
         System.out.println("Sum of N natural numbers using Formula : "+sumOfNNaturalNumbersUsingFormula(input));
     }
 
+    // Time Complexity :- O(n)
     public static int sumOfNNaturalNumbersUsingForLoop(int input){
         int result = 0;
         for (int i=1; i<=input; i++){
@@ -18,6 +19,7 @@ public class SumNNaturalNumbers {
         return result;
     }
 
+    // Time Complexity :- O(n*n)
     public static int sumOfNNaturalNumbersUsingTwoForLoop(int input){
         int result = 0;
         for (int i=1; i<=input; i++){
@@ -28,6 +30,7 @@ public class SumNNaturalNumbers {
         return result;
     }
 
+    // Time Complexity :- O(1)
     public static int sumOfNNaturalNumbersUsingFormula(int input){
         return input*(input+1)/2;
     }
