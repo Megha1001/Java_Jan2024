@@ -11,3 +11,12 @@ Best example
 for(int i = 2; i < n; i = Math.pow(i,c)){}
 Complexity : log(logN)
 inner base : 2, outer base : c
+
+Methods
+1. for normal/simple loops --> use direct approach by identifying which statement is executing most number of times
+2. For recursive code -> write recurrance relation
+
+Space complexity : Order of growth of RAM(memory) require in terms of input size
+Auxilary space : Order of growth of extra space or temporary space in terms of input size
+
+For Recursion question :- space complexity is = height of the tree
