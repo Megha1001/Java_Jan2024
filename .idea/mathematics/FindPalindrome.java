@@ -7,6 +7,7 @@ public class FindPalindrome {
         //Assuming input > 0
         String inputStr = inputObj.nextLine();
         System.out.println(inputStr + " is "+ findPalindrome(inputStr));
+        System.out.println(inputStr + " is "+ findPalindromeMethod2(inputStr));
     }
 
     /*
@@ -21,5 +22,14 @@ public class FindPalindrome {
             return "not a Palindrome";
         }
         return "a Palindrome";
+    }
+
+    //Time Complexity : O(N)
+    public static String findPalindromeMethod2(String input){
+        String reverse = "";
+        for(int i = input.length() - 1; i >= 0; --i){
+            reverse += input.charAt(i);
+        }
+        return (reverse.equals(input) ? "a Palindrome": "not a Palindrome");
     }
 }
