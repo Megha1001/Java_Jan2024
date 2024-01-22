@@ -1,3 +1,5 @@
+package mathematics;
+
 import java.util.Scanner;
 
 public class FindPalindrome {

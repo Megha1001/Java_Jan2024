@@ -1,3 +1,5 @@
+package analysisOfAlgo;
+
 import java.util.Scanner;
 
 public class SumNNaturalNumbers {
