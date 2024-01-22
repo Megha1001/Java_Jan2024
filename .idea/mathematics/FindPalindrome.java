@@ -13,7 +13,7 @@ public class FindPalindrome {
 
     /*
     In the worst case it will go this half of the length
-    Time Complexity : O(N)
+    Time Complexity : O(d) -> where d is the number of digits
      */
     public static String findPalindrome(String input){
         for(int i = 0; i < input.length()/2; i++){
@@ -25,7 +25,7 @@ public class FindPalindrome {
         return "a Palindrome";
     }
 
-    //Time Complexity : O(N)
+    //Time Complexity : O(d) -> where d is the number of digits
     public static String findPalindromeMethod2(String input){
         String reverse = "";
         for(int i = input.length() - 1; i >= 0; --i){
@@ -34,6 +34,7 @@ public class FindPalindrome {
         return (reverse.equals(input) ? "a Palindrome": "not a Palindrome");
     }
 
+    //Time Complexity : O(d) -> where d is the number of digits
     public static String findPalindromeMethod3(int input){
         int reverse = 0;
         int temp = input;
