@@ -8,6 +8,7 @@ public class FindPalindrome {
         String inputStr = inputObj.nextLine();
         System.out.println(inputStr + " is "+ findPalindrome(inputStr));
         System.out.println(inputStr + " is "+ findPalindromeMethod2(inputStr));
+        System.out.println(inputStr + " is "+ findPalindromeMethod3(Integer.parseInt(inputStr)));
     }
 
     /*
@@ -31,5 +32,16 @@ public class FindPalindrome {
             reverse += input.charAt(i);
         }
         return (reverse.equals(input) ? "a Palindrome": "not a Palindrome");
+    }
+
+    public static String findPalindromeMethod3(int input){
+        int reverse = 0;
+        int temp = input;
+        while(temp > 0){
+            reverse = (reverse*10) + (temp%10);
+            temp/=10;
+        }
+
+        return (reverse == input) ? "a Palindrome": "not a Palindrome";
     }
 }
