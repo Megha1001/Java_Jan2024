@@ -20,7 +20,7 @@ public class TrailingZeroesEffectiveApp {
       Note : There would be numbers like 25, 125 etc where we have to consider all 5.
    5. Formula : floor(n/5) + floor(n/25) + floor(n/125) + .... + 0.
 
-   TIME COMPLEXITY : Theta(trailing_zeroes)
+   TIME COMPLEXITY : log(N) with base 5
    */
   public static int countTrailingZeroes(int num){
     int result = 0;
