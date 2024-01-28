@@ -28,7 +28,7 @@ public class EuclidienAlgo {
     System.out.println("GCD or HCF of given number is "+findGCDOrHCFOptimizedApproach(m, n));
   }
 
-  //Time Complexity : O(min(a,b))
+  //Time Complexity : O(log(min(a,b)))
   public static int findGCDOrHCF(int m, int n){
       while(m != n){
         if(m > n){
@@ -43,7 +43,7 @@ public class EuclidienAlgo {
   /*
   In this approach, instead of repeatedly subtracting the numbers till both become equal,
   we can check if one number is a factor of the other.
-   Time Complexity : O(min(a,b))
+   Time Complexity : O(log(min(a,b)))
    */
   public static int findGCDOrHCFOptimizedApproach(int m, int n){
       if(n == 0){
