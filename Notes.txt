@@ -20,3 +20,18 @@ Space complexity : Order of growth of RAM(memory) require in terms of input size
 Auxilary space : Order of growth of extra space or temporary space in terms of input size
 
 For Recursion question :- space complexity is = height of the tree
+
+
+-----------------------------------------
+
+Euclidiean algorithm
+  Let 'b' be smaller than 'a'
+    gcd(a,b) = gcd(a-b,b)
+
+  Why ?
+    Let 'g' be GCD of 'a' and 'b'
+      a=gx, b=gx, and GCD(x,y) = 1
+      (a-b) = g(x-y)
+      Now we have to show that gcd((a-b), b) = g
+      (a-b) = g(x-y) --> would not be having any more comman factor otherwise it'll contradict with GCD(x,y) = 1
+      Hence, gcd((a-b), b) = g 
