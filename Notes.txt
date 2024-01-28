@@ -34,4 +34,7 @@ Euclidiean algorithm
       (a-b) = g(x-y)
       Now we have to show that gcd((a-b), b) = g
       (a-b) = g(x-y) --> would not be having any more comman factor otherwise it'll contradict with GCD(x,y) = 1
-      Hence, gcd((a-b), b) = g 
+      Hence, gcd((a-b), b) = g
+
+2. LCM
+  a*b = gcd(a,b) * lcm(a,b)
