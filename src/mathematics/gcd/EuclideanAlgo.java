@@ -16,7 +16,7 @@ Euclidiean algorithm
       Hence, gcd((a-b), b) = g
 
  */
-public class EuclidienAlgo {
+public class EuclideanAlgo {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
