@@ -7,6 +7,9 @@ public class CheckPrimeNaiveApproach2 {
   }
 
   public static String checkPrime(int n){
+    if(n==2 || n==3){
+      return " Prime.";
+    }
     if(n == 1 || n%2 == 0 || n%3 == 0){
       return " not a Prime.";
     }
