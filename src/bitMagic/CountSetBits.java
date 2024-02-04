@@ -4,7 +4,8 @@ public class CountSetBits {
     public static void main(String[] args) {
         int n = 13;
         System.out.println("Num of set bits are : "+countSetBits(n));
-        System.out.println("Num of set bits are : "+countSetBitsNaive(n));
+        System.out.println("Num of set bits are : "+countSetBits(n));
+        System.out.println("Num of set bits are : "+countBitEfficient(n));
     }
     //Bitwise is faster than %2 operator
     //TIME COMPLEXITY : θ(d) -> where d is number of bits from LSB to MSB
