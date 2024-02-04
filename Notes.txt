@@ -38,3 +38,12 @@ Euclidiean algorithm
 
 2. LCM
   a*b = gcd(a,b) * lcm(a,b)
+
+
+------------------
+
+2's complement of representation is
+    -x = 2^n - x, where n is number of bits
+   - all ones are treated as 2^32 - 1;
+
+
