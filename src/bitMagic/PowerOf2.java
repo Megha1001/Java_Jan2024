@@ -31,6 +31,6 @@ public class PowerOf2 {
             return false;
         }*/
 //        return (n&(n-1)) == 0;
-        return (n & (n&(n-1))) == 0; //handles n=0 as well
+        return (n & (n&(n-1))) == 0; //handles n=0 as
     }
 }
