@@ -1,6 +1,14 @@
 package recursion;
 
 public class SubsetSumProblem {
+
+    /*
+    Time complexity
+    Leaf nodes : 2^n
+    internal nodes : 2^n-1
+
+    total amount of work done : 2^n+(2^n-1) = 0(2^n) //basically these are recursive calls
+     */
     public static void main(String[] args) {
         int arr[] = {10,20,15};
         int sum = 25;
