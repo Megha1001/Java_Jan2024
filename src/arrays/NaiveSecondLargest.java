@@ -1,7 +1,7 @@
 /*
 TIME COMPLEXITY : O(N)
 */
-class SecondLargest {
+class NaiveSecondLargest {
 
     public static void main(String[] args) {
         // int arr[]= {1,2,5,7,3,0,9};
