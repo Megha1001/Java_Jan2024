@@ -1,6 +1,7 @@
 /*
 TIME COMPLEXITY : O(N)
 */
+package arrays;
 class Deletion {
     //Delete only first occurence of element
     public static void main(String[] args) {

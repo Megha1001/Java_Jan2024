@@ -1,6 +1,7 @@
 /*
     TIME COMPLEXITY : O(N)
 */
+package arrays;
 class CheckIncreasingOrEqualSortedArray{
     public static void main(String [] args){
         int arr[] = {0,0,0,0};

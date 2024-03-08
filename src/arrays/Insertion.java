@@ -1,6 +1,7 @@
 /*
 TIME COMPLEXITY : O(N)
 */
+package arrays;
 class Insertion {
     public static void main(String[] args) {
         int inputArr[] = new int[5], cap=5, n=3;

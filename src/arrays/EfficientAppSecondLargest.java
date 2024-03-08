@@ -1,3 +1,4 @@
+package arrays;
 class EfficientAppSecondLargest{
     public static void main(String [] args){
         int arr[] = {3,5,6,0,-1,4,8,10,19};

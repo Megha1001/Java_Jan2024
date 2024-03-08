@@ -1,6 +1,7 @@
 /*
 TIME COMPLEXITY : O(N)
 */
+package arrays;
 class NaiveSecondLargest {
 
     public static void main(String[] args) {
