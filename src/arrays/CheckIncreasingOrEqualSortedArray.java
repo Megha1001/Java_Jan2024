@@ -1,7 +1,7 @@
 /*
     TIME COMPLEXITY : O(N)
 */
-class CheckSortedArray{
+class CheckIncreasingOrEqualSortedArray{
     public static void main(String [] args){
         int arr[] = {0,0,0,0};
         // int arr[] = {1,2,3,4,5};
