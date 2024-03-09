@@ -10,10 +10,7 @@ public class NaiveMaxDifferenceProblem {
         int res = arr[1]-arr[0];
         for(int i=0; i<arr.length - 1; i++){ //NO need to do this for last element.
             for(int j=i+1; j<arr.length; j++){
-                int diffTemp = arr[j]-arr[i];
-                if(diffTemp >res){
-                    res = diffTemp;
-                }
+                res = Math.max(res, arr[j]-arr[i]);
             }
         }
         return res;
