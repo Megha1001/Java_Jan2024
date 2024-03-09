@@ -1,12 +1,22 @@
 package arrays;
-
-public class LeftRotateByOne {
+/*
+NOt in place
+TIME COMPLEXITY : O(N)
+AUXILIARY SPACE : O(D)
+ */
+public class LeftRotateByDPositionApp1 {
     public static void main(String[] args) {
-        int arr[] ={1,4,6,7,8,0};
-        System.out.println("Array after left rotation by 1");
-        lRotateByOne(arr);
+        int arr[] = {1,2,3,4};
+        int d = 3;
+        lRotateByD(arr, d);
         for(int i=0; i<arr.length;i++){
             System.out.print(arr[i]+" ");
+        }
+    }
+
+    public static void lRotateByD(int arr[], int d){
+        for(int i=0; i<d; i++){
+            lRotateByOne(arr);
         }
     }
 
