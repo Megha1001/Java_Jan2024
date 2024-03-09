@@ -1,5 +1,7 @@
 package arrays;
-
+/*
+TIME COMPLEXITY : O(N^2)
+ */
 public class NaiveMaxDifferenceProblem {
     public static void main(String[] args) {
         int arr[] = {2,3,10,6,4,8,1};
