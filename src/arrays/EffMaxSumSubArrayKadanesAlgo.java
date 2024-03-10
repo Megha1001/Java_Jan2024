@@ -8,7 +8,7 @@ Everytime there is a positive-sum value in maxEnding comapre it with res and upd
 greater than res.
 
  */
-public class EffMaxSumSubArray {
+public class EffMaxSumSubArrayKadanesAlgo {
     public static void main(String[] args) {
         int arr[] ={2,3,-8,7,-1,2,3};
         System.out.println("Maximum sum of subarray is :"+findAndGetMaxSum(arr));
