@@ -1,0 +1,7 @@
+1. KADANE's ALGO
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+QUESTION : https://github.com/Megha1001/Java_Jan2024/blob/master/src/arrays/EffMaxSumSubArrayKadanesAlgo.java
+
+2. MOORE's ALGO
+https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
+QUESTION : https://github.com/Megha1001/Java_Jan2024/commit/cc6b897d4018e3fab91b50ef408a6cb12def77ac
