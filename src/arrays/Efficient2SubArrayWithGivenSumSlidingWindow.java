@@ -1,5 +1,8 @@
 package arrays;
-
+/*
+TIME COMPLEXITY : O(N)
+we are atmost adding and removing items (2(1-add and 1-remove) so at max 2N operations)
+ */
 public class Efficient2SubArrayWithGivenSumSlidingWindow {
     public static void main(String[] args) {
         int arr[] = {1,4,20,3,10,5};
