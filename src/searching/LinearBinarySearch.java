@@ -1,6 +1,7 @@
 package searching;
 /*
 TIME COMPLEXITY : O(logN)
+AUX SPACE :O(1)
  */
 public class LinearBinarySearch {
     public static void main(String[] args) {
