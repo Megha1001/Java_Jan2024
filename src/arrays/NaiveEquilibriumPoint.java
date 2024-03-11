@@ -12,12 +12,12 @@ class NaiveEquilibriumPoint {
         for(int i=0 ; i<n; i++){
             //check equilibrium for every element
             int rightSideSum=0;
-            for(int j=i+1; j<n && i!=n-1; j++){ //in case of right most we consider rightSideSum as 0 that's why have && i!=n-1
+            for(int j=i+1; j<n; j++){
                 rightSideSum += arr[j];
             }
             
             int leftSideSum=0;
-            for(int j=0; j<i && i!=0; j++){//in case of left most we consider rightSideSum as 0. that's why have && i!=0
+            for(int j=0; j<i; j++){
                 leftSideSum += arr[j];
             }
             
