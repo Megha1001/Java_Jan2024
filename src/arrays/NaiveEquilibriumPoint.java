@@ -1,3 +1,4 @@
+package arrays;
 class NaiveEquilibriumPoint {
     
     public static void main(String[] args) {

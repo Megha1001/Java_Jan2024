@@ -1,3 +1,4 @@
+package arrays;
 class PrefixSumAlgo {
     
     public static int preCompute[];
