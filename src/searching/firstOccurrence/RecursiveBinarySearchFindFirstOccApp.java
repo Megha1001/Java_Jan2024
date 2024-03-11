@@ -1,7 +1,9 @@
 package searching.firstOccurrence;
 
 /*
-
+ TIME COMPLEXITY : O(LogN)
+ Overhead of recursion
+ AUX SPACE : O(LOGN)
  */
 public class RecursiveBinarySearchFindFirstOccApp {
     public static void main(String[] args) {
