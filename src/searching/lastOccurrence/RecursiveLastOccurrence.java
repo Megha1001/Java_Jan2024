@@ -2,7 +2,7 @@
 TIME COMPLEXITY : o(logN)
 AUX SPACE : O(logN)
 */
-package searchin.lastOccurrence;
+package searching.lastOccurrence;
 class RecursiveLastOccurrence {
     public static void main(String[] args) {
         int arr[] ={10,10,20,20,20,30};
