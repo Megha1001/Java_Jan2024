@@ -14,7 +14,7 @@ public class NaiveSolution {
         while(true){
             if(x == arr[i]) return i;
             else if(x < arr[i]) return -1; //not present
-            ++i
+            ++i;
         }
     }
 }
