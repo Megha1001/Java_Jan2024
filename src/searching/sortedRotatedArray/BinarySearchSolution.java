@@ -1,5 +1,12 @@
 package searching.sortedRotatedArray;
+/*
+TIME COMPLEXITY : O(logN)
 
+CONCEPT :
+Sorted rotated array : one of the half must be sorted
+1. identify which half is sorted , by comparing mid with any of the corners  and mid element
+2. compare the search element lies b/w sorted half if yes go there otherwise go to the other half
+ */
 public class BinarySearchSolution {
     public static void main(String[] args) {
         /*int arr[] = {10,20,30,40,50,8,9};
