@@ -1,5 +1,7 @@
 package searching.searchTriplet;
-
+/*
+ * TIME COMPLEXIYT : O(N^3)
+ */
 public class NaiveSearchTriplet {
     public static void main(String[] args) {
         int arr[] = {2, 3, 4, 8, 9, 20, 40};
