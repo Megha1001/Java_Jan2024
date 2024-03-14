@@ -15,7 +15,7 @@ public class EfficientAppUsingBinarySearch {
 
     public static boolean searchTriplet(int arr[], int x){
         int n = arr.length;
-        for(int i=0; i<n-2; i++){
+        for(int i=0; i<n-2; i++){ //Going till n-2 so we would have two elements at right to form triplet
             if(searchPair(arr, i+1, n-1, x-arr[i])){
                 return true;
             }
