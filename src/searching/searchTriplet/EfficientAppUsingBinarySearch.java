@@ -9,13 +9,13 @@ package searching.searchTriplet;
 public class EfficientAppUsingBinarySearch {
     public static void main(String[] args) {
         int arr[] = {2, 3, 4, 8, 9, 20, 40};
-        int x = 32;
+        int x = 62;
         System.out.println("is the triplet exists with given item ? "+searchTriplet(arr, x));
     }
 
     public static boolean searchTriplet(int arr[], int x){
         int n = arr.length;
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n-2; i++){
             if(searchPair(arr, i+1, n-1, x-arr[i])){
                 return true;
             }
