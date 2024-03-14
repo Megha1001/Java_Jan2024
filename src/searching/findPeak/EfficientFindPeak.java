@@ -2,6 +2,7 @@ package searching.findPeak;
 
 /*
  * A peak element is an element whose neighbours have value smaller than that of the element
+ * TIME COMPLEXITY : O(logN)
  */
 
 public class EfficientFindPeak{
@@ -15,8 +16,8 @@ public class EfficientFindPeak{
         while(l <= h){
             int m = (l+h)/2;
 
-            //check for middle
-            if((m==0 || arr[m]>=arr[m-1]) && (m==arr.length-1 || arr[m]>arr[m+1])){
+            //check for middle and first and last element
+            if((m==0 || arr[m]>=arr[m-1]) && (m==arr.length-1 || arr[m]>=arr[m+1])){
                 return m;
             }
 
