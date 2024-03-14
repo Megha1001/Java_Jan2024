@@ -5,6 +5,10 @@ package searching.searchTriplet;
  * Approach : 
  * 1. Traverse the array from L to R for every element
  * 2. for every element arr[i] search a pair on right side whose sum is x-arr[i], where x is the target sum
+ * 
+ * Note: It will work for both sorted and unsorted array, in case of unsorted --> sort the array first in O(NlogN) time. The overall complexity will still remain
+ * the same 
+ *  = O(N^2) + O(NlogN) = O(N^2)
  */
 public class EfficientAppUsingBinarySearch {
     public static void main(String[] args) {
