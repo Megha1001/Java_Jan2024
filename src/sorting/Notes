@@ -1,0 +1,10 @@
+Sorting in Java
+-----------------------
+In two classes
+- Arrays -> normal arrays
+    - Arrays of primitive(int, char etc)
+        -> Stability doesn't matter and we can use non stable algo like Dual Pivot Quick Sort
+    - Arrays of Objects (String , Integer, Students etc)
+     -> Stability matters and we should use stable algo like Based on Merge sort adaption of TimSort
+
+- Collections --> for collections that implements List interface (ArrayList, LinkedList, Vector)
