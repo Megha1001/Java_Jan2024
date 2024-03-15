@@ -8,3 +8,4 @@ In two classes
      -> Stability matters and we should use stable algo like Based on Merge sort adaption of TimSort
 
 - Collections --> for collections that implements List interface (ArrayList, LinkedList, Vector)
+    -> Stability matters and we should use stable algo like Based on Merge sort adaption of TimSort
