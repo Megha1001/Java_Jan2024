@@ -28,7 +28,7 @@ public class MergeFunctionOfMergeSort {
 
         //populate left array
         for(int i=0; i<n1; i++){
-            left[i] = a[i];
+            left[i] = a[i+l]; //offset should be low
         }
 
         //populate right array
