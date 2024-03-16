@@ -6,10 +6,11 @@ In two classes
         -> Stability doesn't matter and we can use non stable algo like Dual Pivot Quick Sort
     - Arrays of Objects (String , Integer, Students etc)
      -> Stability matters and we should use stable algo like Based on Merge sort adaption of TimSort
+    -> subarray sorting present
 
 - Collections --> for collections that implements List interface (ArrayList, LinkedList, Vector)
     -> Stability matters and we should use stable algo like Based on Merge sort adaption of TimSort
-
+    ->subsorting not present
 
 - Comparable, Comparator
     Fact : If result is +ve , swap
