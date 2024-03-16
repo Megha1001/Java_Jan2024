@@ -20,3 +20,12 @@ Stable Algos
 -------------
 IBM (Insertion sort, Bubble sort, Merge sort) -> stable
 SQH(Selection sort, Quick sort, Heap sort) -> unstable
+
+
+Selection Sort
+----------------
+- O(N^2) Algorithm
+- Does less memory wirtes compared to QuickSort, MergeSort and Insertion Sort etc. But Cycle sort is optimal in terms of memory writes.
+- Basic idea of heap sort
+- Not stable
+- In place
