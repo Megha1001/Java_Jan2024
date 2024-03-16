@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class NaiveMergeTwoSortedArray {
     public static void main(String args[]){
-        int a[] = {15,10,20,20};
+        int a[] = {10,15,20,20};
         int b[] = {1,12};
 
         System.out.println("Elements after merging two sorted array and after sorting it are :");
