@@ -4,6 +4,8 @@ package sorting.bubbleSort;
 TIME COMPLEXITY IN ALL CASES : O(N^2)
 Stable algo
 inplace algo
+Total number of swaps (be array sorted or not ): N(N-1)/2
+total number of passes : N-1
  */
 public class BubbleSortNormal {
     public static void main(String[] args) {
