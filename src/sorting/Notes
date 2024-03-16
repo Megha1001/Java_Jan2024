@@ -14,3 +14,9 @@ In two classes
 
 - Comparable, Comparator
     Fact : If result is +ve , swap
+
+
+Stable Algos
+-------------
+IBM (Insertion sort, Bubble sort, Merge sort) -> stable
+SQH(Selection sort, Quick sort, Heap sort) -> unstable
