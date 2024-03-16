@@ -1,5 +1,9 @@
 package sorting.mergeSort.mergeTwoSortedArray;
 
+/*
+ * TIME COMPLEXITY : O((m+n)LogN)
+ * AUX SPACE : Theta(M+N)
+ */
 import java.util.Arrays;
 
 public class NaiveMergeTwoSortedArray {
