@@ -9,7 +9,7 @@ public class ComparableExample {
         Points [] points = {new Points(3,5), new Points(1,2), new Points(0,4), new Points(4,5)};
         Arrays.sort(points);
         for (int i=0; i< points.length; i++){
-            System.out.println(points[i].x+" ");
+            System.out.println(points[i].x+" "+points[i].y);
         }
     }
 
