@@ -38,3 +38,18 @@ Insertion Sort
 - Used in practice for small arrays
     - TimSort : (TIM) = Insertion Sort + Merge Sort
     - IntroSort : (Quick Intro Of Heap) = HeapSort + QuickSort + InsertionSort
+
+
+
+Merge Sort (In general)
+---------------
+- Divide and Conqur Algorithm (divide, conqur, and merge)
+- Stable algorithm
+- Not inplace
+- TIME COMPLEXITY : Theta(NlogN)
+- AUX SPACE : O(N)
+- Well suited for linked list, works in O(1) aux space
+- used for external sorting
+- In general for arrays, QuickSort outperforms.
+
+Note : we also have impl where we can modified impl of Merge sort that dont use extra space or inplace like block sort
