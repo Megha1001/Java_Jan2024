@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24">
-      <change beforePath="$PROJECT_DIR$/analysisOfAlgo/SumNNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/analysisOfAlgo/SumNNaturalNumbers.java" afterDir="false" />
-    </list>
+    <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2bFYGt4XoMQU3owXhgawHi6QvVl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
