@@ -29,3 +29,12 @@ Selection Sort
 - Basic idea of heap sort
 - Not stable
 - In place
+
+
+Insertion Sort
+----------------
+- O(N^2) worst case
+- Inplace and stable
+- Used in practice for small arrays
+    - TimSort : (TIM) = Insertion Sort + Merge Sort
+    - IntroSort : (Quick Intro Of Heap) = HeapSort + QuickSort + InsertionSort
