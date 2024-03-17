@@ -85,3 +85,8 @@ QUICK SORT
     c. Average case is O(logN)
     d. Tail recursive(last thing is recursion call , not the case of merge sort)
 4. Partition is key function(NAIVE, LOMUTO, AND HOARES)
+
+EFFICIENT : HOARES > LOMUTO AND NAIVE
+
+
+QUICK SORT IS PREFERRED WHEN STABILITY IS NOT A CONCERN OTHERWISE MERGE SORT IS PREFERRED
