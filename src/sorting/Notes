@@ -67,3 +67,7 @@ IN Hores partition , the element from l to j are <= pivot and j+1 to h are >= pi
 While implementing Quick sort we pass different params while using these algo. 
 
 But in general Hoares partition takes less comparision and practically performs better than lomuto partition
+
+
+NAIVE : STABLE
+LOMUTO AND HOARES : NOT STABLE
