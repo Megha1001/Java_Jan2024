@@ -53,3 +53,17 @@ Merge Sort (In general)
 - In general for arrays, QuickSort outperforms.
 
 Note : we also have impl where we can modified impl of Merge sort that dont use extra space or inplace like block sort
+
+
+Lomuto and Hoares partition
+Both Hoare's and Lomuto partitions are in-place, but none of them is stable
+IN lomuto partition we are picking the pivot and fixing it place at correct position and left and right were smaller and greater respectively
+in Hoares partition we are picking pivot but not gurantee to be at correct position.
+
+This is where lomuto is slightly better.
+
+
+IN Hores partition , the element from l to j are <= pivot and j+1 to h are >= pivot.
+While implementing Quick sort we pass different params while using these algo. 
+
+But in general Hoares partition takes less comparision and practically performs better than lomuto partition
