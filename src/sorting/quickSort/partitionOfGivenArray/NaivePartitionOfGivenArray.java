@@ -7,38 +7,40 @@ public class NaivePartitionOfGivenArray {
         int pivot = 5;
 
         System.out.println("Array element after partition are :");
-        arr = partitionArray(arr, pivot);
+        partitionArray(arr, 0, arr.length-1, pivot);
 
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
         }
     }
 
-    public static int[] partitionArray(int arr[], int pivot){
+    public static void partitionArray(int arr[], int l, int h, int pivot){
 
-        int n = arr.length;
-        int temp[] = new int[n];
+        int temp[] = new int[h-l+1];
         int element = arr[pivot];
 
         //copy <= element to temp
-        int i=0;
-        int count=0;
-        for(i=0; i<n; i++){
+        int index=0;
+        for(int i=l; i<=h; i++){
             if(arr[i]<= element){
-                temp[count]= arr[i];
-                ++count;
+                temp[index]= arr[i];
+                ++index;
             }
         }
 
 
         //copy > element to temp
-        for(int j=0; j<n; j++){
+        for(int j=l; j<=h; j++){
             if(arr[j] >  element){
-                temp[count]= arr[j];
-                ++count;
+                temp[index]= arr[j];
+                ++index;
             }
         }
-        return temp;
+       
+        //copy to original array
+        for(int i=l; i<=h; i++){
+            arr[i] = temp[i-l];
+        }
     }
     
 }
