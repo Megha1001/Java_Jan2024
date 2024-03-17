@@ -1,4 +1,4 @@
-package sorting.intersectionOfTwoSortedArrays;
+package sorting.mergeSort.intersectionOfTwoSortedArrays;
 
 /*
  * TIME COMPLEXITY : O(N^2)
