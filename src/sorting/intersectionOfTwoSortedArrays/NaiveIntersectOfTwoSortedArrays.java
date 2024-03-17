@@ -1,5 +1,9 @@
 package sorting.intersectionOfTwoSortedArrays;
 
+/*
+ * TIME COMPLEXITY : O(N^2)
+ * AUX SPACE : O(1)
+ */
 public class NaiveIntersectOfTwoSortedArrays {
 
     public static void main(String [] args){
