@@ -1,5 +1,10 @@
 package sorting.mergeSort.unionOfTwoSortedArrays;
 
+/*
+ * TIME COMPLEIXTY : O((m+n)log(M+N))
+ * AUX SPACE : Theta(M+N)
+ */
+
 import java.util.Arrays;
 
 public class NaiveUnionOfTwoSortedArryas {
@@ -15,7 +20,7 @@ public class NaiveUnionOfTwoSortedArryas {
     }
 
     public static void printUnion(int a[], int b[], int m, int n){
-        int temp[] = new int[m+n];
+        int temp[] = new int[m+n]; //Aux space
 
         //copy elements of a into temp
         for(int i=0; i<m; i++){
