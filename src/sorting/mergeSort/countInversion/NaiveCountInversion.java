@@ -1,7 +1,8 @@
 package sorting.mergeSort.countInversion;
 
 /*
- * TIME COMPLEXITY : O(N^N)
+ * TIME COMPLEXITY : O(N^2)
+ * Inversion : when i<j and arr[i]>arr[j]
  */
 public class NaiveCountInversion {
 
