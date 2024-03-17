@@ -1,4 +1,4 @@
-package sorting;
+package sorting.intersectionOfTwoSortedArrays;
 
 public class NaiveIntersectOfTwoSortedArrays {
 
