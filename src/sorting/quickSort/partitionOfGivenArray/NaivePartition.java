@@ -2,6 +2,7 @@ package sorting.quickSort.partitionOfGivenArray;
 /*
  * TIME COMPLEXITY : O(N)
  * AUX SPACE : O(N)
+ * TWO TRAVERSAL
  */
 public class NaivePartition {
 
