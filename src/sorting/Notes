@@ -71,3 +71,17 @@ But in general Hoares partition takes less comparision and practically performs 
 
 NAIVE : STABLE
 LOMUTO AND HOARES : NOT STABLE
+
+
+--------------------------------------
+
+QUICK SORT
+------------------
+1. Divide and conqur algorithm
+2. worst case complexity : O(N^2)
+3. Despite O(N^2) worst case, its consider faster because of the following reasons
+    a. In-place (not using any extra space for partition functin (lumuto/ Hoars))
+    b. Cache friendly
+    c. Average case is O(logN)
+    d. Tail recursive(last thing is recursion call , not the case of merge sort)
+4. Partition is key function(NAIVE, LOMUTO, AND HOARES)
