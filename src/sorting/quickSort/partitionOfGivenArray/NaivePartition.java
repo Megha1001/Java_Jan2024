@@ -1,6 +1,9 @@
 package sorting.quickSort.partitionOfGivenArray;
-
-public class NaivePartitionOfGivenArray {
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(N)
+ */
+public class NaivePartition {
 
     public static void main(String []args){
         int arr[] = {3,8,6,12,10,7};
