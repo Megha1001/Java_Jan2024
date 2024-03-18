@@ -122,3 +122,26 @@ BEST CASE : O(LogN), where N is the number of elements = levels
 
 TAIL CALL ELIMINATION
  - FOr both hoares and lomuto partition if the array is sorted(increasing order OR decreasing order) it will lead into worst case
+
+ We can eliminated the last recursive call in quicksort since its tail recursion(not doing anything after the recursion)
+
+//hoare's partition
+ void qSort(int arr[], int l, int r){
+    if (r>l){
+        int p = partition(arr, l, r);
+        qSort(arr, l, p);
+        qSort(arr, p+1, r)
+    }
+ }
+
+ CHANGE TO 
+
+  void qSort(int arr[], int l, int r){
+    Begin;
+    if (r>l){
+        int p = partition(arr, l, r);
+        qSort(arr, l, p);
+        l = p+1
+        goto Begin;
+    }
+ }
