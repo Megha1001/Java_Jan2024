@@ -109,9 +109,6 @@ WORST CASE : Theta(N), where N is the number of elements
 BEST CASE : O(LogN), where N is the number of elements = levels
 
 
-TAIL CALL ELIMINATION
- - FOr both hoares and lomuto partition if the array is sorted(increasing order OR decreasing order) it will lead into worst case
-
 
  CHoice of Pivot and worst case of quicksort
     - We dont want adversary (one who knows our worst case and pass input in that way only)
@@ -122,3 +119,6 @@ TAIL CALL ELIMINATION
             - in case of lomuto partition swap the random pivot wiht last element(i.e. usually our pivot)
 
     BY THIS WAY : We don;t have the case where out quicksort always leads to the worst case.
+
+TAIL CALL ELIMINATION
+ - FOr both hoares and lomuto partition if the array is sorted(increasing order OR decreasing order) it will lead into worst case
