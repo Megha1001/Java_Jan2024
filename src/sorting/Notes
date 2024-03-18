@@ -107,3 +107,18 @@ SPACE COMPLEXITY : FOR HOARE's AND LOMUTO
 
 WORST CASE : Theta(N), where N is the number of elements
 BEST CASE : O(LogN), where N is the number of elements = levels
+
+
+TAIL CALL ELIMINATION
+ - FOr both hoares and lomuto partition if the array is sorted(increasing order OR decreasing order) it will lead into worst case
+
+
+ CHoice of Pivot and worst case of quicksort
+    - We dont want adversary (one who knows our worst case and pass input in that way only)
+    - To overcome the worst case
+        - we generate pivot from random number from l to h
+           pivot =  random(l,h)
+            - in case of hoare's partition swap the random pivot with first element(i.e. usually our pivot)
+            - in case of lomuto partition swap the random pivot wiht last element(i.e. usually our pivot)
+
+    BY THIS WAY : We don;t have the case where out quicksort always leads to the worst case.
