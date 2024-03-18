@@ -3,7 +3,7 @@ package sorting.quickSort.KthSmallestElement;
  * TIME COMPLEXITY : O(N) -> Average case //same as that of quick sort. Use partition function
  */
 
-public class EffApproachKthSmallestElement {
+public class EffApproachKthSmallestElementQuickSelectAlgo {
     
     public static void main(String args[]){
         int arr[] = {10,4,5,8,11,6,26};
