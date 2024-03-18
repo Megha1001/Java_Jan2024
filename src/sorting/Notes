@@ -90,3 +90,14 @@ EFFICIENT : HOARES > LOMUTO AND NAIVE
 
 
 QUICK SORT IS PREFERRED WHEN STABILITY IS NOT A CONCERN OTHERWISE MERGE SORT IS PREFERRED
+
+
+BEST CASE and WORST CASE RECURRENCE RELATION
+
+Worst CASE
+    T(N) = T(N-1) + Theta(N), //where array divides in two half
+
+BEST Case 
+    T(N) = 2T(N/2) + Theta(N), //when array divides like one side has n-1 items
+
+In both the cases, Theta(N) is for partitioning function
