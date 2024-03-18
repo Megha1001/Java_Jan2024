@@ -145,3 +145,10 @@ TAIL CALL ELIMINATION
         goto Begin;
     }
  }
+
+ Notes : do tail call elimination for the part that has larger elements since(order of recusive call doesn't matter)
+    quickSort(arr, p+1, h);
+    quickSort(arr, l , p);
+
+    quickSort(arr, l , p);
+    quickSort(arr, p+1, h);
