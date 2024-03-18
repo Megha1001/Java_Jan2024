@@ -14,8 +14,8 @@ public class QuickSortUsingHoaresPartition {
     public static void quickSort(int arr[], int l, int h){
         if(l < h){
             int p = partition(arr, l, h);
-            quickSort(arr, l , p);// have to include p as in hoares partition pivot might not be at its correct position
             quickSort(arr, p+1, h);
+            quickSort(arr, l , p);// have to include p as in hoares partition pivot might not be at its correct position
         }
 
     }
