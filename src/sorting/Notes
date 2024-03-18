@@ -101,3 +101,9 @@ BEST Case
     T(N) = 2T(N/2) + Theta(N), //when array divides like one side has n-1 items
 
 In both the cases, Theta(N) is for partitioning function
+
+
+SPACE COMPLEXITY : FOR HOARE's AND LOMUTO
+
+WORST CASE : Theta(N), where N is the number of elements
+BEST CASE : O(LogN), where N is the number of elements = levels
