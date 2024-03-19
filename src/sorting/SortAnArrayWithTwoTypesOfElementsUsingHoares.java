@@ -1,6 +1,6 @@
 package sorting;
 
-public class SortAnArrayWithTwoTypesOfElements {
+public class SortAnArrayWithTwoTypesOfElementsUsingHoares {
     public static void main (String[] args) 
     {
         int arr[] = new int[]{13,-12,18,-10};
