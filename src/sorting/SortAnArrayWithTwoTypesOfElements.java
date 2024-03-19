@@ -24,11 +24,11 @@ public class SortAnArrayWithTwoTypesOfElements {
         while(true){
             do{
                 ++i;
-            }while(arr[i] < 0);
+            }while(arr[i] < p);
 
             do{
                 --j;
-            }while(arr[j] >=0);
+            }while(arr[j] >=p);
 
             if(i>=j){
                 return;
