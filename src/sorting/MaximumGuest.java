@@ -2,6 +2,8 @@ package sorting;
 
 public class MaximumGuest {
 
-    public static void main(String)
+    public static void main(String args[]){
+        
+    }
     
 }
