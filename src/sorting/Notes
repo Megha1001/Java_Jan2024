@@ -152,3 +152,12 @@ TAIL CALL ELIMINATION
 
     quickSort(arr, l , p);
     quickSort(arr, p+1, h);
+
+
+Cycle SORT
+-------------------
+
+A worst case is O(N^2) sorting algorithm
+Does minimum memory writes and can be useful for cases where memory writes is costly
+In place and not stable
+Useful to solve question like find minimum swaps required to sort an array 
