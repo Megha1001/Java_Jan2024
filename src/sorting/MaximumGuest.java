@@ -1,6 +1,9 @@
 package sorting;
 import java.util.Arrays;
 
+/*
+ * TIME COMPLEXITY : O(NLOGN)
+ */
 public class MaximumGuest {
 
     public static void main(String args[]){
@@ -12,8 +15,8 @@ public class MaximumGuest {
     }
 
     public static int findMaxGuest(int arr[], int dep[]){
-        Arrays.sort(arr);
-        Arrays.sort(dep);
+        Arrays.sort(arr); //NlogN
+        Arrays.sort(dep); //NlogN
         
         int n = arr.length;
         int i = 1; //arrival count;
@@ -23,7 +26,7 @@ public class MaximumGuest {
 
         int res = 1; //max guest till now
 
-        while(i < n && j < n){
+        while(i < n && j < n){ //O(N+N) = O(N)
             //is the next is arrival
             if(arr[i] <= dep[j]){ //the guest came just now has arrival time <= dep of previous
                 //increase number of guest
