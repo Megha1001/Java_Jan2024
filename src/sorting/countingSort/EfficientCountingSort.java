@@ -1,8 +1,8 @@
 package sorting.countingSort;
 
 /*
- * TIME COMPLEXITY : O(N)
- * AUX SPACE : O(N)
+ * TIME COMPLEXITY : O(N+K)
+ * AUX SPACE : O(N+K)
  */
 public class EfficientCountingSort {
 
