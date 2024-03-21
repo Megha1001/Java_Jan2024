@@ -1,5 +1,9 @@
 package sorting.countingSort;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(N)
+ */
 public class EfficientCountingSort {
 
     public static void main(String args[]){
