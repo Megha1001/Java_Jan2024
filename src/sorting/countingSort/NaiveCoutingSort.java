@@ -1,5 +1,11 @@
 package sorting.countingSort;
 
+/*
+ * TIME COMPLEXITY : O(N+K)
+ * 
+ * ISSUES : Cannot be used as a general purpose algorithm for sorting objects with multiple members, like sorting an array of
+ * students by marks
+ */
 public class NaiveCoutingSort {
 
     public static void main(String args[]){
