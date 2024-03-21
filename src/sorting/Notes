@@ -161,3 +161,11 @@ A worst case is O(N^2) sorting algorithm
 Does minimum memory writes and can be useful for cases where memory writes is costly
 In place and not stable
 Useful to solve question like find minimum swaps required to sort an array 
+
+
+
+COUNTING SORT
+------------------
+TIME COMPLEXITY : O(N+K), good until k is linear(proportional to N), if it become N^2 then it will perform worse then standard sorting algos
+
+so we have now Radix sort
