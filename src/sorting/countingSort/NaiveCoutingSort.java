@@ -1,6 +1,6 @@
-package sorting;
+package sorting.countingSort;
 
-public class CoutingSort {
+public class NaiveCoutingSort {
 
     public static void main(String args[]){
         int arr[] = {1,4,4,1,0,1};
