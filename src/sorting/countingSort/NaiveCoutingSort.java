@@ -16,15 +16,19 @@ public class NaiveCoutingSort {
 
     public static void countSort(int [] arr, int k){
         int count[] = new int[k]; //element maintaining values from 0 to K-1;
+
+        //O(K)
         for(int i=0; i<k; i++){
             //intialize
             count[i] = 0;
         }
 
+        //O(K)
         for(int i=0; i<arr.length; i++){
             count[arr[i]]++;
         }
 
+        //O(N)
         int index = 0;
         for(int i=0; i<k; i++){
             for(int j=0; j <count[i]; j++){
