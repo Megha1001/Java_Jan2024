@@ -38,6 +38,9 @@ public class EfficientCountingSort {
 
         for(int i=n-1; i>0; i--){ //starting from last to maintain stability
             temp[count[arr[i]]-1] = arr[i];//index is 0 based hence -1
+            /*
+             * Not putting index putting the actual element/object hence it works with object
+             */
             count[arr[i]]--; //sinxe we fix the position of arr[i] element hence need to decrease the count by 1
         }
 
