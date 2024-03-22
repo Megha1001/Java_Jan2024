@@ -1,5 +1,7 @@
 package matrix.boundaryElements;
-
+/*
+ * TIME COMPLEXITY : Theta(R+C)
+ */
 public class PrintBoundaryElements {
     public static void main(String []args){
         // int arr[][] = {{1,2,3,4},
