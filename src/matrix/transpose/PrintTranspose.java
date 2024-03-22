@@ -1,4 +1,4 @@
-package matrix;
+package matrix.transpose;
 
 public class PrintTranspose {
     
