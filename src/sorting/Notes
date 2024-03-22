@@ -169,3 +169,8 @@ COUNTING SORT
 TIME COMPLEXITY : O(N+K), good until k is linear(proportional to N), if it become N^2 then it will perform worse then standard sorting algos
 
 so we have now Radix sort
+
+
+Radix Sort
+----------------
+can do the sorting under linear time
