@@ -1,6 +1,6 @@
 package matrix.transpose;
 
-public class PrintTranspose {
+public class NaivePrintTranspose {
     
     public static void main(String args[]){
 //        int arr[][] = {{1,2,3,4},
