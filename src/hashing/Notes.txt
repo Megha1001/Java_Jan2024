@@ -1,0 +1,22 @@
+HASHING
+----------------
+- Used to implement dictionary
+- Used to implement sets
+- Below operations can be performed in O(1) time
+    - Search, Insert and delete
+- if we insert same key it will override its entry
+    - In hash tables and hashing we always have unique values
+
+Note : Self balancing binary tress - > AVL and Red-black takes O(logn) --> search and delete
+
+- Hashing can't do certain operations (that other DS can do) -> HASHING IS STRICT SEARCH
+    - Like finding smaller than the given key - > AVL and Red-black
+    - key which is just above - > AVL and Red-black
+    - Closest match -> HASHING WILL TAKE O(N)
+    - Cannot get the data in sorted order by hashing
+
+
+NOT USE HASHING :
+    - Finding closest match -> AVL and Red-black can do
+    - Sorted data  -> AVL and Red-black can do
+    - Prefix searching -> TRIE can do
