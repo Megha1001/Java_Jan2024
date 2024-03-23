@@ -44,3 +44,4 @@ Performance :
         1 : time for hash function compulation
         loadfator : time to traverse chain
     Expected insert/delete :  O(1+load factor)
+NOTE : ASSUMPTION THAT WE HAVE UNIFORM DISTRIBUTION OF KEYS
