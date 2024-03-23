@@ -32,3 +32,9 @@ Collision handling
         - Linear probing
         - Quadratic Probing
         - Double Hashing
+
+Performance :
+     m = no of slots in hash table
+     n = no of keys to be inserted
+
+     Load factor : n/m , should be less
