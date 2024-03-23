@@ -40,3 +40,6 @@ Performance :
      Load factor : n/m , should be less
      Expected chain length : Load factor, 
         Assumption : keys are going to distribute equally likely
+    Expected search time : O(1+load factor)
+        1 : time for hash function compulation
+        loadfator : time to traverse chain
