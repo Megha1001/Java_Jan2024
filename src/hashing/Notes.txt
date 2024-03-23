@@ -33,6 +33,9 @@ Collision handling
         - Quadratic Probing
         - Double Hashing
 
+CHAINING
+-----------------
+
 Performance :
      m = no of slots in hash table
      n = no of keys to be inserted
@@ -45,3 +48,15 @@ Performance :
         loadfator : time to traverse chain
     Expected insert/delete :  O(1+load factor)
 NOTE : ASSUMPTION THAT WE HAVE UNIFORM DISTRIBUTION OF KEYS
+
+
+DATA STRUCTure foR STORING CHAINS
+    - Linked list
+        - Insert(Need to search for duplicates as hash dont allow duplicates), Delete, and search : O(l)
+        - LL is not cache friendly, use extra space for address/reference
+    - Dynamic sized arrays(arralist)
+        - Same as above but they are cache friendly and dont require extra space to store address
+    - Self balancing BST (AVL, Red black)
+        - Insert, Delete, and search : O(logl), they are not cache friendly
+
+        where l is chain length
