@@ -1,5 +1,8 @@
 package matrix.findElementInRowAndColumnWiseSorted2DArray;
 
+/*
+ * TIME COMPLEXITY : O(R*C)
+ */
 public class NaiveSolution {
 
     public static void main(String []args){
