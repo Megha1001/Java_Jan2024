@@ -7,8 +7,8 @@ package matrix.findElementInRowAndColumnWiseSorted2DArray;
  * if x is smaller , move left
  * if x is greater, move down
  * 
- * 
- * TIME COMPLEXITY : O()
+ *
+ * TIME COMPLEXITY : O(R+C)
  */
 public class EffSolution {
 
