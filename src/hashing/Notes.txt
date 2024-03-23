@@ -20,3 +20,15 @@ NOT USE HASHING :
     - Finding closest match -> AVL and Red-black can do
     - Sorted data  -> AVL and Red-black can do
     - Prefix searching -> TRIE can do
+
+
+
+Collision handling
+---------------------
+- If we know keys in advance, then we can use Perfect hashing(that gurantees NO COLLISION)
+- If we don't know the keys, then we use one of the following
+    - Chaining
+    - Open addressing
+        - Linear probing
+        - Quadratic Probing
+        - Double Hashing
