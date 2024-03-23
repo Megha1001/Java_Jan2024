@@ -38,3 +38,5 @@ Performance :
      n = no of keys to be inserted
 
      Load factor : n/m , should be less
+     Expected chain length : Load factor, 
+        Assumption : keys are going to distribute equally likely
