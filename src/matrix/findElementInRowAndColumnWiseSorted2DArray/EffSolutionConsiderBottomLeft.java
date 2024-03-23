@@ -2,7 +2,7 @@ package matrix.findElementInRowAndColumnWiseSorted2DArray;
 
 /*
  * Approach : 
- * Begin from the right corner
+ * Begin from the bottom left corner
  * if x is sam, print the postiion and return
  * if x is smaller , move left
  * if x is greater, move down
