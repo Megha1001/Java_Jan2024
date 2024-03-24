@@ -77,5 +77,7 @@ Linear Probing -> have clustering problem
 How to handle the problem of clustering with linear probing
     1. Quadratic Probing -> have secondary clustering , disadvantage over linear probing : it doesn't find an empty slot even if has empty slot
         hash(key, i) = (h(key) +i^2) %m
+        Mathematical proven fact :  
+            load factor < 0.5, m is prime then it will be able to find empty slot and it works
     2. Double Hashing
          hash(key, i) = (hash1(key) +i*hash2(key)) %m
