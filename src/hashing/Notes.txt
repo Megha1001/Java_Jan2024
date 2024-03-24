@@ -114,3 +114,29 @@ Library dont store value at index, it store reference.
     For -1, we can check if slot is null then its available
     For -2, library will have dummy node , so when we delete something library will point that node to dummy node
 
+
+
+
+OPEN ADDRESSING VS CHAINING
+------------------------------
+
+OPEN ADDRESSING
+- Table may become full and resizing becomes mandatory -> COSTLY OPERATION
+- Extra care required for clustering
+- Cache friendly
+- Extra space might be needed to achiever same performance as chaining (Performance for unsuccessful search : 1/(1-loadFactor))
+
+
+CHAINING
+- Hash table never fills
+- Less sensitive to hash functions
+- Poor cache performance
+- Extra space for links (Performance for unsuccessful search : 1+loadFactor)
+
+
+-> PREFER CHAINING
+
+
+
+
+
