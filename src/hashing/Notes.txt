@@ -81,3 +81,12 @@ How to handle the problem of clustering with linear probing
             load factor < 0.5, m is prime then it will be able to find empty slot and it works
     2. Double Hashing
          hash(key, i) = (hash1(key) +i*hash2(key)) %m
+
+
+DOUBLE HASHING
+-------------------
+hash(key, i) = (h1(key) +i*h2(key)) %m
+- If h2(key) is relatively prime to m, then it always find a free slot if there is one
+- If uniformly distributes key as compare to linear and quadratic probing
+- No clustering
+Note : Your h2 function should never return zero otherwise it will probe to same location again and again.
