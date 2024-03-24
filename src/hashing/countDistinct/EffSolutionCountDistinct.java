@@ -3,6 +3,7 @@ package hashing.countDistinct;
 import java.util.HashSet;
 /*
  * TIME COMPLEXITY : O(N)
+ * AUX SPACE :O(N)
  */
 
 public class EffSolutionCountDistinct {

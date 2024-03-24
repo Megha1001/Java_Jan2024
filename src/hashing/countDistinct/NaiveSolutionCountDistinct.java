@@ -2,6 +2,7 @@ package hashing.countDistinct;
 
 /*
  * TIME COMPLEXITY : O(N^2)
+ * AUX SPACE :O(1)
  */
 
 public class NaiveSolutionCountDistinct {
