@@ -102,3 +102,15 @@ PERFOMANCE ANALYSiS OF SEARCH
 
 load factor = 0.8 --> 80% location is filled
 0.2 --> 20% is free -> 20/100-> 1/5 --> we need 5 probes
+
+
+
+
+
+OPEN ADDRESSING IMPL
+-------------------------
+1. how we handle -1(slot is available), -2(deleted element slot) if they are present as keys
+Library dont store value at index, it store reference.
+    For -1, we can check if slot is null then its available
+    For -2, library will have dummy node , so when we delete something library will point that node to dummy node
+
