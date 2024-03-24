@@ -67,3 +67,15 @@ OPEN ADDRESSING
 --------------------
 No of slots in Hash table >= No of keys to be inserted
 Cache friendly
+
+Linear Probing -> have clustering problem
+    hash(key,i) = (hash(key) + i) % m
+                    +i : ? --> Like if we not found empty at hash(key) location then we linear search for next available location
+                    i) % m : why %m --> to search in circular
+
+
+How to handle the problem of clustering with linear probing
+    1. Quadratic Probing
+        hash(key, i) = (h(key) +i^2) %m
+    2. Double Hashing
+         hash(key, i) = (hash1(key) +i*hash2(key)) %m
