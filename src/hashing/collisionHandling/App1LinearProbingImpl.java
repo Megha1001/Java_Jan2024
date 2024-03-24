@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class App1LinearProbingImpl {
 
     public static void main(String args[]){
-        MyHashApp2 mh = new MyHashApp2(7);
+        MyHash mh = new MyHash(7);
 	    mh.insert(49);
 	    mh.insert(56);
 	    mh.insert(72);
@@ -18,6 +18,8 @@ public class App1LinearProbingImpl {
 	        System.out.println("Yes");
 	    else
 	        System.out.println("No");
+
+        mh.print();
     }
     
 }
@@ -106,7 +108,7 @@ class MyHash{
     }
 
 
-    void print(ArrayList<Integer>elements){
+    void print(){
         for(Integer i : elements){
             System.out.print(i+" ");
         }
