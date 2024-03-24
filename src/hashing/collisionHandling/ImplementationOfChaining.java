@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class ImplementationOfChaining {
 
     public static void main(String args[]){
-        MyHash mh = new MyHash(7);
+        MyHashChaining mh = new MyHashChaining(7);
 	    mh.insert(10);
 	    mh.insert(20);
 	    mh.insert(15);
@@ -18,11 +18,11 @@ public class ImplementationOfChaining {
     
 }
 
-class MyHash{
+class MyHashChaining {
     int BUCKET ;
     ArrayList<LinkedList<Integer>> table;
 
-    MyHash(int bucket){
+    MyHashChaining(int bucket){
         BUCKET = bucket;
         table = new ArrayList<LinkedList<Integer>>();
 
