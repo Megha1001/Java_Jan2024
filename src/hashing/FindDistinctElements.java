@@ -1,7 +1,7 @@
 package hashing;
 /*
  * TIME COMPLEXITY : Theta(M+N)
- * AUX SPACE : Theta(M+N)
+ * AUX SPACE : O(M+N), goes on theta when both the arrays have distinct elements otherwise less then that
  */
 
 import java.util.HashSet;
