@@ -2,10 +2,10 @@ package hashing.collisionHandling;
 
 import java.util.ArrayList;
 
-public class LinearProbingImpl {
+public class App1LinearProbingImpl {
 
     public static void main(String args[]){
-        MyHash mh = new MyHash(7);
+        MyHashApp2 mh = new MyHashApp2(7);
 	    mh.insert(49);
 	    mh.insert(56);
 	    mh.insert(72);
