@@ -90,3 +90,14 @@ hash(key, i) = (h1(key) +i*h2(key)) %m
 - If uniformly distributes key as compare to linear and quadratic probing
 - No clustering
 Note : Your h2 function should never return zero otherwise it will probe to same location again and again.
+
+
+PERFOMANCE ANALYSiS OF SEARCH
+ Load factor = n/m (should be <=1)
+
+ Assumption : Every probe sequence looks at random location
+ (1- load factor) fraction of table is empty
+ Expected no. of probes required  = 1/(1-load factor)
+
+load factor = 0.8 --> 80% location is filled
+0.2 --> 20% is free -> 20/100-> 1/5 --> we need 5 probes
