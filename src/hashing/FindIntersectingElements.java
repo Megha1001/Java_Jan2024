@@ -1,6 +1,7 @@
 package hashing;
 /*
  * TIME COMPLEXITY : Theta(M+N)
+ * AUXILARY SPACE : Theta(N)
  */
 import java.util.HashSet;
 
