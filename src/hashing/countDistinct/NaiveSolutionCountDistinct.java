@@ -1,5 +1,9 @@
 package hashing.countDistinct;
 
+/*
+ * TIME COMPLEXITY : O(N^2)
+ */
+
 public class NaiveSolutionCountDistinct {
     public static void main(String args[]){
         int arr[] ={10,20,10,20,30};
