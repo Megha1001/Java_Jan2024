@@ -66,9 +66,9 @@ DATA STRUCTure foR STORING CHAINS
 OPEN ADDRESSING
 --------------------
 No of slots in Hash table >= No of keys to be inserted
-Cache friendly
+Cache friendly --> we are using same array
 
-Linear Probing -> have clustering problem
+Linear Probing -> have clustering problem (load factor should be atmost 1)
     hash(key,i) = (hash(key) + i) % m
                     +i : ? --> Like if we not found empty at hash(key) location then we linear search for next available location
                     i) % m : why %m --> to search in circular
@@ -79,13 +79,14 @@ How to handle the problem of clustering with linear probing
         hash(key, i) = (h(key) +i^2) %m
         Mathematical proven fact :  
             load factor < 0.5, m is prime then it will be able to find empty slot and it works
+        (load factor should be atmost 0.5)
     2. Double Hashing
          hash(key, i) = (hash1(key) +i*hash2(key)) %m
 
 
 DOUBLE HASHING
 -------------------
-hash(key, i) = (h1(key) +i*h2(key)) %m
+hash(key, i) = (h1(key) +i*h2(key)) %m (load factor should be atmost 1)
 - If h2(key) is relatively prime to m, then it always find a free slot if there is one
 - If uniformly distributes key as compare to linear and quadratic probing
 - No clustering
