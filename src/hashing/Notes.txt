@@ -160,3 +160,6 @@ TIME COMPLEXITIES
 ANywhere where we want to write search , delete, insert or subset of these we can use HASHSET
 
 
+HASHMAP
+-------------
+remove : function returns the value of key being removed if present otherwise return null
