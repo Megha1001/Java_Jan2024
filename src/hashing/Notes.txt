@@ -59,4 +59,11 @@ DATA STRUCTure foR STORING CHAINS
     - Self balancing BST (AVL, Red black)
         - Insert, Delete, and search : O(logl), they are not cache friendly
 
-        where l is chain length
+        where l is chain lengthv
+
+
+
+OPEN ADDRESSING
+--------------------
+No of slots in Hash table >= No of keys to be inserted
+Cache friendly
