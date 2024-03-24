@@ -61,7 +61,7 @@ class MyHashApp2{
                 return true;
             }
             i = (i+1)%cap;
-            //reached at same postion
+            //reached at same position
             if(h==i){
                 return false;
             }
