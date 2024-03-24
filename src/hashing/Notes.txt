@@ -138,5 +138,24 @@ CHAINING
 
 
 
+--------------------------------
+HASHSET
+--------------------------------
+Functions
+    - add -> returns true if element add(if already present reject the element)
+    - contains
+    - remove
+    - iterator -> NO gurantee that the order of insertion is preserved. It can print in any order.
+    - size
+    - remove
+    - isEmpty
+    - clear -> clear content of hashset
+
+TIME COMPLEXITIES
+    - SEARCH, INSERT AND DELETE : O(1) ON AVERAGE
+    - SIZE , ISEMPTY : O(1) (collection maintains size)
+
+
+
 
 
