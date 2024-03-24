@@ -141,6 +141,7 @@ CHAINING
 --------------------------------
 HASHSET
 --------------------------------
+- Creates shallow copy
 Functions
     - add -> returns true if element add(if already present reject the element)
     - contains
