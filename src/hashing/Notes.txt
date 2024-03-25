@@ -166,3 +166,9 @@ remove : function returns the value of key being removed if present otherwise re
 
 IN hashMap the order can't be predicted since it depends on the technique that hashing is using. but if we want it should follow the order of appearance in original array
 then we can use LinkedHashMap.
+
+
+
+
+NUMBER OF LOOKUPS IS TWICE THE SiZE OF HASH TABLE
+--------------------------------------------------
