@@ -15,7 +15,7 @@ import java.util.Arrays;
  * 
  * 
  * TIME COMPLEXITY : O(NLogN)
- * AUX SPACE : O(N)
+ * AUX SPACE :O(N)
  */
 
 public class NaiveSolutionUsingSorting {
