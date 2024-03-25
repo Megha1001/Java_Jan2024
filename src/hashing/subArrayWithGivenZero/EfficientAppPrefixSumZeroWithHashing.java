@@ -1,4 +1,4 @@
-package hashing.subArrayWithGivenSum;
+package hashing.subArrayWithGivenZero;
 
 /*
 TIME COMPLEXITY : O(N)
@@ -8,7 +8,7 @@ that means there is a sum array whose sum is zero.
  */
 import java.util.HashSet;
 
-public class EfficientAppPrefixSumWithHashing {
+public class EfficientAppPrefixSumZeroWithHashing {
     public static void main(String[] args) {
         int arr[] = {-3,4,-3,-1,1};
         System.out.println("is there any subarrays exists with sum zero ?"+findSumArray(arr));
