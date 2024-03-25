@@ -1,7 +1,10 @@
 package hashing.subArrayWithGivenSum;
 
 import java.util.HashSet;
-
+/*
+TIME COMPLEXITY : O(N)
+AUX SPACE (For hashset) : O(N)
+ */
 public class EfficientAppPrefixSumWithHashing {
     public static void main(String[] args) {
         int arr[] = {5,8,6,13,3,-1};
