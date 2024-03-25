@@ -18,7 +18,7 @@ public class Efficient2SubArrayWithGivenSumSlidingWindow {
 
             while(currSum > targetSum){
                 currSum -= arr[s];
-                --s;
+                s++;
             }
 
             if(currSum == targetSum){
