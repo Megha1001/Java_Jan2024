@@ -1,5 +1,8 @@
 package hashing.longestSubArrayWithEqualNumOf0And1;
 
+/*
+TIME COMPLEXITY : Theta(N^2)
+ */
 public class NaiveSolution {
     public static void main(String[] args) {
         int arr[] = {1, 1, 1, 0, 1, 0, 1, 1, 1};
