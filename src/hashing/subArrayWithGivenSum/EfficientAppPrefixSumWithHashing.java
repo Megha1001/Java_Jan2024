@@ -20,6 +20,11 @@ public class EfficientAppPrefixSumWithHashing {
         for(int i =0; i<arr.length; i++){
             prefixSum += arr[i];
 
+            /*
+            To handle the prefix that actually starts with index=0,
+            for ex : {2,3,4,6} targetSum=9
+            other way is to put 0 explicitly in hashSet
+             */
             if(prefixSum == targetSum){
                 return true;
             }
