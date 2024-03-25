@@ -2,7 +2,7 @@ package hashing.longestCommonSpanWithSameSumInBinaryArrays;
 /*
 TIME COMPLEXITY : O(N^2)
  */
-public class Naive {
+public class NaiveSolution {
     public static void main(String[] args) {
         int arr1[] = {0,1,0,0,0,0};
         int arr2[] = {1,0,1,0,0,1};
