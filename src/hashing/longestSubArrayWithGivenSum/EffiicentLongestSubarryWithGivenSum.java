@@ -29,11 +29,11 @@ public class EffiicentLongestSubarryWithGivenSum {
             }
 
             //populate hash map , we are not putting prefix when they encountered again since will maintain the lower index to get the largest value for length of subarray
-            else if(!h.containsKey(arr[i])){
+            if(!h.containsKey(arr[i])){
                 h.put(arr[i], i);
             }
 
-            else if(h.containsKey(prefixSum - targetSum)){
+            if(h.containsKey(prefixSum - targetSum)){
                 res = Math.max(res, i- h.get(prefixSum - targetSum));
             }
         }
