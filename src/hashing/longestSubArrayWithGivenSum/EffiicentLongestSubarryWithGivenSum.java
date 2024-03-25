@@ -30,8 +30,8 @@ public class EffiicentLongestSubarryWithGivenSum {
 
             //populate hash map , we are not putting prefix when they encountered again since will maintain the lower index to get the largest value for length of subarray
             //Note : we are storing ending index
-            if(!h.containsKey(arr[i])){
-                h.put(arr[i], i);
+            if(!h.containsKey(prefixSum)){
+                h.put(prefixSum, i);
             }
 
             if(h.containsKey(prefixSum - targetSum)){
