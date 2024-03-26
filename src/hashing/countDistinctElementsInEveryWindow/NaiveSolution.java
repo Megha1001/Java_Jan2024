@@ -2,6 +2,11 @@ package hashing.countDistinctElementsInEveryWindow;
 
 import java.util.HashSet;
 
+/*
+ * TIME COMPLEXITY : k*(n-k)
+ * AUX SPACE : O(k)
+ */
+
 public class NaiveSolution {
     
     public static void main(String []args){
