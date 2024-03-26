@@ -30,11 +30,11 @@ public class EfficientSolutionUsingHashing {
         }
 
         //iterate through hashSet
-        for(int i=0; i<n; i++){ //can't run until h.size() since we have to check in array for arr[i]-1
+        for(Integer x : h){ //can't run until h.size() since we have to check in array for arr[i]-1
             // start of consequtive sequence
-            if(!h.contains(arr[i]-1)){
+            if(!h.contains(x-1)){
                 int curr = 1;
-                while(h.contains(curr+arr[i])){
+                while(h.contains(curr+x)){
                     ++curr;
                 }
 
