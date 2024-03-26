@@ -1,5 +1,9 @@
 package hashing.countDistinctElementsInEveryWindow;
 
+/*
+ * TIME COMLEXITY : O((n-k)*k*k)
+ */
+
 public class NaiveSolution2 {
     
 
