@@ -33,3 +33,5 @@ Comparision of Strings
 == -> compare references
 equal --> compare content
 compareTo -> Lexicographically compare
+indexOf --> return index of first occurrence
+    - indexOf(s1.indexOf(s2,1)), here 1 is the index from where it start searching
