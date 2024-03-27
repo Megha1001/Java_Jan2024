@@ -32,3 +32,4 @@ Comparision of Strings
 
 == -> compare references
 equal --> compare content
+compareTo -> Lexicographically compare
