@@ -6,7 +6,7 @@ public class GenerateSubsets {
         String curr = "";
         int index = 0;
         System.out.println("All subsets/subsequence of given input are :");
-        printSubsets(input,"", index);
+        printSubsets(input,curr, index);
     }
 
     public static void printSubsets(String input, String curr, int index){
