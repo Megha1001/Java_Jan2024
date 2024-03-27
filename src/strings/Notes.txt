@@ -17,3 +17,18 @@ STRINGS
 3. StringBuilder
     - Mutable
     - Not thread safe
+
+
+
+Comparision of Strings
+1. String literal pool in java
+    s1 = "geeks"
+    s2 = "geeks"
+
+    s1==s2 --> yes
+
+2. s3 = new String("geeks")
+    s1==s3 --> No
+
+== -> compare references
+equal --> compare content
