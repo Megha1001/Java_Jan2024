@@ -1,0 +1,19 @@
+STRINGS
+-------------------
+1. String class
+    str = "megha"
+    or
+    str = new String("megha");
+
+- Immutable
+- Thread Safe -> by default
+- Every time creates new object after applying operations
+
+
+2. StringBuffer
+    - Mutable
+    - Thread Safe -> hence require extra overhead
+
+3. StringBuilder
+    - Mutable
+    - Not thread safe
