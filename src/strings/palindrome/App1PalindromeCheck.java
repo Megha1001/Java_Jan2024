@@ -1,5 +1,9 @@
 package strings.palindrome;
 
+/*
+ * TIME COMPLEXITY O(N)
+ * AUX SPACE :O(1)
+ */
 public class App1PalindromeCheck {
     
     public static void main(String args[]){
