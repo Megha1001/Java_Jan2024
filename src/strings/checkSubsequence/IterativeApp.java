@@ -1,5 +1,9 @@
 package strings.checkSubsequence;
 
+/*
+TIME COMPLEXITY : O(S1.length())
+AUX SPACE : O(1)
+ */
 public class IterativeApp {
 
     public static void main(String [] args){
