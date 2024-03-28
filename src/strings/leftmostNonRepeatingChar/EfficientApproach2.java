@@ -37,7 +37,7 @@ public class EfficientApproach2 {
         for(int i=0; i<CHAR; i++){
             if(firstIndex[i]>0){
                 //first occurrence
-                res = Math.min(res, firstIndex[s.charAt(i)]);
+                res = Math.min(res, firstIndex[i]);
             }
         }
 
