@@ -2,6 +2,8 @@ package strings.leftmostRepeatingElement;
 
 /*
  * TIME COMPLEXITY : O(N)
+ * AUX SPACE = O(CHAR)
+ * 2-traversal
  */
 public class EfficientApproach {
 
