@@ -1,5 +1,8 @@
 package strings.checkSubsequence;
-
+/*
+ * TIME COMPLEXITY : O(M+N)
+ * AUX SPACE : O(M+N)
+ */
 public class RecursiveAppStartingFromLast {
 
     public static void main(String []args){
