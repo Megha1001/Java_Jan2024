@@ -1,5 +1,8 @@
 package strings.leftmostRepeatingElement;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ */
 public class EfficientApproach {
 
     public static final int CHAR = 256;
@@ -20,7 +23,7 @@ public class EfficientApproach {
                 return i;
             }
         }
-        
+
         return -1;
     }
 
