@@ -1,7 +1,7 @@
 package strings.checkSubsequence;
 
 /*
-TIME COMPLEXITY : O(S1.length())
+TIME COMPLEXITY : O(S1.length()+S2.length()) --> since we are traversing both the strings
 AUX SPACE : O(1)
  */
 public class IterativeApp {
