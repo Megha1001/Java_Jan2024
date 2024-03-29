@@ -6,6 +6,18 @@ package linkedList.basicOperations;
  */
 
 public class Creation {
+
+    static class Node{
+        int val;
+        Node next;
+    
+    
+        Node(int val, Node next){
+            this.val = val;
+            this.next = next;
+        }
+    }
+
     public static void main(String args[]){
 
         Node head = new Node(10,null);
@@ -15,16 +27,5 @@ public class Creation {
         System.out.println(head.val +":"+ head.next);
         System.out.println(head.next.val +":"+ head.next.next);
         System.out.println(head.next.next.val +":"+ head.next.next.next);
-    }
-}
-
-class Node{
-    int val;
-    Node next;
-
-
-    Node(int val, Node next){
-        this.val = val;
-        this.next = next;
     }
 }
