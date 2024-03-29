@@ -29,16 +29,11 @@ public class LinkedListOperations {
         System.out.print("NULL");
     }
 
-
+    //TIME COMPLEXITY : O(1)
     public static Node insertAtStart(Node head , int data){
         Node curr = new Node(data);
-
-        if (head != null) {
-            curr.next = head;
-        }
-        head = curr;
-
-        return head;
+        curr.next = head;
+        return curr;
     }
 
 }
