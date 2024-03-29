@@ -1,5 +1,7 @@
 package linkedList.basicOperations;
-
+/*
+ * TIME COMPLEXITY : O(N)
+ */
 public class Traversal {
 
 
