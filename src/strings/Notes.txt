@@ -35,3 +35,25 @@ equal --> compare content
 compareTo -> Lexicographically compare
 indexOf --> return index of first occurrence
     - indexOf(s1.indexOf(s2,1)), here 1 is the index from where it start searching
+
+---------------------
+OVERVIEW OF PATTERN MATCHING
+
+N : Length of text
+M : Length of pattern
+
+1<=M<=N
+
+1. Naive Solution
+    - O((n-m+1)*m)
+    - No Preprocessing
+    - If characters of pattern are distinct : O(N)
+
+2. Pattern preprocessing -> use when text is changing
+    a. Rabin Karp
+        - O((n-m+1)*m) --> but perform better than naive on an average
+    b. KMP
+        - O(N)
+
+3. Text preprocessing -> use when text is not changing (like The Gita Book)
+    - Suffix tree : O(M)
