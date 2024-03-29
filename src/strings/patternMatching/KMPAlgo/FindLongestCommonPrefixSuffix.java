@@ -5,13 +5,17 @@ import java.util.Arrays;
 public class FindLongestCommonPrefixSuffix {
     
     public static void main(String []args){
-        String s = "abab";
-        System.out.println("The longes common prefix suffix length is :"+findLongestCommonPrefixSuffix(s));
+        String s = "ababc";
+
+        Integer lps[] = new Integer[s.length()];
+        for(int i=0; i<s.length();i++){
+            lps[i] = findLongestCommonPrefixSuffix(s,i+1);
+        }
+        System.out.println(Arrays.asList(lps));
     }
 
-    public static int findLongestCommonPrefixSuffix(String s){
+    public static int findLongestCommonPrefixSuffix(String s, int len){
         int res = 0;
-        int len = s.length();
 
         String [] pf = new String[len];
 
@@ -19,8 +23,7 @@ public class FindLongestCommonPrefixSuffix {
         for(int i=0; i<len; i++){
             pf[i] = s.substring(0,i);
         }
-
-        System.out.println("Prefix array : "+Arrays.asList(pf));
+        System.out.println(Arrays.asList(pf));
 
         String [] sf = new String[len+1];
 
@@ -29,7 +32,7 @@ public class FindLongestCommonPrefixSuffix {
             sf[i] = s.substring(i,len);
         }
 
-        System.out.println("Prefix array : "+Arrays.asList(sf));
+        System.out.println(Arrays.asList(sf));
 
         //find common maximum longest proper prefix suffix
         for(int i=0; i<pf.length;i++){
