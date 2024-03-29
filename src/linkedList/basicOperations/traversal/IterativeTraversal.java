@@ -1,8 +1,8 @@
-package linkedList.basicOperations;
+package linkedList.basicOperations.traversal;
 /*
  * TIME COMPLEXITY : O(N)
  */
-public class Traversal {
+public class IterativeTraversal {
 
 
     static class Node{
