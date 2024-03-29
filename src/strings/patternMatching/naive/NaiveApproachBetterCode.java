@@ -1,4 +1,4 @@
-package strings.patternMatching;
+package strings.patternMatching.naive;
 
 /*
  * TIME compLEXiTY : O((n-m+1)*M) where N is length of original string and M is length pattern
