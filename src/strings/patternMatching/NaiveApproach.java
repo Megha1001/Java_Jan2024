@@ -19,7 +19,7 @@ public class NaiveApproach {
             flag = false;
             if(s.charAt(i) == pattern.charAt(index)){ //find start
 
-                for(int j=i+1 ; j<(i+pattern.length()); j++){ //i+1 for next elememt
+                for(int j=i+1 ; j<i+pattern.length(); j++){ //i+1 for next elememt
                     ++index;//for next element
                     //check for remaining char
                     if(s.charAt(j) != pattern.charAt(index)){
