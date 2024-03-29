@@ -1,7 +1,7 @@
 package strings.patternMatching;
 
 /*
- * TIME compLEXiTY : O(N*M) where N is length of original string and M is length pattern
+ * TIME compLEXiTY : O((n-m+1)*M) where N is length of original string and M is length pattern
  */
 public class NaiveApproach {
     public static void main(String args[]){
