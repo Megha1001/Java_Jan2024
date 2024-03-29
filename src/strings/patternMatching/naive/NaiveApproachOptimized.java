@@ -1,6 +1,11 @@
 package strings.patternMatching.naive;
 /*
  * ASSUMPTION : WHEN ALL CHARS IN PATTERN IS DISTINCT
+ * TIME COMPLEXITY : O(N)
+ * if we do M iterations inside we are saving iterations of outside
+ * 
+ * 
+ * AUX SPACE : O(1)
  */
 public class NaiveApproachOptimized {
 
