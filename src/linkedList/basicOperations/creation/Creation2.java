@@ -1,4 +1,4 @@
-package linkedList.basicOperations;
+package linkedList.basicOperations.creation;
 
 public class Creation2 {
 
