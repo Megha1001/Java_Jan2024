@@ -22,6 +22,14 @@ public class DoublyLL {
 
         traverse(head);
 
+        System.out.println("\nInsert 40 at beginning :");
+        head = insertAtBegin(head, 40);
+        traverse(head);
+
+        System.out.println("\nInsert 50 at beginning by improved method :");
+        head = insertAtBeginImproved(head, 50);
+        traverse(head);
+
     }
 
     public static void traverse(Node head){
@@ -30,5 +38,33 @@ public class DoublyLL {
             System.out.print(curr.data+" ");
             curr = curr.next;
         }
+    }
+
+    public static Node insertAtBegin(Node head, int data){
+        Node curr = new Node(data);
+
+        if(head==null){
+            return curr;
+        }
+
+        curr.next = head;
+        head.prev = curr;
+        head = curr;
+
+        return head;
+    }
+
+    public static Node insertAtBeginImproved(Node head, int data){
+
+        Node curr = new Node(data);
+
+        curr.next = head;
+
+        if(head !=null){
+            head.prev = curr;
+        }
+
+        return curr;
+
     }
 }
