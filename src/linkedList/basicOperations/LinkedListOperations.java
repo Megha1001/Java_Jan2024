@@ -29,6 +29,11 @@ public class LinkedListOperations {
 
         System.out.println("\nInsert at end of LL");
         printList(head1);
+
+
+        System.out.println("\nInsert at given position of LL");
+        head1= insertAtPos(head1, 25, 10);
+        printList(head1);
     }
 
     public static void printList(Node head){
@@ -61,6 +66,38 @@ public class LinkedListOperations {
         }
 
         tail.next = curr;
+
+        return head;
+
+    }
+
+
+    /*
+     * Insert at given position, index start from 1
+     */
+    public static Node insertAtPos(Node head, int data, int pos){
+        Node curr = new Node(data);
+
+        if(pos == 1){
+            curr.next = head;
+            return curr;
+        }
+
+        int j=1;
+        Node temp = head;
+
+        while(j!=(pos-1) && temp !=null){
+            temp = temp.next;
+            ++j;
+        }
+
+        //for invalid pos
+        if(temp == null){
+            return head;
+        }
+
+        curr.next = temp.next;
+        temp.next = curr;
 
         return head;
 
