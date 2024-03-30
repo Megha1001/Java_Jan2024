@@ -19,6 +19,9 @@ public class CircularLL {
 
         System.out.println("Circular LL ");
         traverse(head);
+
+        System.out.println("Circular LL using for loop method");
+        traverseUsingForLoop(head);
     }
 
     public static void traverse(Node head){
@@ -39,6 +42,26 @@ public class CircularLL {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
+    }
+
+    public static void traverseUsingForLoop(Node head){
+        if(head == null){
+            return;
+        }
+
+        if(head.next == head){
+            System.out.print(head.data);
+        }
+
+        //sure that it has more than 1 node
+        Node temp = head;
+
+        System.out.print(temp.data+" ");
+
+        for(Node p = temp.next; p != head; p= p.next){
+            System.out.print(p.data+" ");
+        }
+
     }
     
 }
