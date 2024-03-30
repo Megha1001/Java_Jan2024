@@ -30,6 +30,10 @@ public class DoublyLL {
         head = insertAtBeginImproved(head, 50);
         traverse(head);
 
+        System.out.println("\nInsert 70 at end :");
+        head = insertAtEnd(head, 70);
+        traverse(head);
+
     }
 
     public static void traverse(Node head){
@@ -66,5 +70,26 @@ public class DoublyLL {
 
         return curr;
 
+    }
+
+
+    public static Node insertAtEnd(Node head, int data){
+        
+        Node curr = new Node(data);
+        Node temp = head;
+
+        //corner case
+        if(head == null){
+            return curr;
+        }
+
+        while(temp.next != null){
+            temp = temp.next;
+        }
+
+        temp.next = curr;
+        curr.prev = temp;
+
+        return head;
     }
 }
