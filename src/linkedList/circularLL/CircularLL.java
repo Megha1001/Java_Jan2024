@@ -22,6 +22,9 @@ public class CircularLL {
 
         System.out.println("Circular LL using for loop method");
         traverseUsingForLoop(head);
+
+        System.out.println("Circular LL using for do while method");
+        traverseUsingDoWhileLoop(head);
     }
 
     public static void traverse(Node head){
@@ -63,5 +66,24 @@ public class CircularLL {
         }
 
     }
+
+    public static void traverseUsingDoWhileLoop(Node head){
+        if(head == null){
+            return ;
+        }
+
+        if(head.next == head){
+            System.out.print(head.data);
+        }
+
+        Node temp = head;
+
+        do{
+            System.out.print(temp.data+" ");
+            temp = temp.next;
+        }while(temp != head);
+
+    }
+
     
 }
