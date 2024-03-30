@@ -32,7 +32,17 @@ public class LinkedListOperations {
 
 
         System.out.println("\nInsert at given position of LL");
-        head1= insertAtPos(head1, 25, 10);
+        head1= insertAtPos(head1, 25, 4);
+        printList(head1);
+
+
+        head1 = deleteFirstNode(head1);
+        System.out.println("\nDelete first node");
+        printList(head1);
+
+
+        head1 = deleteLast(head1);
+        System.out.println("\nDelete last node");
         printList(head1);
     }
 
@@ -103,4 +113,36 @@ public class LinkedListOperations {
 
     }
 
+    /*
+     * Delete first node or head node
+     */
+
+    public static Node deleteFirstNode(Node head){
+        if(head == null){
+            return head;
+        }
+
+        return head.next;
+    }
+
+    /*
+     * DELETE last node
+     */
+
+    public static Node deleteLast(Node head){
+        if(head == null || head.next == null){
+            return null;
+        }
+
+        Node temp = head;
+
+        //traverse till second last node
+        while(temp.next.next != null){
+            temp = temp.next;
+        }
+        temp.next = null;
+
+        return head;
+
+    }
 }
