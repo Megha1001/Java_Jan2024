@@ -17,7 +17,18 @@ public class LinkedListOperations {
         head = insertAtStart(head, 10);
         head = insertAtStart(head, 20);
         head = insertAtStart(head, 30);
+        System.out.println("Insert at start of LL");
         printList(head);
+
+        Node head1 = null;
+        head1 = insertAtEnd(head1, 5);
+        head1 = insertAtEnd(head1, 10);
+        head1 = insertAtEnd(head1, 20);
+        head1 = insertAtEnd(head1, 30);
+
+
+        System.out.println("\nInsert at end of LL");
+        printList(head1);
     }
 
     public static void printList(Node head){
@@ -34,6 +45,25 @@ public class LinkedListOperations {
         Node curr = new Node(data);
         curr.next = head;
         return curr;
+    }
+
+    public static Node insertAtEnd(Node head, int data){
+        Node curr = new Node(data);
+
+        if(head == null){
+            return curr;
+        }
+
+        Node tail = head;
+
+        while(tail.next != null){
+            tail = tail.next;
+        }
+
+        tail.next = curr;
+
+        return head;
+
     }
 
 }
