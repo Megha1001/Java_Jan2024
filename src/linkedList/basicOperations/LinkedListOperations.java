@@ -46,6 +46,9 @@ public class LinkedListOperations {
         printList(head1);
     }
 
+    /*
+     * TIME COMPLEXITY : O(N)
+     */
     public static void printList(Node head){
         Node curr = head;
         while(curr != null){
@@ -62,6 +65,9 @@ public class LinkedListOperations {
         return curr;
     }
 
+    /*
+     * TIME COMPLEXITY : O(N)
+     */
     public static Node insertAtEnd(Node head, int data){
         Node curr = new Node(data);
 
@@ -84,6 +90,7 @@ public class LinkedListOperations {
 
     /*
      * Insert at given position, index start from 1
+     * TIME COMPLEXITY : O(N)
      */
     public static Node insertAtPos(Node head, int data, int pos){
         Node curr = new Node(data);
@@ -115,6 +122,7 @@ public class LinkedListOperations {
 
     /*
      * Delete first node or head node
+     * TIME COMPLEXITY : O(1)
      */
 
     public static Node deleteFirstNode(Node head){
@@ -127,6 +135,7 @@ public class LinkedListOperations {
 
     /*
      * DELETE last node
+     * TIME COMPLEXITY : O(N)
      */
 
     public static Node deleteLast(Node head){
