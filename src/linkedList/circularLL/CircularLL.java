@@ -33,7 +33,9 @@ public class CircularLL {
 
 
         Node temp = head;
-        while(temp.next != head){
+        System.out.print(temp.data + " ");
+        temp = temp.next;
+        while(temp != head){
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
