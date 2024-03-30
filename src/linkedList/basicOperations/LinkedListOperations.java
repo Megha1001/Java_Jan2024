@@ -44,6 +44,10 @@ public class LinkedListOperations {
         head1 = deleteLast(head1);
         System.out.println("\nDelete last node");
         printList(head1);
+
+
+        System.out.println("\nThe searched element is present at "+searchIterative(head1,100));
+        System.out.println("\nThe searched element is present at "+searchRecursive(head1,10));
     }
 
     /*
@@ -154,6 +158,56 @@ public class LinkedListOperations {
         temp.next = null;
 
         return head;
+
+    }
+
+
+    /*
+     * Search iteratively
+     * TIME COMPLEXITY : O(N)
+     */
+    public static int searchIterative(Node head, int x){
+
+        Node curr = head;
+        int pos = 1;
+
+        while(curr != null){
+            if(curr.data == x){
+                return pos;
+            }else{
+                ++pos;
+                curr = curr.next;
+            }
+        }
+        
+        return -1;
+    }
+
+    /*
+     * TIME COMPLEXITY : O(N)
+     * AuX SPACE : O(N)
+     */
+
+    public static int searchRecursive(Node head, int x){
+
+        if(head == null){
+            return -1;
+        }
+
+
+        if(head.data == x){
+            return 1;
+        }
+
+        else{
+            int res = searchRecursive(head.next, x);
+
+            if(res ==-1){
+                return -1;
+            }else{
+                return res+1;
+            }
+        }
 
     }
 }
