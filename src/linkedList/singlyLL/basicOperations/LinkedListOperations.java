@@ -1,4 +1,4 @@
-package linkedList.basicOperations;
+package linkedList.singlyLL.basicOperations;
 
 public class LinkedListOperations {
 

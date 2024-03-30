@@ -1,4 +1,4 @@
-package linkedList.basicOperations.traversal;
+package linkedList.singlyLL.basicOperations.traversal;
 /*
  * TIME COMPLEXITY : O(N)
  */

@@ -1,4 +1,4 @@
-package linkedList.basicOperations.creation;
+package linkedList.singlyLL.basicOperations.creation;
 
 
 /*
