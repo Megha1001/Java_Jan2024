@@ -130,6 +130,8 @@ public class LinkedListOperations {
      */
 
     public static Node deleteLast(Node head){
+
+        //no and only one node first check for no node otherwise NullpointerException
         if(head == null || head.next == null){
             return null;
         }
