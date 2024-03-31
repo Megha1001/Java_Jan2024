@@ -5,10 +5,14 @@ import java.util.Scanner;
 public class TrailingZeroesEffectiveApp {
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the number :");
-    int num = Integer.parseInt(sc.nextLine());
-    System.out.println("Trailing zeroes in given num "+num+" is : "+countTrailingZeroes(num));
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.println("Enter the number :");
+      int num = Integer.parseInt(sc.nextLine());
+      System.out.println("Trailing zeroes in given num "+num+" is : "+countTrailingZeroes(num));
+    } catch (NumberFormatException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
   }
 
   /*

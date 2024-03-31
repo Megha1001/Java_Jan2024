@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
-        Scanner inputObj = new Scanner(System.in);
-        System.out.println("Enter input");
-        int input = Integer.parseInt(inputObj.nextLine());
-        System.out.println("Fibonacci number at position "+input+" is "+ calFibonacciThroughRecursion(input));
-        System.out.println("Fibonacci number at position "+input+" is "+ calFibonacciUsingLoop(input));
+        try (Scanner inputObj = new Scanner(System.in)) {
+            System.out.println("Enter input");
+            int input = Integer.parseInt(inputObj.nextLine());
+            System.out.println("Fibonacci number at position "+input+" is "+ calFibonacciThroughRecursion(input));
+            System.out.println("Fibonacci number at position "+input+" is "+ calFibonacciUsingLoop(input));
+        } catch (NumberFormatException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
     // Space complexity : Theta(N), Auxilary Space : Theta(N)

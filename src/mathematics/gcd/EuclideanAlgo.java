@@ -19,13 +19,17 @@ Euclidiean algorithm
 public class EuclideanAlgo {
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter first number :");
-    int m = Integer.parseInt(sc.nextLine());
-    System.out.println("Enter second number :");
-    int n = Integer.parseInt(sc.nextLine());
-    System.out.println("GCD or HCF of given number is "+findGCDOrHCF(m, n));
-    System.out.println("GCD or HCF of given number is "+findGCDOrHCFOptimizedApproach(m, n));
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.println("Enter first number :");
+      int m = Integer.parseInt(sc.nextLine());
+      System.out.println("Enter second number :");
+      int n = Integer.parseInt(sc.nextLine());
+      System.out.println("GCD or HCF of given number is "+findGCDOrHCF(m, n));
+      System.out.println("GCD or HCF of given number is "+findGCDOrHCFOptimizedApproach(m, n));
+    } catch (NumberFormatException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
   }
 
   //Time Complexity : O(log(min(a,b)))
