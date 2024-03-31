@@ -26,7 +26,7 @@ public class CircularDLL {
     }
 
     /*
-     * TIME COMPLEXITY : O(N)
+     * TIME COMPLEXITY : O(N)--> same as Circular Singly Linked List
      */
 
     public static void traverse(Node head){
@@ -67,6 +67,9 @@ public class CircularDLL {
         head.prev.next = newNode;
         head.prev = newNode;
 
+        /*
+         * IF return head then it will insert at end
+         */
         return newNode;
     }
 }
