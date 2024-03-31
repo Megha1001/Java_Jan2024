@@ -161,8 +161,10 @@ public class CircularLL {
             temp = temp.next;
         }
 
-        head = head.next;
-        temp.next = head;// temp.next = temp.next.next
+        // head = head.next;
+        // temp.next = head;// temp.next = temp.next.next
+
+        temp.next = head.next;
 
         //change head
 
