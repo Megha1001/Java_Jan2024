@@ -1,7 +1,6 @@
 package hashing.hashSet;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
 public class HashSetTest1 {
     public static void main(String[] args) {

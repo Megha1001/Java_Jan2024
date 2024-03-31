@@ -10,7 +10,6 @@ public class NaiveCountInversion {
     {
         int arr[] = new int[]{2,4,1,3,5};
         
-        int n = arr.length;
 	    System.out.print(countInv(arr));
         
     }

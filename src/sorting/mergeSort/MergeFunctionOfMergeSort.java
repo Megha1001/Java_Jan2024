@@ -40,8 +40,6 @@ public class MergeFunctionOfMergeSort {
         int i = 0;
         int j = 0;
 
-        //reference for original array
-        int k = l;
 
         while(i < n1 && j < n2){
             if(left[i] <= right[j]){

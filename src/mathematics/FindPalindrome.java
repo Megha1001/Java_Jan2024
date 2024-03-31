@@ -4,13 +4,17 @@ import java.util.Scanner;
 
 public class FindPalindrome {
     public static void main(String[] args) {
-        Scanner inputObj = new Scanner(System.in);
-        System.out.println("Enter the input number : ");
-        //Assuming input > 0
-        String inputStr = inputObj.nextLine();
-        System.out.println(inputStr + " is "+ findPalindrome(inputStr));
-        System.out.println(inputStr + " is "+ findPalindromeMethod2(inputStr));
-        System.out.println(inputStr + " is "+ findPalindromeMethod3(Integer.parseInt(inputStr)));
+        try (Scanner inputObj = new Scanner(System.in)) {
+            System.out.println("Enter the input number : ");
+            //Assuming input > 0
+            String inputStr = inputObj.nextLine();
+            System.out.println(inputStr + " is "+ findPalindrome(inputStr));
+            System.out.println(inputStr + " is "+ findPalindromeMethod2(inputStr));
+            System.out.println(inputStr + " is "+ findPalindromeMethod3(Integer.parseInt(inputStr)));
+        } catch (NumberFormatException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
     /*

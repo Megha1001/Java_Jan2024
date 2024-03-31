@@ -8,11 +8,15 @@ import java.util.Scanner;
  */
 public class Factorial {
     public static void main(String[] args) {
-        Scanner inputObj = new Scanner(System.in);
-        System.out.println("Enter the number  : ");
-        String inputStr = inputObj.nextLine();
-        System.out.println("Factorial of number is : "+findFactorialByRecursion(Integer.parseInt(inputStr)));
-        System.out.println("Factorial of number is : "+findFactorialByForLoop(Integer.parseInt(inputStr)));
+        try (Scanner inputObj = new Scanner(System.in)) {
+            System.out.println("Enter the number  : ");
+            String inputStr = inputObj.nextLine();
+            System.out.println("Factorial of number is : "+findFactorialByRecursion(Integer.parseInt(inputStr)));
+            System.out.println("Factorial of number is : "+findFactorialByForLoop(Integer.parseInt(inputStr)));
+        } catch (NumberFormatException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
     /*
     Auxilary Space : function call stack = O(N), Time complexity : Theta(N)

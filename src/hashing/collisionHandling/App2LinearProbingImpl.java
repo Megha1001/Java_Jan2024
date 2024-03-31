@@ -1,6 +1,5 @@
 package hashing.collisionHandling;
 
-import java.util.ArrayList;
 
 public class App2LinearProbingImpl {
 
