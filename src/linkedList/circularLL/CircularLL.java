@@ -30,6 +30,13 @@ public class CircularLL {
         head = insertAtBegin(head,1);
         System.out.println("Insert at begin");
         traverseUsingForLoop(head);
+
+
+
+
+        head = insertAtEnd(head,35);
+        System.out.println("Insert at End");
+        traverseUsingForLoop(head);
     }
 
     public static void traverse(Node head){
@@ -111,6 +118,28 @@ public class CircularLL {
         newNode.next = head;
 
         return newNode;
+    }
+
+    public static Node insertAtEnd(Node head, int data){
+
+        Node newNode = new Node(data);
+
+        if(head == null){
+            newNode.next = newNode;
+            return newNode;
+        }
+
+        Node temp = head;
+
+        while(temp.next != head){
+            temp = temp.next;
+        }
+
+
+        temp.next = newNode;
+        newNode.next = head;
+
+        return head;
     }
     
 }
