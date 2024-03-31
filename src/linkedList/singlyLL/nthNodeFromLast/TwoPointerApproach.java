@@ -32,7 +32,7 @@ public class TwoPointerApproach {
 
         traverse(head);
 
-        printNthNodeFromEnd(head, 2);
+        printNthNodeFromEnd(head, 6);
     }
 
 
@@ -47,6 +47,12 @@ public class TwoPointerApproach {
 
         //mode fast to n postion
         for(int i=1; i<=x; i++){
+
+            //corner case --> when n >size
+            if(fast == null){
+                return;
+            }
+
             fast = fast.next;
         }
 
