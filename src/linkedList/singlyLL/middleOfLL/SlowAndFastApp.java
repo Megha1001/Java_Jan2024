@@ -1,5 +1,13 @@
 package linkedList.singlyLL.middleOfLL;
 
+/*
+ * APPROACH : FAST AND SLOW REFERENCES
+ * SLow moves by one , fast by two positions
+ * when fast reaches to null(in case of even lenght LL) or end(in case of odd length LL), SLOW should be at middle
+ * 
+ * TIME COMPLEXITY : O(N)
+ * ONE TRAVERSAL
+ */
 public class SlowAndFastApp {
 
     static class Node{
