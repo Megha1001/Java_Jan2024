@@ -168,7 +168,8 @@ public class CircularLL {
 
         //change head
 
-        return head;
+        // return head;
+        return temp.next;
     }
 
 }
