@@ -1,5 +1,12 @@
 package linkedList.circularLL;
 
+
+/*
+ * Approach
+ * 1. Divide into two cases
+ *  - Delete head node
+ *  - Delete non-head node
+ */
 public class DeleteKthNode {
 
     static class Node{
@@ -23,8 +30,11 @@ public class DeleteKthNode {
         System.out.println("ORiginal LL");
         traverseUsingForLoop(head);
 
+        System.out.println("After 1st node LL");
+        head = deleteKThNode(head, 1);
+
         System.out.println("After Kth node LL");
-        head = deleteKThNode(head, 3);
+        head = deleteKThNode(head, 2);
 
         traverseUsingForLoop(head);
         
@@ -34,6 +44,11 @@ public class DeleteKthNode {
     public static Node deleteKThNode(Node head, int k){
         if(head == null){
             return null;
+        }
+
+        if(k==1){
+            //delete head delete
+            return deleteHeadNode(head);
         }
 
         int j=1;
@@ -47,6 +62,16 @@ public class DeleteKthNode {
 
         return head;
 
+    }
+
+    public static Node deleteHeadNode(Node head){
+        if(head==null || head.next==head){
+            return null;
+        }
+
+        head.data = head.next.data;
+        head.next = head.next.next;
+        return head;
     }
 
     public static void traverseUsingForLoop(Node head){
