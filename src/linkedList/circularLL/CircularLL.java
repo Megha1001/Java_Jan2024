@@ -32,11 +32,14 @@ public class CircularLL {
         traverseUsingForLoop(head);
 
 
-
-
         head = insertAtEnd(head,35);
         System.out.println("Insert at End");
         traverseUsingForLoop(head);
+
+        head = deleteHead(head);
+        System.out.println("Delete head");
+        traverseUsingForLoop(head);
+
     }
 
     public static void traverse(Node head){
@@ -76,6 +79,8 @@ public class CircularLL {
         for(Node p = temp.next; p != head; p= p.next){
             System.out.print(p.data+" ");
         }
+
+        System.out.println();
 
     }
 
@@ -142,4 +147,26 @@ public class CircularLL {
         return head;
     }
     
+
+
+    public static Node deleteHead(Node head){
+
+        // for no or single node
+        if(head==null || head.next == head){
+            return null;
+        }
+
+        Node temp = head;
+        while(temp.next != head){
+            temp = temp.next;
+        }
+
+        head = head.next;
+        temp.next = head;// temp.next = temp.next.next
+
+        //change head
+
+        return head;
+    }
+
 }
