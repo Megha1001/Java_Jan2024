@@ -25,6 +25,11 @@ public class CircularLL {
 
         System.out.println("Circular LL using for do while method");
         traverseUsingDoWhileLoop(head);
+
+
+        head = insertAtBegin(head,1);
+        System.out.println("Insert at begin");
+        traverseUsingForLoop(head);
     }
 
     public static void traverse(Node head){
@@ -85,5 +90,27 @@ public class CircularLL {
 
     }
 
+    /*
+     * TIME COMPLEXiTY : O(N)
+     */
+
+    public static Node insertAtBegin(Node head, int data){
+        Node newNode = new Node(data);
+        if(head == null){
+            newNode.next = newNode;
+            return newNode;
+        }
+
+        Node curr = head;
+        while(curr.next != head){
+            //traverse till end of LL
+            curr = curr.next;
+        }
+
+        curr.next = newNode;
+        newNode.next = head;
+
+        return newNode;
+    }
     
 }
