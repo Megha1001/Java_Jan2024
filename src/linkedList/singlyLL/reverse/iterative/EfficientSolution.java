@@ -1,4 +1,4 @@
-package linkedList.singlyLL.reverse;
+package linkedList.singlyLL.reverse.iterative;
 
 /*
  * 
