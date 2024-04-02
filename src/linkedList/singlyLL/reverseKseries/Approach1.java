@@ -2,6 +2,10 @@ package linkedList.singlyLL.reverseKseries;
 
 /*
  * Approach : First reverse First K nodes then recursively reverse for remaining batch
+ * 
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : N/K
  */
 public class Approach1 {
     static class Node{
@@ -41,8 +45,13 @@ public class Approach1 {
             ++count;
         }
 
-        if(curr != null){
-            Node rest_head = reverseKthRecursive(curr, k);
+        // if(curr != null){
+        //     Node rest_head = reverseKthRecursive(curr, k);
+        //     head.next = rest_head;
+        // }
+
+        if(next != null){
+            Node rest_head = reverseKthRecursive(next, k);
             head.next = rest_head;
         }
         return prev;
