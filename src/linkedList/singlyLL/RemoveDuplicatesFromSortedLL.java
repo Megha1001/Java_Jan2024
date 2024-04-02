@@ -1,5 +1,6 @@
 package linkedList.singlyLL;
 
+
 class RemoveDuplicatesFromSortedLL {
    static class Node{
        int data;
@@ -22,15 +23,18 @@ class RemoveDuplicatesFromSortedLL {
        traverse(head);
        
        System.out.println("LL after removing duplicates");
-       head = removeDuplicates(head);
+       removeDuplicates(head);
        traverse(head);
 
    }
    
+   /*
+   We will never going to change head hence returning void
+   */
    
-   public static Node removeDuplicates(Node head){
+   public static void removeDuplicates(Node head){
        if(head==null || head.next == null){
-           return head;
+           return;
        }
        
        Node curr = head;
@@ -42,7 +46,7 @@ class RemoveDuplicatesFromSortedLL {
            }
        }
        
-       return head;
+       return;
    }
    
    public static Node insertAtEnd(Node head, int data){
