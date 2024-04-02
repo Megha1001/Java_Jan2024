@@ -6,6 +6,11 @@ package linkedList.singlyLL.reverseKseries;
  * 
  * TIME COMPLEXITY : O(N)
  * AUX SPACE : N/K
+ * 
+ * auxiliary space complexity comes in:
+
+Each recursive call creates a new activation record on the call stack. This activation record stores information about the function call, including local variables like curr, prev, and next.
+In the worst case, the recursion continues until the end of the linked list is reached (curr == null). For a linked list with N nodes, there could be N/K recursive calls (each call reversing a batch of K nodes).
  */
 public class Approach1 {
     static class Node{
