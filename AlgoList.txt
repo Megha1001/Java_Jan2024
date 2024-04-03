@@ -1,1 +1,2 @@
 1. Rabin Karp Algo -> Pattern matching
+2. Floyd Cycle detection algo
