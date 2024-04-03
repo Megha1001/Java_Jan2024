@@ -1,5 +1,12 @@
 package linkedList.singlyLL.cycle;
 
+
+/*
+ * Approach : Will have one temp node. and we traverse whole LL while traversing we check whether the next of curr node is temp or not . if its temp
+ * there is a loop otherwise will store next of curr node(another temp) and point next of curr node to temp node then change the curr to point another temp and continue till curr !=null
+ * 
+ * DETECT LOOP IN O(N) but destroy the LL
+ */
 public class CycleDetectionUsingTempNode {
 
     static class Node{
@@ -17,8 +24,33 @@ public class CycleDetectionUsingTempNode {
         head = insertAtEnd(head, 20);
         head = insertAtEnd(head, 30);
         head = insertAtEnd(head, 40);
+        // head.next.next.next.next = head;
 
-        traverse(head);
+        // traverse(head);
+        System.out.println("is Cycle present : "+isCyclePresent(head));
+    }
+
+    public static boolean isCyclePresent(Node head){
+        if(head==null){
+            return false;
+        }
+
+        Node temp = new Node(10000); //temp node
+        Node curr = head;
+        while(curr!=null){
+            if(curr.next == null){
+                return false;
+            }else if (curr.next == temp){
+                return true;
+            }
+
+            //make next of curr as temp
+            Node currNext = curr.next;
+            curr.next = temp;
+            curr = currNext;
+        }
+
+        return false;
     }
 
     public static void traverse(Node head){
