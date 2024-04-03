@@ -6,6 +6,7 @@ package linkedList.singlyLL.cycle;
  * there is a loop otherwise will store next of curr node(another temp) and point next of curr node to temp node then change the curr to point another temp and continue till curr !=null
  * 
  * DETECT LOOP IN O(N) but destroy the LL
+ * NO AUX SPACE
  */
 public class CycleDetectionUsingTempNode {
 
@@ -24,7 +25,7 @@ public class CycleDetectionUsingTempNode {
         head = insertAtEnd(head, 20);
         head = insertAtEnd(head, 30);
         head = insertAtEnd(head, 40);
-        // head.next.next.next.next = head;
+        head.next.next.next.next = head;
 
         // traverse(head);
         System.out.println("is Cycle present : "+isCyclePresent(head));
