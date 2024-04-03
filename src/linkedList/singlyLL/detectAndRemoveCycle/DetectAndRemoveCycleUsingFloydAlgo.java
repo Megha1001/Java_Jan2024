@@ -17,7 +17,7 @@ public class DetectAndRemoveCycleUsingFloydAlgo {
         head = insertAtEnd(head, 20);
         head = insertAtEnd(head, 30);
         head = insertAtEnd(head, 40);
-        head.next.next.next.next = head;
+        head.next.next.next.next = head.next.next.next;
 
   
         System.out.println("LL after removing cycle");
