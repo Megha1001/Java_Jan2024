@@ -1,6 +1,23 @@
 package linkedList.singlyLL.cycle;
 
-import java.util.HashSet;
+/*
+ * APPROACH
+ * The algorithm works by having two pointers travere the LL until they either meet at the same node
+ * (indicating a cycle) or until the fast pointer reaches the end of the list(indicating no cycle)
+ * 
+ * If the pointer meet, it signifies the existence of cycle.
+ * 
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE ; O(1)
+ * 
+ * Points to Note
+ * 1. fast will enter the loop before(or at same time as slow)
+ * 2. The fast be k distance ahead of slow when slow enter the loop where k>=0;
+ * 
+ * 3. This distace keeps on increasing by 1 in every movement of both pointers
+ * 4. when distance becmoes length of cycle they meet
+ */
 
 public class FloydCycleDetectionAlgo {
     static class Node{
