@@ -8,8 +8,8 @@ import java.util.HashSet;
  * Use HashSet to store the address of Node.
  *  Visit every Node and check whether its present in Hashset or not. If present then there is a cycle. otherwise there is no cycle.
  * 
- * DETECT LOOP IN O(N) but destroy the LL
- * NO AUX SPACE
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(N)
  */
 public class CycleDetectionUsingHashSet {
 
