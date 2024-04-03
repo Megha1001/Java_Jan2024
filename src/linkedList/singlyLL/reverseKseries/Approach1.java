@@ -56,7 +56,7 @@ public class Approach1 {
         // }
 
         if(next != null){
-            Node rest_head = reverseKthRecursive(next, k);
+            Node rest_head = reverseKthRecursive(next, k); // this is being called N/K times
             head.next = rest_head;
         }
         return prev;
