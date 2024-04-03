@@ -17,7 +17,7 @@ public class DetectAndRemoveCycleUsingFloydAlgo {
         head = insertAtEnd(head, 20);
         head = insertAtEnd(head, 30);
         head = insertAtEnd(head, 40);
-        // head.next.next.next.next = head;
+        head.next.next.next.next = head;
 
   
         System.out.println("LL after removing cycle");
@@ -50,11 +50,20 @@ public class DetectAndRemoveCycleUsingFloydAlgo {
         //move slow to head
         slow = head;
 
-        do{
+        //when the loop is like 10->20->30->40->10(back to head)
+        if(slow==head && fast==head){
+            Node temp = head;
+            do{
+                temp=temp.next;
+            }while(temp.next != slow); //!=fast or !=head
+            temp.next = null;
+            return head;
+        }
+
+        while(slow.next != fast.next){
             slow = slow.next;
             fast = fast.next;
-        }while(slow.next != fast.next);
-
+        }
 
         //now both are at just previous location to where cycle started. slow is at cycle end previous position fast is at cycle end previous position
         //break cycle
