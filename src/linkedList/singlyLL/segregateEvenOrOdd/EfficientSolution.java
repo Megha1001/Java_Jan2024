@@ -46,18 +46,18 @@ public class EfficientSolution {
                 if(es == null){
                     //first node
                     es = temp;
-                    ee = temp;
+                    ee = es;
                 }else{
                     ee.next = temp;
-                    ee = temp; //ee = ee.next;
+                    ee = ee.next;
                 }
-            }else if(data%2 != 0){//odd
+            }else {//odd
                 if(os == null){
                     os = temp;
-                    oe = temp;
+                    oe = os;
                 }else{
                     oe.next = temp;
-                    oe = temp;
+                    oe = oe.next;
                 }
             }
 
