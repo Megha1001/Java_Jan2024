@@ -14,10 +14,10 @@ public class EfficientSolution {
 
     public static void main(String args[]){
         Node head = insertAtEnd(null, 10);
-        head = insertAtEnd(head, 20);
-        head = insertAtEnd(head, 30);
-        head = insertAtEnd(head, 40);
-        head = insertAtEnd(head, 50);
+        head = insertAtEnd(head, 9);
+        head = insertAtEnd(head, 8);
+        head = insertAtEnd(head, 6);
+        head = insertAtEnd(head, 7);
 
         System.out.println("Original LL");
         traverse(head);
