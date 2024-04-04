@@ -45,7 +45,7 @@ public class NaiveSolution {
         Node tempHead = head;
         boolean firstPass = true;
 
-        while(tempHead != tempLastNode){
+        while(tempHead != lastNode){
             if(tempHead.data%2==0 && firstPass){
                 //even
                 head = tempHead;
