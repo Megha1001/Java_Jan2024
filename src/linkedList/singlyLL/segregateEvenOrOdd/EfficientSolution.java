@@ -1,0 +1,112 @@
+package linkedList.singlyLL.segregateEvenOrOdd;
+
+public class EfficientSolution {
+
+    static class Node{
+        int data;
+        Node next;
+
+        Node(int data){
+            this.data = data;
+        }
+    }
+
+
+    public static void main(String args[]){
+        Node head = insertAtEnd(null, 10);
+        head = insertAtEnd(head, 20);
+        head = insertAtEnd(head, 30);
+        head = insertAtEnd(head, 40);
+        head = insertAtEnd(head, 50);
+
+        System.out.println("Original LL");
+        traverse(head);
+        System.out.println("After segreation of even and odd ");
+        head = segregate(head);
+        traverse(head);
+    }
+
+    public static Node segregate(Node head){
+
+        //for even
+        Node es = null;
+        Node ee = null;
+
+        //for odd
+        Node os = null;
+        Node oe = null;
+
+        Node temp = head;
+
+        while(temp != null){
+            int data = temp.data;
+
+            //even
+            if(data%2 == 0){
+                if(es == null){
+                    //first node
+                    es = temp;
+                    ee = temp;
+                }else{
+                    ee.next = temp;
+                    ee = temp; //ee = ee.next;
+                }
+            }else if(data%2 != 0){//odd
+                if(os == null){
+                    os = temp;
+                    oe = temp;
+                }else{
+                    oe.next = temp;
+                    oe = temp;
+                }
+            }
+
+            temp = temp.next;
+        }
+
+        if(os==null || es == null){
+            return head;
+        }
+
+        ee.next = os;
+        oe.next = null;
+
+
+        return es;
+
+    }
+
+    public static void traverse(Node head){
+        if(head==null){
+            return;
+        }
+
+        Node temp = head;
+        while(temp!=null){
+            System.out.print(temp.data+" ");
+            temp = temp.next;
+        }
+
+        System.out.println();
+    }
+
+
+    public static Node insertAtEnd(Node head, int data){
+
+        Node curr = new Node(data);
+
+        if(head==null){
+            return curr;
+        }
+
+        Node temp = head;
+        while(temp.next != null){
+            temp = temp.next;
+        }
+
+        temp.next = curr;
+
+        return head;
+    } 
+    
+}
