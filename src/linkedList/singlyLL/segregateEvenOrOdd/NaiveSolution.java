@@ -55,9 +55,9 @@ public class NaiveSolution {
 
                 Node curr1 = tempHead;
                 tempHead = tempHead.next;
-                lastNode.next = curr1;
+                tempLastNode.next = curr1;
                 curr1.next = null;
-                lastNode = curr1;
+                tempLastNode = curr1;
             }
         }
 
