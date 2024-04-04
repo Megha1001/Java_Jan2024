@@ -14,7 +14,7 @@ public class NaiveSolution {
     public static void main(String args[]){
         Node head = insertAtEnd(null, 17);
         head = insertAtEnd(head, 8);
-        head = insertAtEnd(head, 5);
+        head = insertAtEnd(head, 3);
         head = insertAtEnd(head, 4);
         head = insertAtEnd(head, 16);
         head = insertAtEnd(head, 19);
@@ -51,13 +51,15 @@ public class NaiveSolution {
                 head = tempHead;
                 firstPass = false;
                 tempHead = tempHead.next;
-            }else{
+            }else if(tempLastNode!=null && tempLastNode.next !=null && tempHead.data%2!=0){
 
                 Node curr1 = tempHead;
+                curr1.next = null;
                 tempHead = tempHead.next;
                 tempLastNode.next = curr1;
-                curr1.next = null;
                 tempLastNode = curr1;
+            }else{
+                tempHead = tempHead.next;
             }
         }
 
