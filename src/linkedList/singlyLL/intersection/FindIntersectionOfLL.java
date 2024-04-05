@@ -1,4 +1,4 @@
-package src.singlyLL.intersetion;
+package linkedList.singlyLL.intersection;
 
 import java.util.HashSet;
 
