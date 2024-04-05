@@ -2,7 +2,8 @@ package linkedList.singlyLL.pairwiseSwap;
 
 
 /*
- * TIME COMPLEXITY : O(N)
+ *  APPROACH : SWAP THE DATA
+ *  TIME COMPLEXITY : O(N)
  *  Naive solution : Since it would not be recommended in case of object here we have simple integers so okay but for objects with many fields swapping is not recommended.
  */
 
