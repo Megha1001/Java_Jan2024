@@ -1,4 +1,7 @@
 package linkedList.singlyLL.segregateEvenOrOdd;
+/*
+ * TIME COMPLEXITY : O(N)
+ */
 
 public class EfficientSolution {
 
