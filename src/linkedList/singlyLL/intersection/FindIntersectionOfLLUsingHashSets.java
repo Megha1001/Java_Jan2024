@@ -1,8 +1,17 @@
 package linkedList.singlyLL.intersection;
 
+/*
+ * Create an empty has set
+ * Traverse the first list and put all of its list into the hashset
+ * traverse the second list and look for every node in HashSet. As soon as we find a node present in Hashset we return the value of it.
+ * 
+ * TIME COMPLEXITY : O(M+N)
+ * AUX SPACE : O(M)
+ */
+
 import java.util.HashSet;
 
-class FindIntersectionOfLL {
+class FindIntersectionOfLLUsingHashSets {
     
     static class Node{
         int data;
