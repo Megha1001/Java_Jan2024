@@ -3,6 +3,10 @@ package stack.implemenation;
 /*
  *  Problem with the implementation
  *  1. No dynamic sizing
+ * 
+ * TIME COMPLEXITY : O(1)
+ * 
+ * Not able to grow beyond the capacity;
  */
 
 public class ArrayImpl {
