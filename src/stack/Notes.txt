@@ -7,3 +7,19 @@ Application of Stacks
 5. Evaluation of prefix/postfix
 6. Stock span problem
 7. Undo/Redo or Forward/Backward
+
+---------------------------------------
+
+what to use --> ??? ArrayDeque OR Stack
+--> ANS : ArrayDeque
+
+
+            -> List -> Vector -> Stack
+Collection
+            -> Queue -> Deque -> ArrayDeque
+
+
+Vector is legacy it existed even when collection are not there and it has thread safety environment.
+
+if we have single thred in that cause Stack will cause extra overhead. Hence, use ArrayDeque.
+Both has same functions.
