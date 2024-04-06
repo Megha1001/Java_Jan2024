@@ -2,6 +2,8 @@ package linkedList.singlyLL.pairwiseSwap;
 
 /*
  * APPROACH : SWAP THE link
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(1)
  * VIDEO LINK(2nd PART): https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-LinkedList/video/NzAyOQ%3D%3D
  */
 
