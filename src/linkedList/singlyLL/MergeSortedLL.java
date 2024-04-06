@@ -1,5 +1,8 @@
 package linkedList.singlyLL;
-
+/*
+ * TIME COMPLEXITY : O(M+N)
+ * AUX SPACE : O(1)
+ */
 public class MergeSortedLL {
 
     static class Node{
