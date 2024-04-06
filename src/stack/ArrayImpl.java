@@ -5,11 +5,12 @@ public class ArrayImpl {
     static class MyStack{
         int cap;
         int arr[];
-        int top = -1;
+        int top;
 
         MyStack(int cap){
             this.cap = cap;
             this.arr = new int[cap];
+            this.top = -1;
         }
 
         public int size(){
