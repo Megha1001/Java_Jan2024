@@ -59,7 +59,7 @@ public class EfficientClonedLLWithRangomPointer {
         //connect cloned nodes with random
         curr = head;
         while(curr!=null){
-            curr.next.random = curr.random!=null ? curr.random.next : null;
+            curr.next.random = curr.random!=null ? curr.random.next : null; // its possible that random cannot point to anything.
             curr = curr.next.next;
         }
 
