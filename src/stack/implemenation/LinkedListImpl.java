@@ -1,5 +1,13 @@
 package stack.implemenation;
 
+/*
+ * 
+ * Approach : Insert at head of LL so it will require O(1) complexity
+ * 
+ * TIME COMPLEXITY : O(1)
+ * AUX SPACE : O(1)
+ * 
+ */
 
 public class LinkedListImpl {
 
