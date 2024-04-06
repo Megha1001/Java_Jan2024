@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 
 /*
  * Approach : 
- * 1. Declare a deque and push each character of LL into it
+ * 1. Declare a deque and push each character of LL into it --> can be use stack as well
  * 2. Pop each element from top and traverse the LL from start and start comparing
  * 3. while comparing if you find character not matching return immediately with false
  * 
