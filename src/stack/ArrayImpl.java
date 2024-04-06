@@ -1,5 +1,10 @@
 package stack;
 
+/*
+ *  Problem with the implementation
+ *  1. No dynamic sizing
+ */
+
 public class ArrayImpl {
 
     static class MyStack{
