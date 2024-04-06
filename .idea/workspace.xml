@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24" />
+    <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/singlyLL/MergeSortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/singlyLL/MergeSortedLL.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +76,11 @@
           <url>file://$PROJECT_DIR$/src/sorting/quickSort/partitionOfGivenArray/NaivePartitionOfGivenArray.java</url>
           <line>40</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/ArrayImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
