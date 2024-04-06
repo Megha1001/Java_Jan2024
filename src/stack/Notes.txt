@@ -23,3 +23,10 @@ Vector is legacy it existed even when collection are not there and it has thread
 
 if we have single thred in that cause Stack will cause extra overhead. Hence, use ArrayDeque.
 Both has same functions.
+
+NOTE : Stack, Vector, ArrayDeque --> All use Arraylist based impl
+hence TIME COMPLEXITIES for below operations
+- pop -> amortized O(1)
+- push -> amortized O(1)
+- size, isEmpty, peek --> O(1)
+------------------------------------
