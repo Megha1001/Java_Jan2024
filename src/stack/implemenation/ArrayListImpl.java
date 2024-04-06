@@ -1,6 +1,14 @@
 package stack.implemenation;
 
 import java.util.ArrayList;
+/*
+ *  AMORTIZED TIME COMPLEXITY : O(1)
+ * Amortized time complexity is a way to express the time complexity of an algo
+ * when it has a very bad time complexity only once in a while.
+ * 
+ * CAN GROW DYNAMICALLY :)
+ * 
+ */
 
 public class ArrayListImpl {
 
