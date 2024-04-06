@@ -23,11 +23,18 @@ public class EffCheckPalindromeUsingLL {
     }
 
     public static void main(String args[]){
-        Node head = new Node('r');
-        head.next = new Node('a');
-        head.next.next = new Node('d');
-        head.next.next.next = new Node('a');
-        head.next.next.next.next = new Node('r');
+        // Node head = new Node('r');
+        // head.next = new Node('a');
+        // head.next.next = new Node('d');
+        // head.next.next.next = new Node('a');
+        // head.next.next.next.next = new Node('r');
+
+        Node head = new Node('a');
+        head.next = new Node('b');
+        head.next.next = new Node('c');
+        head.next.next.next = new Node('c');
+        head.next.next.next.next = new Node('b');
+        head.next.next.next.next.next = new Node('d');
 
 
         System.out.println("Is the given LL is palindrome ? "+checkPalindrome(head));
