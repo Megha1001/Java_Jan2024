@@ -3,48 +3,48 @@ package stack;
 public class ArrayImpl {
 
     static class MyStack{
-        int capacity;
+        int cap;
         int arr[];
-        int filled = -1;
+        int top = -1;
 
-        MyStack(int capacity){
-            this.capacity = capacity;
-            this.arr = new int[capacity];
+        MyStack(int cap){
+            this.cap = cap;
+            this.arr = new int[cap];
         }
 
         public int size(){
-            return filled+1;//filled is 0 indexed
+            return top+1;//top is 0 indexed
         }
 
         public void push(int x){
-            if(filled == capacity){
+            if(top == cap){
                 System.out.println("Overflow occurred");
                 return;
             }
-            ++filled;
-            arr[filled] = x;
+            ++top;
+            arr[top] = x;
         }
 
         public int pop(){
-            if(filled == -1){
+            if(top == -1){
                 System.out.println("Underflow occurred");
             }
-            int temp = arr[filled];
-            --filled;
+            int temp = arr[top];
+            --top;
             return temp;
         }
 
         public int peek(){
-            if(filled == -1){
+            if(top == -1){
                 System.out.println("Underflow occurred");
             }
 
-            return arr[filled];
+            return arr[top];
 
         }
 
         public boolean isEmpty(){
-            return filled==-1;
+            return top==-1;
         }
 
     }
