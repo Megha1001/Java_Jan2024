@@ -7,6 +7,8 @@ package stack.implemenation;
  * TIME COMPLEXITY : O(1)
  * AUX SPACE : O(1)
  * 
+ * FOR SIZE : We maintain a size variable that we increment at every push and decrement at every pop
+ * 
  */
 
 public class LinkedListImpl {
