@@ -1,0 +1,9 @@
+Application of Stacks
+-----------------------
+1. Function calls
+2. Balanced paranthesis
+3. Reversubg items
+4. Infix to Prefix/Postfix
+5. Evaluation of prefix/postfix
+6. Stock span problem
+7. Undo/Redo or Forward/Backward
