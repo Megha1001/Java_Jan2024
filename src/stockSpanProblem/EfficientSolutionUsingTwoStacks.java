@@ -29,7 +29,7 @@ public class EfficientSolutionUsingTwoStacks {
                 continue;
             }
 
-            // Pop elements from s1 if they are smaller than or equal to the current element    
+            // Pop elements from s1 if they are smaller than or equal to the current element
             while(!s1.isEmpty() && s1.peek()<=element){
                 s2.push(s1.pop());
                 ++span;
