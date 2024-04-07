@@ -7,6 +7,7 @@ package stockSpanProblem;
  * 
  * For example :  {30,20,25,28,27,29};
  * Span : 1, 1, 2, 3, 1, 5.
+ * TIME COMPLEXITY : O(N^2)
  */
 
 public class NaiveSolution {
