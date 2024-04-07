@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24">
+      <change afterPath="$PROJECT_DIR$/src/stockSpanProblem/EfficientSolutionUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/singlyLL/MergeSortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/singlyLL/MergeSortedLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2bFYGt4XoMQU3owXhgawHi6QvVl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -24,20 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/megha/Courses/Courses/Java Concurrency with the AKKA Actor Model/JAVA_coding/Practical-Java-concurrency-with-the-Akka-Actor-Model/Java_Jan2024/analysisOfAlgo&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/megha/Courses/Courses/Java Concurrency with the AKKA Actor Model/JAVA_coding/Practical-Java-concurrency-with-the-Akka-Actor-Model/Java_Jan2024/analysisOfAlgo/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/megha/Courses/Courses/Java Concurrency with the AKKA Actor Model/JAVA_coding/Practical-Java-concurrency-with-the-Akka-Actor-Model/Java_Jan2024/analysisOfAlgo",
+    "onboarding.tips.debug.path": "/Users/megha/Courses/Courses/Java Concurrency with the AKKA Actor Model/JAVA_coding/Practical-Java-concurrency-with-the-Akka-Actor-Model/Java_Jan2024/analysisOfAlgo/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/analysisOfAlgo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stockSpanProblem" />
       <recent name="" />
     </key>
   </component>
@@ -76,11 +88,6 @@
           <url>file://$PROJECT_DIR$/src/sorting/quickSort/partitionOfGivenArray/NaivePartitionOfGivenArray.java</url>
           <line>40</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stack/ArrayImpl.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
