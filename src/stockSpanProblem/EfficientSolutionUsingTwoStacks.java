@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.ArrayDeque;
 
 public class EfficientSolutionUsingTwoStacks {
-    
+
     public static void main(String args[]){
         int arr[] = {30,20,25,28,27,29};
 
@@ -17,44 +17,32 @@ public class EfficientSolutionUsingTwoStacks {
 
         Deque<Integer> s1 = new ArrayDeque<>(); //main stack
         Deque<Integer> s2 = new ArrayDeque<>(); //temporary stack
-        boolean firstElement = true;
 
 
-        for(int element : arr){
-            int span=1;
+        for(int element : arr) {
+            int span = 1;
 
             //check stack -> basically for first element
-            if(s1.isEmpty() && firstElement){
-                System.out.print(span+" ");
-                firstElement = false;
+            if (s1.isEmpty()) {
+                System.out.print(span + " ");
                 s1.push(element);
                 continue;
             }
 
-            if(!s1.isEmpty() && s1.peek()>element){
-                //push to s1
-                while(!s1.isEmpty() && s1.peek()>element){
-                    s1.push(element);
-                    System.out.print(span+" ");
-                    break;
-                }
-            }else if(!s1.isEmpty() && s1.peek() <= element){
-                //not empty and element on top is <= curr
-                while(!s1.isEmpty() && s1.peek() <= element){
-                    ++span;
-                    s2.push(s1.pop());
-                }
-
-                System.out.print(span+" ");
-
-                //push back from s2->s1
-                while(!s2.isEmpty()){
-                    s1.push(s2.pop());
-                }
-
-                s1.push(element);
+            // Pop elements from s1 if they are smaller than or equal to the current element
+            while (!s1.isEmpty() && s1.peek() <= element) {
+                s2.push(s1.pop());
+                span++;
             }
-        }
 
+            System.out.print(span + " ");
+
+            // Push back elements from s2 to s1
+            while (!s2.isEmpty()) {
+                s1.push(s2.pop());
+            }
+
+            s1.push(element);
+        }
     }
 }
