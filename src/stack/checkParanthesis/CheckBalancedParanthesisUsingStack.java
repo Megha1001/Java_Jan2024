@@ -1,8 +1,8 @@
-package stack;
+package stack.checkParanthesis;
 
 import java.util.Stack;
 
-public class CheckBalancedParanthesis {
+public class CheckBalancedParanthesisUsingStack {
     public static void main(String args[]){
         String input = "(())";
 
