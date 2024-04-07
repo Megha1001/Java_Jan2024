@@ -22,27 +22,28 @@ public class EfficientSolutionUsingTwoStacks {
         for(int element : arr) {
             int span = 1;
 
-            //check stack -> basically for first element
-            if (s1.isEmpty()) {
-                System.out.print(span + " ");
+            //check stack is empty
+            if(s1.isEmpty()){
                 s1.push(element);
+                System.out.print(span+" ");
                 continue;
             }
 
-            // Pop elements from s1 if they are smaller than or equal to the current element
-            while (!s1.isEmpty() && s1.peek() <= element) {
+            // Pop elements from s1 if they are smaller than or equal to the current element    
+            while(!s1.isEmpty() && s1.peek()<=element){
                 s2.push(s1.pop());
-                span++;
+                ++span;
             }
 
-            System.out.print(span + " ");
+            System.out.print(span+" ");
 
             // Push back elements from s2 to s1
-            while (!s2.isEmpty()) {
+            while(!s2.isEmpty()){
                 s1.push(s2.pop());
             }
 
             s1.push(element);
+
         }
     }
 }
