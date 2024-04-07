@@ -11,6 +11,9 @@ Approach :
 
 2. Otherwise
     ->  Span = index of current element +1 (since its the largest element till now.)
+
+    TIME COMPLEXITY : O(N) ---> we are pushing and poping every item atmost once
+    AUX Space : O(N
  */
 public class EfficientSolutionUsingStack {
 
