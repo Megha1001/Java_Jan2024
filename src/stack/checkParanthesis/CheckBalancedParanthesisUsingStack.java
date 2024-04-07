@@ -1,6 +1,10 @@
 package stack.checkParanthesis;
 
 import java.util.Stack;
+/*
+* TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(N)
+ */
 
 public class CheckBalancedParanthesisUsingStack {
     public static void main(String args[]){

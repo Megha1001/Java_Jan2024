@@ -5,6 +5,9 @@ import java.util.ArrayDeque;
 
 /*
  * Stack has thread implementaiton means its thread safe so if we use it for singly threaded env it just ads an overhead . Hence, its better to use Dequeue
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(N)
  */
 
 public class CheckBalancedParanthesisUsingDeque {
