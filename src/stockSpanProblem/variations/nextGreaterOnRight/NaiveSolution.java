@@ -1,5 +1,11 @@
 package stockSpanProblem.variations.nextGreaterOnRight;
 
+/*
+ * TIME COMPLEXITY : O(N^2)
+ * AUX SPACE : O(1)
+ */
+
+
 public class NaiveSolution {
 
     public static void main(String args[]){
