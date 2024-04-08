@@ -1,4 +1,4 @@
-package stockSpanProblem;
+package stockSpanProblem.variations.mainProblem;
 
 /*
  * We have a series of N daily price quotes for a stock and we need to calculate the span of the stock's price for all N days.

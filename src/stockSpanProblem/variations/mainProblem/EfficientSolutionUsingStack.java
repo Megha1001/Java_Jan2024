@@ -1,4 +1,4 @@
-package stockSpanProblem;
+package stockSpanProblem.variations.mainProblem;
 
 import java.util.Stack;
 
