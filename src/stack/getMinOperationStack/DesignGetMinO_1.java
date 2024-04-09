@@ -2,6 +2,13 @@ package stack.getMinOperationStack;
 
 import java.util.Stack;
 
+/*
+ * TIME COMPLEXITIES
+ *  Push, Pop , getMin : O(1)
+ * 
+ * AUX SPACE : O(N)
+ */
+
 public class DesignGetMinO_1 {
 
     static class MyStack{
