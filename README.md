@@ -1,4 +1,4 @@
 ## Repository Overview
 Implementing Data Structures and Algorithms from scratch using Java.
 
-![DSA](readme-resources/dsa-banner.png)
+![DSA](https://github.com/Megha1001/Megha1001/blob/main/readme-resources/dsa-banner.png)
