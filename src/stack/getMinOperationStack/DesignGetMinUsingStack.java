@@ -13,7 +13,7 @@ public class DesignGetMinUsingStack {
 
     static class MyStack{
         Stack<Integer> ms = new Stack<>();
-        Stack<Integer> as = new Stack<>();
+        Stack<Integer> as = new Stack<>(); //--> this is Aux space
 
 
         //push operation -> element x
