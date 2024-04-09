@@ -32,6 +32,54 @@ public class DesignGetMinO_1 {
             }
         }
 
+        //pop operation
+        /*
+         * 1. Always pop from ms
+         * 2. pop from as only when x==as.peek()
+         */
+
+        public void pop(){
+            if(ms.isEmpty()){
+                return; //underflow
+            }
+
+            if(as.peek()==ms.peek()){
+                as.pop();
+            }
+
+            //always pop from ms
+            ms.pop();
+        }
+
+
+        //get min
+        public int getMin(){
+            if(as.isEmpty()){
+                return -1;
+            }
+
+            return as.peek();
+        }
+
+    }
+
+    public static void main(String args[]){
+        MyStack myStack = new MyStack();
+        myStack.push(5);
+        myStack.push(10);
+        myStack.push(4);
+        myStack.push(2);
+        myStack.push(6);
+        myStack.pop();
+        myStack.pop();
+        myStack.push(4);
+        myStack.push(3);
+        myStack.pop();
+        myStack.pop();
+        
+        System.out.print("The min element till now is "+myStack.getMin());
+
+
     }
     
 }
