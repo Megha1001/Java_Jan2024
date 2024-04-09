@@ -1,0 +1,1266 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<!-- Début de la mention OneTrust de consentement aux cookies du domaine : datascientest.com -->
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="828da3bc-1898-4b05-b959-a3ea51c32815" ></script>
+	<script type="text/javascript">
+		function OptanonWrapper() { }
+	</script>
+	<!-- Fin de la mention OneTrust de consentement aux cookies du domaine : datascientest.com -->
+
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="google-site-verification" content="nP02bdPXDAhG5E49lgASGK3lgpCLlsdJAYNl5ZjJU3w" />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v21.7 (Yoast SEO v21.7) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>SQL Developer: What is it? What&#039;s it for?</title>
+	<meta name="description" content="Are you looking for information about the role of the SQL Developer? Did you know that the best SQL Developer can earn up to...." />
+	<link rel="canonical" href="https://datascientest.com/en/sql-developer-what-is-it-whats-it-for" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="SQL Developer: What is it? What&#039;s it for?" />
+	<meta property="og:description" content="Whether you&#039;re a data expert, developer or system administrator, database exploration is a daily activity. Several tools are available for this purpose." />
+	<meta property="og:url" content="https://datascientest.com/en/sql-developer-what-is-it-whats-it-for" />
+	<meta property="og:site_name" content="Data Science Courses | DataScientest" />
+	<meta property="article:publisher" content="https://www.facebook.com/DataScientestEN" />
+	<meta property="article:published_time" content="2023-10-05T20:30:51+00:00" />
+	<meta property="article:modified_time" content="2023-10-05T20:38:41+00:00" />
+	<meta property="og:image" content="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="600" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Melanie" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@DataScientest__" />
+	<meta name="twitter:site" content="@DataScientest__" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Melanie" />
+	<meta name="twitter:label2" content="Estimated reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for#article","isPartOf":{"@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for"},"author":{"name":"Melanie","@id":"https://datascientest.com/en/#/schema/person/19d5f7ade9407eb69af3bf6d1ae1731d"},"headline":"SQL Developer: What is it? What&#8217;s it for?","datePublished":"2023-10-05T20:30:51+00:00","dateModified":"2023-10-05T20:38:41+00:00","mainEntityOfPage":{"@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for"},"wordCount":626,"commentCount":0,"publisher":{"@id":"https://datascientest.com/en/#organization"},"image":{"@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for#primaryimage"},"thumbnailUrl":"https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest.png","articleSection":["Career"],"inLanguage":"en-GB","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://datascientest.com/en/sql-developer-what-is-it-whats-it-for#respond"]}],"copyrightYear":"2023","copyrightHolder":{"@id":"https://datascientest.com/#organization"}},{"@type":"WebPage","@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for","url":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for","name":"SQL Developer: What is it? What's it for?","isPartOf":{"@id":"https://datascientest.com/en/#website"},"primaryImageOfPage":{"@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for#primaryimage"},"image":{"@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for#primaryimage"},"thumbnailUrl":"https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest.png","datePublished":"2023-10-05T20:30:51+00:00","dateModified":"2023-10-05T20:38:41+00:00","description":"Are you looking for information about the role of the SQL Developer? Did you know that the best SQL Developer can earn up to....","inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://datascientest.com/en/sql-developer-what-is-it-whats-it-for"]}]},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://datascientest.com/en/sql-developer-what-is-it-whats-it-for#primaryimage","url":"https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest.png","contentUrl":"https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest.png","width":1200,"height":600,"caption":"sql developer"},{"@type":"WebSite","@id":"https://datascientest.com/en/#website","url":"https://datascientest.com/en/","name":"Data Science Courses | DataScientest","description":"Leader in Data Science Courses","publisher":{"@id":"https://datascientest.com/en/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://datascientest.com/en/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https://datascientest.com/en/#organization","name":"DataScientest","url":"https://datascientest.com/en/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://datascientest.com/en/#/schema/logo/image/","url":"https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/DataScientest_icon_blue-2.png","contentUrl":"https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/DataScientest_icon_blue-2.png","width":301,"height":301,"caption":"DataScientest"},"image":{"@id":"https://datascientest.com/en/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/DataScientestEN","https://twitter.com/DataScientest__","https://www.linkedin.com/school/datascientest/mycompany/","https://www.tiktok.com/@datascientest"]},{"@type":"Person","@id":"https://datascientest.com/en/#/schema/person/19d5f7ade9407eb69af3bf6d1ae1731d","name":"Melanie","image":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://datascientest.com/en/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/8d3d660a0698de06f13ecf4823519da1?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/8d3d660a0698de06f13ecf4823519da1?s=96&d=mm&r=g","caption":"Melanie"},"url":"https://datascientest.com/en/author/melaniekrause"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel="alternate" type="application/rss+xml" title="Data Science Courses | DataScientest &raquo; Feed" href="https://datascientest.com/en/feed" />
+<link rel="alternate" type="application/rss+xml" title="Data Science Courses | DataScientest &raquo; Comments Feed" href="https://datascientest.com/en/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Data Science Courses | DataScientest &raquo; SQL Developer: What is it? What&#8217;s it for? Comments Feed" href="https://datascientest.com/en/sql-developer-what-is-it-whats-it-for/feed" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/datascientest.com\/en\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.4"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://datascientest.com/en/wp-content/themes/hello-elementor/theme.min.css?ver=2.9.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/custom-frontend-lite.min.css?ver=1693402173' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='https://datascientest.com/en/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.8.16' media='all' />
+<link rel='stylesheet' id='eael-144514-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/essential-addons-elementor/eael-144514.css?ver=1696541921' media='all' />
+<link rel='stylesheet' id='eael-142304-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/essential-addons-elementor/eael-142304.css?ver=1696541921' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://datascientest.com/en/wp-includes/css/dist/block-library/style.min.css?ver=6.2.4' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://datascientest.com/en/wp-includes/css/classic-themes.min.css?ver=6.2.4' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ivory-search-styles-css' href='https://datascientest.com/en/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.4' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://datascientest.com/en/wp-content/themes/hello-elementor/style.min.css?ver=2.9.0' media='all' />
+<link rel='stylesheet' id='elementor-post-15-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-15.css?ver=1693402173' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://datascientest.com/en/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/custom-pro-frontend-lite.min.css?ver=1693402173' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/global.css?ver=1693402174' media='all' />
+<link rel='stylesheet' id='elementor-post-171647-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-171647.css?ver=1696538323' media='all' />
+<link rel='stylesheet' id='elementor-post-144514-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-144514.css?ver=1711635517' media='all' />
+<link rel='stylesheet' id='elementor-post-7457-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-7457.css?ver=1712389290' media='all' />
+<link rel='stylesheet' id='elementor-post-142304-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-142304.css?ver=1695117705' media='all' />
+<link rel='stylesheet' id='elementor-post-177626-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-177626.css?ver=1711719179' media='all' />
+<link rel='stylesheet' id='elementor-post-176387-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/post-176387.css?ver=1704819361' media='all' />
+<link rel='stylesheet' id='katex-css' href='https://datascientest.com/en/wp-content/plugins/katex/assets/katex-0.13.13/katex.min.css?ver=6.2.4' media='all' />
+<link rel='stylesheet' id='chld_thm_cfg_child-css' href='https://datascientest.com/en/wp-content/themes/hello-elementor-child/style.css?ver=6.2.4' media='all' />
+<link rel='stylesheet' id='eci-icon-fonts-css' href='https://datascientest.com/en/wp-content/uploads/sites/9/elementor_icons_files/merged-icons-font.css?ver=1655229325' media='all' />
+<script src='https://datascientest.com/en/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://datascientest.com/en/wp-json/" /><link rel="alternate" type="application/json" href="https://datascientest.com/en/wp-json/wp/v2/posts/171647" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://datascientest.com/en/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://datascientest.com/en/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.4" />
+<link rel='shortlink' href='https://datascientest.com/en/?p=171647' />
+<link rel="alternate" type="application/json+oembed" href="https://datascientest.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatascientest.com%2Fen%2Fsql-developer-what-is-it-whats-it-for" />
+<link rel="alternate" type="text/xml+oembed" href="https://datascientest.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatascientest.com%2Fen%2Fsql-developer-what-is-it-whats-it-for&#038;format=xml" />
+			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.0.8-->
+			<script class="hsq-set-content-id" data-content-id="blog-post">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			<link rel="alternate" hreflang="de" href="https://datascientest.com/de/sql-developer-was-ist-das-wozu-dient-dieses-tool" title="de_DE" />
+<link rel="alternate" hreflang="en" href="https://datascientest.com/en/sql-developer-what-is-it-whats-it-for" title="en_GB" />
+<link rel="alternate" hreflang="fr" href="https://datascientest.com/sql-developer-tout-savoir" title="fr_FR" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["career"],"pagePostAuthor":"Melanie"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M49JTKD');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><meta name="generator" content="Elementor 3.15.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<link rel="icon" href="https://datascientest.com/en/wp-content/uploads/sites/9/2022/03/cropped-favicon_dst-1-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://datascientest.com/en/wp-content/uploads/sites/9/2022/03/cropped-favicon_dst-1-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://datascientest.com/en/wp-content/uploads/sites/9/2022/03/cropped-favicon_dst-1-300x300.png" />
+<meta name="msapplication-TileImage" content="https://datascientest.com/en/wp-content/uploads/sites/9/2022/03/cropped-favicon_dst-1-300x300.png" />
+			<style type="text/css">
+					.is-form-id-15238 .is-search-submit:focus,
+			.is-form-id-15238 .is-search-submit:hover,
+			.is-form-id-15238 .is-search-submit,
+            .is-form-id-15238 .is-search-icon {
+			color: #4628dd !important;            background-color: #ece9fd !important;            border-color: #ece9fd !important;			}
+                        	.is-form-id-15238 .is-search-submit path {
+					fill: #4628dd !important;            	}
+            			.is-form-id-15238 .is-search-input::-webkit-input-placeholder {
+			    color: #0a0202 !important;
+			}
+			.is-form-id-15238 .is-search-input:-moz-placeholder {
+			    color: #0a0202 !important;
+			    opacity: 1;
+			}
+			.is-form-id-15238 .is-search-input::-moz-placeholder {
+			    color: #0a0202 !important;
+			    opacity: 1;
+			}
+			.is-form-id-15238 .is-search-input:-ms-input-placeholder {
+			    color: #0a0202 !important;
+			}
+                        			.is-form-style-1.is-form-id-15238 .is-search-input:focus,
+			.is-form-style-1.is-form-id-15238 .is-search-input:hover,
+			.is-form-style-1.is-form-id-15238 .is-search-input,
+			.is-form-style-2.is-form-id-15238 .is-search-input:focus,
+			.is-form-style-2.is-form-id-15238 .is-search-input:hover,
+			.is-form-style-2.is-form-id-15238 .is-search-input,
+			.is-form-style-3.is-form-id-15238 .is-search-input:focus,
+			.is-form-style-3.is-form-id-15238 .is-search-input:hover,
+			.is-form-style-3.is-form-id-15238 .is-search-input,
+			.is-form-id-15238 .is-search-input:focus,
+			.is-form-id-15238 .is-search-input:hover,
+			.is-form-id-15238 .is-search-input {
+                                color: #0a0202 !important;                                border-color: #000000 !important;                                			}
+                        			</style>
+		</head>
+<body class="post-template post-template-elementor_theme single single-post postid-171647 single-format-standard hello-elementor elementor-default elementor-kit-15 elementor-page elementor-page-171647 elementor-page-142304">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>		<div data-elementor-type="header" data-elementor-id="144514" class="elementor elementor-144514 elementor-location-header" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-964dbcc e-con-full header-taille e-flex e-con" data-id="964dbcc" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+		<div class="elementor-element elementor-element-2a52be9 e-con-full elementor-hidden-mobile pa-display-conditions-yes e-flex e-con" data-id="2a52be9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;pa_display_conditions_switcher&quot;:&quot;yes&quot;}">
+				<div class="elementor-element elementor-element-64389fb elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="64389fb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.15.0 - 02-08-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><p class="elementor-heading-title elementor-size-default">We have the answers to your questions! - Don't miss our next open house about the data universe!</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c3afff1 elementor-widget elementor-widget-button" data-id="c3afff1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="https://datascientest.com/en/open-house">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Register now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-70782d0 elementor-widget elementor-widget-html" data-id="70782d0" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<!-- Datalayer for page_language in GA4 -->
+<script type="text/javascript">
+window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push ({
+                'pageAttributes': { 
+                'pageLanguage': 'english'
+            }
+             });
+</script>
+<!-- END Datalayer for page_language in GA4 -->
+
+<!-- Datalayer for page_market in GA4 -->
+<script type="text/javascript">
+window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push ({
+                'pageAttributes': { 
+                'pageMarket': 'B2C'
+            }
+             });
+</script>
+<!-- END Datalayer for page_market in GA4 -->		</div>
+				</div>
+		<div class="elementor-element elementor-element-9019626 e-flex e-con-boxed e-con" data-id="9019626" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-5f9a121 e-con-full e-flex e-con" data-id="5f9a121" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-cd99ca0 elementor-widget elementor-widget-image" data-id="cd99ca0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.15.0 - 02-08-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="/en">
+							<img src="https://datascientest.com/wp-content/uploads/2022/03/logo-2021.png" title="" alt="" loading="lazy" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e62418e e-con-full e-flex e-con" data-id="e62418e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-737c52b elementor-hidden-desktop e-flex e-con-boxed e-con" data-id="737c52b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d6adac8 elementor-nav-menu__text-align-center elementor-widget__width-auto elementor-hidden-desktop elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="d6adac8" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;dropdown&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_icon_hover_animation&quot;:&quot;grow&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1693402175">		<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<span class="elementor-menu-toggle__icon--open elementor-animation-grow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="18px" viewBox="0 0 30 18"><defs><clipPath id="clip1"><path d="M 15 9 L 30 9 L 30 18 Z M 15 9 L 15 18 L 0 18 Z M 15 9 L 0 9 L 0 0 Z M 15 9 L 15 0 L 30 0 Z M 15 9 "></path></clipPath></defs><g id="surface1"><rect x="0" y="0" width="30" height="18" style="fill:rgb(0.392157%,12.941176%,41.176471%);fill-opacity:1;stroke:none;"></rect><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 0 0 L 60 30 M 60 0 L 0 30 " transform="matrix(0.5,0,0,0.6,0,0)"></path><g clip-path="url(#clip1)" clip-rule="nonzero"><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(78.431373%,6.27451%,18.039216%);stroke-opacity:1;stroke-miterlimit:4;" d="M 0 0 L 60 30 M 60 0 L 0 30 " transform="matrix(0.5,0,0,0.6,0,0)"></path></g><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 30 0 L 30 30 M 0 15 L 60 15 " transform="matrix(0.5,0,0,0.6,0,0)"></path><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(78.431373%,6.27451%,18.039216%);stroke-opacity:1;stroke-miterlimit:4;" d="M 30 0 L 30 30 M 0 15 L 60 15 " transform="matrix(0.5,0,0,0.6,0,0)"></path></g></svg></span><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close elementor-animation-grow e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-d6adac8" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159016"><a href="/" class="elementor-item" tabindex="-1">FR</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159018"><a href="/de" class="elementor-item" tabindex="-1">DE</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159019"><a href="/es" class="elementor-item" tabindex="-1">ES</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-90bd9a6 elementor-nav-menu__align-left elementor-nav-menu--stretch elementor-hidden-desktop menu-mobile-principal elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="90bd9a6" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-arrow-right\&quot; viewBox=\&quot;0 0 448 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-90bd9a6" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-170694"><a href="#" class="elementor-item elementor-item-anchor">Our courses</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170695"><a href="https://datascientest.com/en/data-scientist-course" class="elementor-sub-item">Data Scientist</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170696"><a href="https://datascientest.com/en/data-analyst-course" class="elementor-sub-item">Data Analyst</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170697"><a href="https://datascientest.com/en/data-engineer-course" class="elementor-sub-item">Data Engineer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170698"><a href="https://datascientest.com/en/course-devops" class="elementor-sub-item">DevOps Engineer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170699"><a href="https://datascientest.com/en/data-courses" class="elementor-sub-item">See all our courses</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140383"><a href="/en/career-management" class="elementor-item">Career</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140637"><a href="/en/events" class="elementor-item">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140636"><a href="/en/about-us" class="elementor-item">About us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140632"><a href="/en/blog-en" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141661"><a href="/en/company-data-couse" class="elementor-item">Company</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141662"><a href="/en/appointment" class="elementor-item">Make an appointment</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-90bd9a6" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-170694"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Our courses</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170695"><a href="https://datascientest.com/en/data-scientist-course" class="elementor-sub-item" tabindex="-1">Data Scientist</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170696"><a href="https://datascientest.com/en/data-analyst-course" class="elementor-sub-item" tabindex="-1">Data Analyst</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170697"><a href="https://datascientest.com/en/data-engineer-course" class="elementor-sub-item" tabindex="-1">Data Engineer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170698"><a href="https://datascientest.com/en/course-devops" class="elementor-sub-item" tabindex="-1">DevOps Engineer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170699"><a href="https://datascientest.com/en/data-courses" class="elementor-sub-item" tabindex="-1">See all our courses</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140383"><a href="/en/career-management" class="elementor-item" tabindex="-1">Career</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140637"><a href="/en/events" class="elementor-item" tabindex="-1">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140636"><a href="/en/about-us" class="elementor-item" tabindex="-1">About us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140632"><a href="/en/blog-en" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141661"><a href="/en/company-data-couse" class="elementor-item" tabindex="-1">Company</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141662"><a href="/en/appointment" class="elementor-item" tabindex="-1">Make an appointment</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-557a0c2 elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con" data-id="557a0c2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-08f89e2 elementor-hidden-tablet elementor-hidden-mobile e-full_width e-n-menu-layout-horizontal e-n-menu-tablet elementor-widget elementor-widget-n-menu" data-id="08f89e2" data-element_type="widget" data-settings="{&quot;menu_items&quot;:[{&quot;item_title&quot;:&quot;Our courses&quot;,&quot;_id&quot;:&quot;43f0698&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;#&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Career&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/datascientest.com\/en\/career-management&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;&quot;,&quot;_id&quot;:&quot;52b221e&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Events&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/datascientest.com\/en\/events&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;&quot;,&quot;_id&quot;:&quot;bd8c858&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;838c62e&quot;,&quot;item_title&quot;:&quot;About us&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/datascientest.com\/en\/about-us&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;__dynamic__&quot;:[],&quot;item_dropdown_content&quot;:&quot;&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Blog&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/datascientest.com\/en\/blog-en&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;__dynamic__&quot;:[],&quot;_id&quot;:&quot;c0dedd1&quot;,&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;}],&quot;open_on&quot;:&quot;click&quot;,&quot;open_animation&quot;:&quot;fadeIn&quot;,&quot;menu_item_title_distance_from_content&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;content_width&quot;:&quot;full_width&quot;,&quot;item_layout&quot;:&quot;horizontal&quot;,&quot;breakpoint_selector&quot;:&quot;tablet&quot;,&quot;menu_item_title_distance_from_content_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="mega-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/custom-pro-widget-mega-menu.min.css?ver=1693402389">		<nav class="e-n-menu">
+					<div class="e-n-menu-toggle" role="button" aria-label="Menu Toggle">
+						<span class="e-n-menu-toggle-icon e-open">
+				<svg class="e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg>			</span>
+						<span class="e-n-menu-toggle-icon e-close">
+				<svg class="e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>			</span>
+
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<div class="e-n-menu-items-heading">
+							<div id="e-n-menu-item-title-9401" class="e-n-menu-item-title e-normal e-anchor e-click" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="e-n-tab-content-9401" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="#" aria-current="page">										<span class="e-n-menu-item-title-text" >
+						Our courses					</span>
+
+									<span class="e-n-menu-item-icon">
+						<span class="e-n-menu-item-icon-opened" ><svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></svg></span>
+						<span class="e-n-menu-item-icon-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span>
+					</span>
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9402" class="e-n-menu-item-title e-normal" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9402" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/career-management">										<span class="e-n-menu-item-title-text" >
+						Career					</span>
+
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9403" class="e-n-menu-item-title e-normal" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9403" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/events">										<span class="e-n-menu-item-title-text" >
+						Events					</span>
+
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9404" class="e-n-menu-item-title e-normal" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9404" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/about-us">										<span class="e-n-menu-item-title-text" >
+						About us					</span>
+
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9405" class="e-n-menu-item-title e-normal" aria-selected="false" data-tab="5" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9405" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/blog-en">										<span class="e-n-menu-item-title-text" >
+						Blog					</span>
+
+								</a>
+			</div>
+					</div>
+			<div class="e-n-menu-items-content" aria-orientation="vertical">
+							<div id="e-n-menu-item-title-9401" class="e-n-menu-item-title e-collapse e-anchor e-click" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="e-n-tab-content-9401" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="#" aria-current="page">										<span class="e-n-menu-item-title-text" >
+						Our courses					</span>
+
+									<span class="e-n-menu-item-icon">
+						<span class="e-n-menu-item-icon-opened" ><svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-up" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></svg></span>
+						<span class="e-n-menu-item-icon-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-chevron-down" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span>
+					</span>
+								</a>
+			</div>
+		<div data-content="1" class="elementor-element elementor-element-7c7e307 e-con-full e-flex e-con" data-id="7c7e307" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div data-content="1" class="elementor-element elementor-element-1bc56ed e-con-full e-flex e-con" data-id="1bc56ed" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-3e6442b elementor-widget elementor-widget-eael-adv-tabs" data-id="3e6442b" data-element_type="widget" data-widget_type="eael-adv-tabs.default">
+				<div class="elementor-widget-container">
+			        <div id="eael-advance-tabs-3e6442b" class="eael-advance-tabs eael-tabs-vertical eael-tab-auto-active  active-caret-on" data-tabid="3e6442b">
+            <div class="eael-tabs-nav" role="tablist">
+                <ul class="eael-tab-inline-icon" role="tablist">
+                                            <li id="career-paths" class="active-default eael-tab-item-trigger" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="career-paths-tab" aria-expanded="false">
+                                                            <span class="eael-tab-title  title-before-icon">Career paths</span>                            
+                                                                <i class="eci  fontello-0c5ef8db-circle-arrow-right-solid"></i>                                                            
+                            
+                                                    </li>
+                                            <li id="expert-courses" class=" eael-tab-item-trigger" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="expert-courses-tab" aria-expanded="false">
+                                                            <span class="eael-tab-title  title-before-icon">Expert courses</span>                            
+                                                                <i class="eci  fontello-0c5ef8db-circle-arrow-right-solid"></i>                                                            
+                            
+                                                    </li>
+                                            <li id="certifications" class=" eael-tab-item-trigger" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="certifications-tab" aria-expanded="false">
+                                                            <span class="eael-tab-title  title-before-icon">Certifications</span>                            
+                                                                <i class="eci  fontello-0c5ef8db-circle-arrow-right-solid"></i>                                                            
+                            
+                                                    </li>
+                                            <li id="data-basics" class=" eael-tab-item-trigger" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="data-basics-tab" aria-expanded="false">
+                                                            <span class="eael-tab-title  title-before-icon">Data Basics</span>                            
+                                                                <i class="eci  fontello-0c5ef8db-circle-arrow-right-solid"></i>                                                            
+                            
+                                                    </li>
+                                    </ul>
+            </div>
+            
+            <div class="eael-tabs-content">
+		        
+                    <div id="career-paths-tab" class="clearfix eael-tab-content-item active-default" data-title-link="career-paths-tab">
+				        					        <section class="fiches">
+    <div class="fiche-colonne">
+        <a href="/en/data-scientist-course">
+            <div class="fiche-image"><img src="/en/wp-content/uploads/2022/02/Group-106.png" /></div>
+            <div class="fiche-titre">
+                <h3>Data Scientist</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">Bootcamp</span> or <span class="tag-tp">Part-time</span>
+            </div>
+            <div class="fiche-texte">Learn how to build predictive models to identify emerging trends.</div>
+        </a>
+    </div>
+
+    <div class="fiche-colonne">
+        <a href="/en/data-analyst-course">
+            <div class="fiche-image"><img src="/en/wp-content/uploads/2022/02/Group-107.png" /></div>
+            <div class="fiche-titre">
+                <h3>Data Analyst</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">Bootcamp</span> or <span class="tag-tp">Part-time</span>
+            </div>
+            <div class="fiche-texte">Learn how to use and interpret data to address specific issues.</div>
+        </a>
+    </div>
+
+    <div class="fiche-colonne">
+        <a href="/en/data-engineer-course">
+            <div class="fiche-image"><img src="/en/wp-content/uploads/2022/02/Group-108.png" /></div>
+            <div class="fiche-titre">
+                <h3>Data Engineer</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">Bootcamp</span> or <span class="tag-tp">Part-time</span>
+            </div>
+            <div class="fiche-texte">Learn how to implement and maintain Big Data architecture.</div>
+        </a>
+    </div>
+
+
+    <div class="fiche-colonne">
+        <a href="/en/machine-learning-engineer-course">
+            <div class="fiche-image"><img src="/en/wp-content/uploads/2022/03/Group-1119.png" /></div>
+            <div class="fiche-titre">
+                <h3>Machine Learning Engineer</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">Bootcamp</span> or <span class="tag-tp">Part-time</span>
+            </div>
+            <div class="fiche-texte">Learn how to build predictive models and put them into production.</div>
+        </a>
+    </div>
+
+    <div class="fiche-colonne">
+        <a href="/en/course-devops">
+            <div class="fiche-image background-blue-azure"><img src="/wp-content/uploads/2022/08/header-devops.png" />
+            </div>
+            <div class="fiche-titre">
+                <h3>DevOps</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">Bootcamp</span> or <span class="tag-tp">Part-time</span>
+            </div>
+            <div class="fiche-texte">Learn to automate infrastructure deployment on private, hybrid or public clouds.
+            </div>
+        </a>
+    </div>
+</section>				                            </div>
+		        
+                    <div id="expert-courses-tab" class="clearfix eael-tab-content-item " data-title-link="expert-courses-tab">
+				        					        <section class="fiches">
+    <div class="fiche-colonne">
+        <a href="/en/deep-learning-course">
+            <div class="fiche-image background-blue-electric"><img
+                    src="/en/wp-content/uploads/sites/9/2023/01/header-dl.webp" /></div>
+            <div class="fiche-titre">
+                <h3>Deep Learning</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-tp">Part-time</span></div>
+            <div class="fiche-texte">Learn the different techniques of language processing (NLP) and image processing
+                (Computer Vision).</div>
+        </a>
+    </div>
+    <div class="fiche-colonne">
+        <a href="/en/ml-ops-course">
+            <div class="fiche-image background-violet"><img src="/wp-content/uploads/2022/08/header-mle.png" /></div>
+            <div class="fiche-titre">
+                <h3>MLOps</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">Bootcamp</span> or <span class="tag-tp">Part-time</span></div>
+            <div class="fiche-texte">Learn how to build predictive models and put them into production.</div>
+        </a>
+    </div>
+</section>				                            </div>
+		        
+                    <div id="certifications-tab" class="clearfix eael-tab-content-item " data-title-link="certifications-tab">
+				        					        <section class="fiches">
+    <div class="fiche-colonne">
+        <a href="/en/aws-training">
+            <div class="fiche-image background-gray"><img src="/wp-content/uploads/2022/08/header-aws.png" /></div>
+            <div class="fiche-titre">
+                <h3>Amazon Web Services (AWS)</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">4 days </span></div>
+            <div class="fiche-texte">Take our 4-day 100% online training course to prepare for the AWS Solutions
+                Architect certification.</div>
+        </a>
+    </div>
+    <div class="fiche-colonne">
+        <a href="/en/power-bi-training">
+            <div class="fiche-image background-gray"><img src="/wp-content/uploads/2022/08/header-pbi.png" /></div>
+            <div class="fiche-titre">
+                <h3>Microsoft Power BI</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-bootcamp">2 or 5 days </span></div>
+            <div class="fiche-texte">Take our Power BI PL-300 training course and become officially certified by
+                Microsoft certification.
+            </div>
+        </a>
+    </div>
+</section>				                            </div>
+		        
+                    <div id="data-basics-tab" class="clearfix eael-tab-content-item " data-title-link="data-basics-tab">
+				        					        <section class="fiches">
+    <div class="fiche-colonne">
+        <a href="/en/data-management-course">
+            <div class="fiche-image"><img src="/en/wp-content/uploads/2022/02/Group-109.png" /></div>
+            <div class="fiche-titre">
+                <h3>Data Management</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-tp">Part-time</span></div>
+            <div class="fiche-texte">Learn how to collect, manage, clean and organize databases.</div>
+        </a>
+    </div>
+    <div class="fiche-colonne">
+        <a href="/en/data-product-manager-course">
+            <div class="fiche-image background-orange">
+                <img src="/wp-content/uploads/2022/10/data-product.png" />
+            </div>
+            <div class="fiche-titre">
+                <h3>Data Product Manager</h3>
+            </div>
+            <div class="fiche-tag"><span class="tag-tp">Part-time</span></div>
+            <div class="fiche-texte">
+                Learn how to manage a data project from its framing to its achievements.
+            </div>
+        </a>
+    </div>
+</section>
+				                            </div>
+		                    </div>
+        </div>
+		</div>
+				</div>
+		<div data-content="1" class="elementor-element elementor-element-9e670f7 e-con-full e-flex e-con" data-id="9e670f7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e2a65a8 elementor-widget elementor-widget-heading" data-id="e2a65a8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default"><a href="https://datascientest.com/en/data-courses">See all our courses</a></span>		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					<div id="e-n-menu-item-title-9402" class="e-n-menu-item-title e-collapse" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9402" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/career-management">										<span class="e-n-menu-item-title-text" >
+						Career					</span>
+
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9403" class="e-n-menu-item-title e-collapse" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9403" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/events">										<span class="e-n-menu-item-title-text" >
+						Events					</span>
+
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9404" class="e-n-menu-item-title e-collapse" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9404" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/about-us">										<span class="e-n-menu-item-title-text" >
+						About us					</span>
+
+								</a>
+			</div>
+					<div id="e-n-menu-item-title-9405" class="e-n-menu-item-title e-collapse" aria-selected="false" data-tab="5" role="tab" tabindex="-1" aria-controls="e-n-tab-content-9405" aria-expanded="false" >
+				<a class="e-n-menu-item-title-container e-link" href="https://datascientest.com/en/blog-en">										<span class="e-n-menu-item-title-text" >
+						Blog					</span>
+
+								</a>
+			</div>
+					</div>
+		</nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2a9b7f8 elementor-align-center elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="2a9b7f8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/en/company-data-couse">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="eci  fontello-5d44ae2a-vector"></i>			</span>
+						<span class="elementor-button-text">    Are you a company?</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4efd8db elementor-nav-menu__text-align-center elementor-widget__width-auto france elementor-hidden-tablet elementor-hidden-mobile elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="4efd8db" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;dropdown&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;toggle_icon_hover_animation&quot;:&quot;grow&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<span class="elementor-menu-toggle__icon--open elementor-animation-grow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="18px" viewBox="0 0 30 18"><defs><clipPath id="clip1"><path d="M 15 9 L 30 9 L 30 18 Z M 15 9 L 15 18 L 0 18 Z M 15 9 L 0 9 L 0 0 Z M 15 9 L 15 0 L 30 0 Z M 15 9 "></path></clipPath></defs><g id="surface1"><rect x="0" y="0" width="30" height="18" style="fill:rgb(0.392157%,12.941176%,41.176471%);fill-opacity:1;stroke:none;"></rect><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 0 0 L 60 30 M 60 0 L 0 30 " transform="matrix(0.5,0,0,0.6,0,0)"></path><g clip-path="url(#clip1)" clip-rule="nonzero"><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(78.431373%,6.27451%,18.039216%);stroke-opacity:1;stroke-miterlimit:4;" d="M 0 0 L 60 30 M 60 0 L 0 30 " transform="matrix(0.5,0,0,0.6,0,0)"></path></g><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 30 0 L 30 30 M 0 15 L 60 15 " transform="matrix(0.5,0,0,0.6,0,0)"></path><path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(78.431373%,6.27451%,18.039216%);stroke-opacity:1;stroke-miterlimit:4;" d="M 30 0 L 30 30 M 0 15 L 60 15 " transform="matrix(0.5,0,0,0.6,0,0)"></path></g></svg></span><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close elementor-animation-grow e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-4efd8db" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159016"><a href="/" class="elementor-item" tabindex="-1">FR</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159018"><a href="/de" class="elementor-item" tabindex="-1">DE</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159019"><a href="/es" class="elementor-item" tabindex="-1">ES</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ab65b59 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con" data-id="ab65b59" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-47a20ea elementor-align-right button-principal pa-display-conditions-yes elementor-widget elementor-widget-button" data-id="47a20ea" data-element_type="widget" data-settings="{&quot;pa_display_conditions_switcher&quot;:&quot;yes&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/en/appointment">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Book an appointment</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+				<div data-elementor-type="single-post" data-elementor-id="142304" class="elementor elementor-142304 elementor-location-single post-171647 post type-post status-publish format-standard has-post-thumbnail hentry category-career" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-5e6ebbe e-flex e-con-boxed e-con" data-id="5e6ebbe" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2caf8b7 e-con-full e-flex e-con" data-id="2caf8b7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-dade775 search-bar elementor-widget elementor-widget-shortcode" data-id="dade775" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><form data-min-no-for-search=1 data-result-box-max-height=400 data-form-id=15238 class="is-search-form is-form-style is-form-style-1 is-form-id-15238 is-ajax-search" action="https://datascientest.com/en/" method="get" role="search" ><label for="is-search-input-15238"><span class="is-screen-reader-text">Search for:</span><input  type="search" id="is-search-input-15238" name="s" value="" class="is-search-input" placeholder="Search for an article" autocomplete=off /><span class="is-loader-image" style="display: none;background-image:url(https://datascientest.com/en/wp-content/plugins/add-search-to-menu/public/images/spinner.gif);" ></span></label><input type="submit" value="Search" class="is-search-submit" /><input type="hidden" name="id" value="15238" /><input type="hidden" name="post_type" value="post" /></form></div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-130c043 e-flex e-con-boxed e-con" data-id="130c043" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-ea4ae6f e-con-full e-flex e-con" data-id="ea4ae6f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-06e973f elementor-position-left elementor-vertical-align-middle elementor-widget__width-auto elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box" data-id="06e973f" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://datascientest.com/en/wp-content/uploads/sites/9/elementor/css/custom-widget-icon-box.min.css?ver=1693402176">		<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<a class="elementor-icon elementor-animation-" href="/en/blog-en">
+				<i aria-hidden="true" class="icon icon-arrow-left"></i>				</a>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<a href="/en/blog-en" >
+						Back to articles					</a>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-297c15c e-flex e-con-boxed e-con" data-id="297c15c" data-element_type="container" id="article" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bb5b4cb e-con-full e-flex e-con" data-id="bb5b4cb" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e6ed00e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="e6ed00e" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">SQL Developer: What is it? What&#8217;s it for?</h1>		</div>
+				</div>
+		<div class="elementor-element elementor-element-cab3e2c e-flex e-con-boxed e-con" data-id="cab3e2c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4b85dfc elementor-widget__width-auto elementor-widget elementor-widget-post-info" data-id="4b85dfc" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://datascientest.com/en/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"><link rel="stylesheet" href="https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css">		<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-3508b64 elementor-inline-item" itemprop="datePublished">
+						<a href="https://datascientest.com/en/2023/10/05">
+														<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										October 5, 2023					</span>
+									</a>
+				</li>
+				</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-309d8d7 elementor-widget elementor-widget-shortcode" data-id="309d8d7" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">- <span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix">Reading Time:</span> <span class="rt-time"> 3</span> <span class="rt-label rt-postfix">minutes</span></span></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d8c3774 elementor-widget__width-auto elementor-align-left elementor-widget elementor-widget-post-info" data-id="d8c3774" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-11650d7 elementor-inline-item" itemprop="about">
+										<span class="elementor-icon-list-icon">
+															</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
+										<span class="elementor-post-info__terms-list">
+				<a href="https://datascientest.com/en/category/career" class="elementor-post-info__terms-list-item">Career</a>				</span>
+					</span>
+								</li>
+				</ul>
+				</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-e277efe elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="e277efe" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="400" src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest-1024x512.png" class="attachment-large size-large wp-image-171649" alt="sql developer" loading="lazy" srcset="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest-1024x512.png 1024w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest-300x150.png 300w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest-768x384.png 768w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_datascientest.png 1200w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-868297c elementor-widget elementor-widget-theme-post-content" data-id="868297c" data-element_type="widget" data-widget_type="theme-post-content.default">
+				<div class="elementor-widget-container">
+					<div data-elementor-type="wp-post" data-elementor-id="171647" class="elementor elementor-171647" data-elementor-post-type="post">
+							<div class="elementor-element elementor-element-1da618a2 e-flex e-con-boxed e-con" data-id="1da618a2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7221cd60 elementor-widget elementor-widget-heading" data-id="7221cd60" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Whether you're a data expert, developer or system administrator, database exploration is a daily activity. Several tools are available for this purpose. Among the most effective is Oracle SQL Developer. So what's it for? Who is it designed for? What features does it offer? Find out the answers. </h2>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-604bfbc3 e-flex e-con-boxed e-con" data-id="604bfbc3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2133947e elementor-widget elementor-widget-heading" data-id="2133947e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">What is Oracle SQL Developer ?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1daf0e80 elementor-widget elementor-widget-text-editor" data-id="1daf0e80" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.15.0 - 02-08-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p><strong>Oracle SQL Developer</strong> is a free Integrated Development Environment (IDE). With this interface, you can develop your PL/<a href="https://datascientest.com/en/sql-tutorial-top-5-most-useful-methods">SQL applications</a> from start to finish. This solution offers developers a wide range of features, including connecting to <strong>various Oracle and non-Oracle databases</strong>, creating and managing database objects, code editing, data exploration, schema comparison, report generation,<a href="https://datascientest.com/en/matplotlib-master-data-visualization-in-python"> data visualization, and more.</a></p><p>The goal is to assist developers in being more efficient during the application design phase.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3b7db7d1 elementor-widget elementor-widget-text-editor" data-id="3b7db7d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>💡Good to know:</strong> Oracle SQL Developer runs on any operating system that supports Java (Windows, OS X, and Linux).</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-249685bb e-flex e-con-boxed e-con" data-id="249685bb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-71de6722 elementor-widget elementor-widget-heading" data-id="71de6722" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Who is SQL Developer designed for?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6d15faa2 elementor-widget elementor-widget-text-editor" data-id="6d15faa2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Contrary to its name, <strong>SQL Developer</strong> is not just reserved for web developers. Let&#8217;s take a closer look at who can use this <strong>IDE:</strong></p><p><strong>1. Developers:</strong> Thanks to this Oracle solution, developers can run SQL queries, export data in various formats, document database programs, and more.</p><p><strong>2. Database Administrators:</strong> They can also use this interface for many critical tasks, such as storage management, user and role management, auditing, and more.</p><p><strong>3. Application Architects:</strong> SQL Developer offers them numerous features for data modeling. For instance, logical, relational, physical, or dimensional modeling, data flow diagrams, DDL scripts, and more.</p><p><strong>4. Web Application Administrators:</strong> With this interface, they can deploy applications, administer Oracle REST Data Services, create and modify RESTful services, and more.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2f529dba elementor-widget elementor-widget-image" data-id="2f529dba" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+												<figure class="wp-caption">
+										<img decoding="async" width="800" height="450" src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide.png" class="attachment-full size-full wp-image-171650" alt="" loading="lazy" srcset="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide.png 800w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide-300x169.png 300w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide-768x432.png 768w" sizes="(max-width: 800px) 100vw, 800px" />											<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+										</figure>
+									</div>
+				</div>
+				<div class="elementor-element elementor-element-124fad0e elementor-align-center button-principale elementor-widget elementor-widget-button" data-id="124fad0e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://datascientest.com/en/data-courses">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Become a SQL Developer</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-295281b3 e-flex e-con-boxed e-con" data-id="295281b3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f80e6ae elementor-widget elementor-widget-heading" data-id="f80e6ae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">What features does Oracle SQL Developer offer?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-67b30307 elementor-widget elementor-widget-text-editor" data-id="67b30307" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>To enable the development of PL/SQL applications from A to Z, Oracle SQL Developer offers users a host of features.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-546e1f94 elementor-widget elementor-widget-heading" data-id="546e1f94" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Connections</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3928347f elementor-widget elementor-widget-text-editor" data-id="3928347f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Through <strong>SQL Developer,</strong> it&#8217;s possible to establish connections between multiple databases (Oracle or non-Oracle). Additionally, you can also save the connections you use frequently, import and/or export connections, and more.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-436b8db0 elementor-widget elementor-widget-heading" data-id="436b8db0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Objects</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d9dff02 elementor-widget elementor-widget-text-editor" data-id="d9dff02" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Oracle <strong>SQL Developer</strong> allows you to browse, create, and modify objects. Indeed, the Oracle solution supports a wide variety of objects (tables, indexes, packages, procedures, functions, triggers, types, sequences, views, materialized views, XML schemas, tables and queues, Java, tasks, and more).</p><p>In practice, you have several features to manage objects, such as:</p><p><strong>1. Object navigation:</strong> All objects are categorized by type, with the option to add filters to simplify searching.<br /><strong>2. Dialog creation:</strong> You can specify sequences and triggers to populate your columns.<br /><strong>3. Modification:</strong> It&#8217;s possible to rename, add, compile, delete, disable, debug, and more. Generally, actions are associated with each type of object.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-79f68b8e elementor-widget elementor-widget-heading" data-id="79f68b8e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Updating data</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-75e35283 elementor-widget elementor-widget-text-editor" data-id="75e35283" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Thanks to features like sorting, filtering, highlighting, and column management, it&#8217;s much easier to query your <a href="https://datascientest.com/en/all-about-back-end">Database Management System (DBMS)</a> data using Oracle SQL Developer. And to automate updates, don&#8217;t hesitate to utilize the query builder.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7d770854 elementor-widget elementor-widget-text-editor" data-id="7d770854" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: 400;">💡<strong>Good to know:</strong> a message log allows you to track all the changes within your database management system.<br /></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-21df9459 elementor-widget elementor-widget-heading" data-id="21df9459" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Third-party database migration</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5561c81 elementor-widget elementor-widget-text-editor" data-id="5561c81" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>You can migrate any external database to Oracle Database using Oracle SQL Developer. For example, data from Access, SQL Server, Sybase ASE, DB2, or Teradata can be migrated. Moreover, you can perform various types of migrations (quick migration, least privilege migration, step-by-step migration, or advanced migration).</p><p>Beyond all these features, SQL Developer also allows you to compare schemas, modify PL/SQL code, execute and debug PL/SQL, create reports, and more.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-245cedf4 elementor-widget elementor-widget-image" data-id="245cedf4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+												<figure class="wp-caption">
+										<img decoding="async" width="800" height="450" src="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide3.png" class="attachment-full size-full wp-image-171651" alt="" loading="lazy" srcset="https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide3.png 800w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide3-300x169.png 300w, https://datascientest.com/en/wp-content/uploads/sites/9/2023/10/sql_developer_ide3-768x432.png 768w" sizes="(max-width: 800px) 100vw, 800px" />											<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+										</figure>
+									</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-73540781 e-flex e-con-boxed e-con" data-id="73540781" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-519bbe73 elementor-widget elementor-widget-heading" data-id="519bbe73" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Things to remember</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5327b22d elementor-widget elementor-widget-text-editor" data-id="5327b22d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul><li style="font-weight: 400;" aria-level="1">Oracle SQL Developer is an Integrated Development Environment (IDE) that simplifies the design of PL/SQL applications.</li><li style="font-weight: 400;" aria-level="1">It is suitable for developers,<a href="https://datascientest.com/en/database-what-is-it"> database administrators,</a> and application architects alike.</li><li style="font-weight: 400;" aria-level="1">SQL Developer offers numerous features, including the creation and management of database objects, code editing, data exploration, and more.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7f754812 elementor-align-center button-principale elementor-widget elementor-widget-button" data-id="7f754812" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://datascientest.com/en/data-courses">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Start your Data Training</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-296f2812 e-flex e-con-boxed e-con" data-id="296f2812" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+					</div>
+				</div>
+							</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2ddca40 elementor-section-stretched elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2ddca40" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-107ec55a" data-id="107ec55a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1fbd5c21 elementor-widget elementor-widget-heading" data-id="1fbd5c21" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">You are not available?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-27c6e44c elementor-widget elementor-widget-text-editor" data-id="27c6e44c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Leave us your e-mail, so that we can send you your new articles when they are published!						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74732b52" data-id="74732b52" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4107d254 elementor-widget elementor-widget-image" data-id="4107d254" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="349" height="286" src="https://datascientest.com/en/wp-content/uploads/sites/9/2022/02/icone-newsletter.png" class="attachment-large size-large wp-image-142283" alt="" loading="lazy" srcset="https://datascientest.com/en/wp-content/uploads/sites/9/2022/02/icone-newsletter.png 349w, https://datascientest.com/en/wp-content/uploads/sites/9/2022/02/icone-newsletter-300x246.png 300w" sizes="(max-width: 349px) 100vw, 349px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+		<div class="elementor-element elementor-element-c28cc7a e-flex e-con-boxed e-con" data-id="c28cc7a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-f698ce1 e-con-full e-flex e-con" data-id="f698ce1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-46bc74e elementor-widget elementor-widget-heading" data-id="46bc74e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Related articles</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-01c8cb6 elementor-posts--align-left elementor-grid-4 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="01c8cb6" data-element_type="widget" data-settings="{&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_columns&quot;:&quot;4&quot;,&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css">		<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-181687 post type-post status-publish format-standard has-post-thumbnail hentry category-machine-learning">
+				<a class="elementor-post__thumbnail__link" href="https://datascientest.com/en/recall-understanding-its-role-and-significance-in-artificial-intelligence" >
+			<div class="elementor-post__thumbnail"><img width="1024" height="563" src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/03/ReCall.png" class="attachment-full size-full wp-image-181690" alt="ReCALL: Understanding its Role and Significance in Artificial Intelligence" loading="lazy" /></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://datascientest.com/en/recall-understanding-its-role-and-significance-in-artificial-intelligence" >
+				ReCALL: Understanding its Role and Significance in Artificial Intelligence			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Melanie		</span>
+				<span class="elementor-post-date">
+			April 9, 2024		</span>
+				</div>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-183618 post type-post status-publish format-standard has-post-thumbnail hentry category-career">
+				<a class="elementor-post__thumbnail__link" href="https://datascientest.com/en/how-do-you-successfully-become-a-data-engineer" >
+			<div class="elementor-post__thumbnail"><img width="768" height="384" src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/03/reconversion_data_engineer_datascientest-768x384-1.png" class="attachment-full size-full wp-image-183624" alt="Successfully transitioning to a career as a Data Engineer involves a combination of acquiring the necessary skills, gaining relevant experience, and effectively positioning yourself in the job market. Here&#039;s a step-by-step guide to help you make the transition:" loading="lazy" /></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://datascientest.com/en/how-do-you-successfully-become-a-data-engineer" >
+				How do you successfully become a Data Engineer?			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Melanie		</span>
+				<span class="elementor-post-date">
+			April 9, 2024		</span>
+				</div>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-181262 post type-post status-publish format-standard has-post-thumbnail hentry category-business-intelligence">
+				<a class="elementor-post__thumbnail__link" href="https://datascientest.com/en/power-bi-service-everything-you-need-to-know-about-the-cloud-version-of-power-bi" >
+			<div class="elementor-post__thumbnail"><img width="1024" height="585" src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/03/power-bi-service.jpg" class="attachment-full size-full wp-image-181263" alt="Power BI Service: everything you need to know about the Cloud version of Power BI" loading="lazy" /></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://datascientest.com/en/power-bi-service-everything-you-need-to-know-about-the-cloud-version-of-power-bi" >
+				Power BI Service: Everything you need to know about the Cloud version of Power BI			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Melanie		</span>
+				<span class="elementor-post-date">
+			April 9, 2024		</span>
+				</div>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-181538 post type-post status-publish format-standard has-post-thumbnail hentry category-data-science">
+				<a class="elementor-post__thumbnail__link" href="https://datascientest.com/en/demystifying-sql-index-understanding-its-purpose-and-functionality" >
+			<div class="elementor-post__thumbnail"><img width="900" height="500" src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/04/index-sql-2.jpg" class="attachment-full size-full wp-image-181541" alt="INDEX SQL" loading="lazy" /></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://datascientest.com/en/demystifying-sql-index-understanding-its-purpose-and-functionality" >
+				Demystifying SQL Index: Understanding its Purpose and Functionality			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Melanie		</span>
+				<span class="elementor-post-date">
+			April 9, 2024		</span>
+				</div>
+				</div>
+				</article>
+				</div>
+		
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+						</div>
+				<div data-elementor-type="footer" data-elementor-id="7457" class="elementor elementor-7457 elementor-location-footer" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-84e3065 e-flex e-con-boxed e-con" data-id="84e3065" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-05206fe e-con-full e-flex e-con" data-id="05206fe" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-f5698ce elementor-widget-tablet__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image" data-id="f5698ce" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="244" height="229" src="https://datascientest.com/en/wp-content/uploads/sites/9/2020/08/new-logo.png" class="attachment-large size-large wp-image-141125" alt="" loading="lazy" />															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b364408 e-con-full e-flex e-con" data-id="b364408" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-5e48083 elementor-align-right elementor-widget__width-inherit elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="5e48083" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xs" href="https://train.datascientest.com/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Training platform</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-535c8d7 e-con-full e-flex e-con" data-id="535c8d7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-a0419b6 elementor-nav-menu__align-left elementor-nav-menu--dropdown-none elementor-widget-tablet__width-auto elementor-widget elementor-widget-nav-menu" data-id="a0419b6" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-a0419b6" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141128"><a href="https://www.welcometothejungle.com/fr/companies/datascientest/jobs" class="elementor-item">Jobs</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141129"><a href="https://www.welcometothejungle.com/fr/companies/datascientest/team-2" class="elementor-item">Our team</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141130"><a href="https://www.switchup.org/bootcamps/datascientest#:~:text=%22Je%20recommande%20fortement%20cette%20formation,permis%20de%20monter%20en%20comp%C3%A9tences." class="elementor-item elementor-item-anchor">Feedback</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141131"><a href="/en/appointment" class="elementor-item">Contact</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-a0419b6" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141128"><a href="https://www.welcometothejungle.com/fr/companies/datascientest/jobs" class="elementor-item" tabindex="-1">Jobs</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141129"><a href="https://www.welcometothejungle.com/fr/companies/datascientest/team-2" class="elementor-item" tabindex="-1">Our team</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141130"><a href="https://www.switchup.org/bootcamps/datascientest#:~:text=%22Je%20recommande%20fortement%20cette%20formation,permis%20de%20monter%20en%20comp%C3%A9tences." class="elementor-item elementor-item-anchor" tabindex="-1">Feedback</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141131"><a href="/en/appointment" class="elementor-item" tabindex="-1">Contact</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-20317fa e-con-full e-flex e-con" data-id="20317fa" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-607951c elementor-nav-menu__align-left elementor-nav-menu--dropdown-none elementor-widget-tablet__width-auto elementor-widget elementor-widget-nav-menu" data-id="607951c" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-607951c" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141133"><a href="https://www.facebook.com/DataScientestEN/" class="elementor-item"><i></i>   Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141134"><a href="https://twitter.com/datascientest__" class="elementor-item"><i></i>  Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141135"><a href="https://www.linkedin.com/school/datascientest/mycompany/" class="elementor-item"><i></i>  LinkedIn</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141136"><a href="https://www.youtube.com/channel/UCTVTlRE_gyvZvEFJOxRZlrA" class="elementor-item"><i></i>  YouTube</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141137"><a href="https://www.instagram.com/datascientest/?hl=fr" class="elementor-item"><i></i>   Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141138"><a href="https://github.com/DataScientest" class="elementor-item"><i></i>   Github</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-607951c" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141133"><a href="https://www.facebook.com/DataScientestEN/" class="elementor-item" tabindex="-1"><i></i>   Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141134"><a href="https://twitter.com/datascientest__" class="elementor-item" tabindex="-1"><i></i>  Twitter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141135"><a href="https://www.linkedin.com/school/datascientest/mycompany/" class="elementor-item" tabindex="-1"><i></i>  LinkedIn</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141136"><a href="https://www.youtube.com/channel/UCTVTlRE_gyvZvEFJOxRZlrA" class="elementor-item" tabindex="-1"><i></i>  YouTube</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141137"><a href="https://www.instagram.com/datascientest/?hl=fr" class="elementor-item" tabindex="-1"><i></i>   Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141138"><a href="https://github.com/DataScientest" class="elementor-item" tabindex="-1"><i></i>   Github</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a83cd7d e-con-full e-flex e-con" data-id="a83cd7d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e0c1d25 elementor-nav-menu__align-left elementor-nav-menu--dropdown-none elementor-widget-tablet__width-auto elementor-widget elementor-widget-nav-menu" data-id="e0c1d25" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-e0c1d25" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141140"><a href="/en/funding-data-course" class="elementor-item">Funding</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141141"><a href="/en/welcome-handicap" class="elementor-item">Disability reception</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141144"><a href="/en/data-science-faq" class="elementor-item">Frequently Asked Questions</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165025"><a href="/en/legal-notice" class="elementor-item">Legal Notice</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-e0c1d25" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141140"><a href="/en/funding-data-course" class="elementor-item" tabindex="-1">Funding</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141141"><a href="/en/welcome-handicap" class="elementor-item" tabindex="-1">Disability reception</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141144"><a href="/en/data-science-faq" class="elementor-item" tabindex="-1">Frequently Asked Questions</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165025"><a href="/en/legal-notice" class="elementor-item" tabindex="-1">Legal Notice</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-87be039 e-con-full e-flex e-con" data-id="87be039" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-4c2be45 elementor-nav-menu__align-left elementor-nav-menu--dropdown-none elementor-widget-tablet__width-auto elementor-widget elementor-widget-nav-menu" data-id="4c2be45" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-4c2be45" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141147"><a href="/en/data-scientist-course" class="elementor-item">Data Scientist</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141148"><a href="/en/data-analyst-course" class="elementor-item">Data Analyst</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141149"><a href="/en/data-engineer-course" class="elementor-item">Data Engineer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141150"><a href="/en/data-management-course" class="elementor-item">Data Management</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141152"><a href="/en/data-courses#expertcourses" class="elementor-item elementor-item-anchor">Expert Curriculum</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141153"><a href="/en/data-courses" class="elementor-item">Publisher training</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-4c2be45" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141147"><a href="/en/data-scientist-course" class="elementor-item" tabindex="-1">Data Scientist</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141148"><a href="/en/data-analyst-course" class="elementor-item" tabindex="-1">Data Analyst</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141149"><a href="/en/data-engineer-course" class="elementor-item" tabindex="-1">Data Engineer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141150"><a href="/en/data-management-course" class="elementor-item" tabindex="-1">Data Management</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141152"><a href="/en/data-courses#expertcourses" class="elementor-item elementor-item-anchor" tabindex="-1">Expert Curriculum</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141153"><a href="/en/data-courses" class="elementor-item" tabindex="-1">Publisher training</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-95c51eb e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con" data-id="95c51eb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-aec5987 pa-display-conditions-yes elementor-widget elementor-widget-image" data-id="aec5987" data-element_type="widget" data-settings="{&quot;pa_display_conditions_switcher&quot;:&quot;yes&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="768" height="897" src="https://datascientest.com/en/wp-content/uploads/sites/9/2020/08/Bildungsgutschein.webp" class="attachment-full size-full wp-image-167420" alt="" loading="lazy" srcset="https://datascientest.com/en/wp-content/uploads/sites/9/2020/08/Bildungsgutschein.webp 768w, https://datascientest.com/en/wp-content/uploads/sites/9/2020/08/Bildungsgutschein-257x300.webp 257w" sizes="(max-width: 768px) 100vw, 768px" />															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2a69d38 e-con-full e-flex e-con" data-id="2a69d38" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-da035d1 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="da035d1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default">Want to follow the news of Datascientest?</span>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d395264 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="d395264" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default"><a href="/en/blog-en#formnewsletter">Subscribe to our newsletter !</a></span>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bb40676 elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="bb40676" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/en/blog-en#formnewsletter">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Sign up</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-64b0a81 e-con-full e-flex e-con" data-id="64b0a81" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-4fb5972 elementor-widget elementor-widget-heading" data-id="4fb5972" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-small">© 2024 DataScientest - All rights reserved. </span>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+						</div>
+		
+        <script>
+            function _katexRender(rootElement) {
+                const eles = rootElement.querySelectorAll(".katex-eq:not(.katex-rendered)");
+                for(let idx=0; idx < eles.length; idx++) {
+                    const ele = eles[idx];
+                    ele.classList.add("katex-rendered");
+                    try {
+                        katex.render(
+                            ele.textContent,
+                            ele,
+                            {
+                                displayMode: ele.getAttribute("data-katex-display") === 'true',
+                                throwOnError: false
+                            }
+                        );
+                    } catch(n) {
+                        ele.style.color="red";
+                        ele.textContent = n.message;
+                    }
+                }
+            }
+
+            function katexRender() {
+                _katexRender(document);
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                katexRender();
+
+                // Perform a KaTeX rendering step when the DOM is mutated.
+                const katexObserver = new MutationObserver(function(mutations) {
+                    [].forEach.call(mutations, function(mutation) {
+                        if (mutation.target && mutation.target instanceof Element) {
+                            _katexRender(mutation.target);
+                        }
+                    });
+                });
+
+                const katexObservationConfig = {
+                    subtree: true,
+                    childList: true,
+                    attributes: true,
+                    characterData: true
+                };
+
+                katexObserver.observe(document.body, katexObservationConfig);
+            });
+
+        </script>
+        
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M49JTKD" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->		<div data-elementor-type="popup" data-elementor-id="177626" class="elementor elementor-177626 elementor-location-popup" data-elementor-settings="{&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;scrolling_offset&quot;:30,&quot;scrolling&quot;:&quot;yes&quot;,&quot;exit_intent&quot;:&quot;yes&quot;,&quot;scrolling_direction&quot;:&quot;down&quot;},&quot;timing&quot;:{&quot;times_times&quot;:1,&quot;times_period&quot;:&quot;session&quot;,&quot;times&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;logged_in_users&quot;:&quot;all&quot;}}" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-13143813 e-con-full e-flex e-con" data-id="13143813" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-17668224 elementor-widget__width-inherit elementor-invisible elementor-widget elementor-widget-image" data-id="17668224" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://datascientest.com/events#webinars" target="_blank">
+							<img src="https://datascientest.com/wp-content/uploads/2024/03/16_9-8.png" title="" alt="" loading="lazy" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-84af689 e-flex e-con-boxed e-con" data-id="84af689" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4b59e40 elementor-align-center button-principale elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-button" data-id="4b59e40" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://datascientest.com/en/events#webinars" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Register to the webinar</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-60cbb98a elementor-align-center button-principale elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-button" data-id="60cbb98a" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xs elementor-animation-grow" href="https://datascientest.com/en/events#webinars" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Register to the webinar</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+				<div data-elementor-type="popup" data-elementor-id="176387" class="elementor elementor-176387 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;scrolling&quot;:&quot;yes&quot;,&quot;scrolling_direction&quot;:&quot;down&quot;,&quot;scrolling_offset&quot;:50},&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-e2b1ec7 e-flex e-con-boxed e-con" data-id="e2b1ec7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bf8bb03 e-con-full e-flex e-con" data-id="bf8bb03" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-50e42e1 elementor-widget-tablet__width-initial elementor-widget elementor-widget-html" data-id="50e42e1" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<img src="https://datascientest.com/wp-content/uploads/2022/07/C2_MESSAGE.png" alt="icon newsletter">		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-139efbf e-con-full e-flex e-con" data-id="139efbf" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e733b34 elementor-widget elementor-widget-heading" data-id="e733b34" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">DataNews</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d999a65 elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor" data-id="d999a65" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: 400;">Get monthly insider insights from experts directly in your mailbox</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9b50f14 elementor-align-left elementor-widget-tablet__width-initial elementor-widget elementor-widget-button" data-id="9b50f14" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#formnewsletter">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Sign me up</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+						</div>
+		<link rel='stylesheet' id='ivory-ajax-search-styles-css' href='https://datascientest.com/en/wp-content/plugins/add-search-to-menu/public/css/ivory-ajax-search.min.css?ver=5.5.4' media='all' />
+<link rel='stylesheet' id='e-animations-css' href='https://datascientest.com/en/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.15.1' media='all' />
+<script id='eael-general-js-extra'>
+var localize = {"ajaxurl":"https:\/\/datascientest.com\/en\/wp-admin\/admin-ajax.php","nonce":"f8ed3df8a2","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/datascientest.com\/en\/sql-developer-what-is-it-whats-it-for","cart_redirectition":"no","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1120,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+</script>
+<script src='https://datascientest.com/en/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.8.16' id='eael-general-js'></script>
+<script src='https://datascientest.com/en/wp-content/uploads/sites/9/essential-addons-elementor/eael-144514.js?ver=1696541921' id='eael-144514-js'></script>
+<script src='https://datascientest.com/en/wp-content/uploads/sites/9/essential-addons-elementor/eael-142304.js?ver=1696541921' id='eael-142304-js'></script>
+<script id='leadin-script-loader-js-js-extra'>
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"11.0.8"};
+</script>
+<script src='https://js.hs-scripts.com/19831339.js?integration=WordPress&#038;ver=11.0.8' async defer id='hs-script-loader'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/dynamicconditions/Public/js/dynamic-conditions-public.js?ver=1.6.2' id='dynamic-conditions-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-form-move-tracker.js?ver=1.20' id='gtm4wp-form-move-tracker-js'></script>
+<script src='https://datascientest.com/en/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0' id='hello-theme-frontend-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/katex/assets/katex-0.13.13/katex.min.js?ver=6.2.4' id='katex-js'></script>
+<script id='ivory-search-scripts-js-extra'>
+var IvorySearchVars = {"is_analytics_enabled":"1"};
+</script>
+<script src='https://datascientest.com/en/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=5.5.4' id='ivory-search-scripts-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-dis-conditions.min.js?ver=4.10.14' id='pa-dis-conditions-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js'></script>
+<script id='ivory-ajax-search-scripts-js-extra'>
+var IvoryAjaxVars = {"ajaxurl":"https:\/\/datascientest.com\/en\/wp-admin\/admin-ajax.php","ajax_nonce":"0a12f5e17f"};
+</script>
+<script src='https://datascientest.com/en/wp-content/plugins/add-search-to-menu/public/js/ivory-ajax-search.min.js?ver=5.5.4' id='ivory-ajax-search-scripts-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1' id='elementor-pro-webpack-runtime-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.1' id='elementor-webpack-runtime-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.15.1' id='elementor-frontend-modules-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/datascientest.com\/en\/wp-admin\/admin-ajax.php","nonce":"e3e01243d0","urls":{"assets":"https:\/\/datascientest.com\/en\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/datascientest.com\/en\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+"facebook_sdk":{"lang":"en_GB","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/datascientest.com\/en\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.15.1' id='elementor-pro-frontend-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://datascientest.com/en/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1121,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1120,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+"version":"3.15.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"landing-pages":true,"nested-elements":true,"page-transitions":true,"notes":true,"loop":true,"form-submissions":true,"e_scroll_snap":true,"mega-menu":true},"urls":{"assets":"https:\/\/datascientest.com\/en\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"viewport_tablet":"1120","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":171647,"title":"SQL%20Developer%3A%20What%20is%20it%3F%20What%27s%20it%20for%3F","excerpt":"","featuredImage":"https:\/\/datascientest.com\/en\/wp-content\/uploads\/sites\/9\/2023\/10\/sql_developer_datascientest-1024x512.png"}};
+</script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.15.1' id='elementor-frontend-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.15.1' id='pro-elements-handlers-js'></script>
+<script src='https://datascientest.com/en/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.15.1' id='e-sticky-js'></script>
+
+</body>
+</html>
