@@ -5,8 +5,8 @@ import java.util.Stack;
 public class DesignGetMinO_1 {
 
     static class MyStack{
-        Stack<Integer> mainStack = new Stack<>();
-        Stack<Integer> auxStack = new Stack<>();
+        Stack<Integer> ms = new Stack<>();
+        Stack<Integer> as = new Stack<>();
 
 
         //push operation -> element x
@@ -16,6 +16,21 @@ public class DesignGetMinO_1 {
          *  - Push to as only when as.peek() >= x
          * 
          */
+
+        public void push(int x){
+            //first elmenet
+            if(ms.isEmpty() && as.isEmpty()){
+                ms.push(x);
+                as.push(x);
+                return;
+            }
+            //always push to ms
+            ms.push(x);
+
+            if(as.peek()>=x){
+                as.push(x);
+            }
+        }
 
     }
     
