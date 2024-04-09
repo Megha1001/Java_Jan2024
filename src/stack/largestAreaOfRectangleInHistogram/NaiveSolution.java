@@ -27,9 +27,10 @@ public class NaiveSolution {
         int res = 0;
 
         //consider every element as smallest
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){ // --> N times
             int curr = arr[i];
 
+            // Inner loop will run N-1 Times
 
             //go on left
             for(int j=i-1; j>=0; j--){
