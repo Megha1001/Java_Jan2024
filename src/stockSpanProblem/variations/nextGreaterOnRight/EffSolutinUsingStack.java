@@ -6,7 +6,8 @@ import java.util.Collections;
 import java.util.Arrays;
 
 /*
- * 
+ * TIME COMPLEXITY : O(NlogN)
+ * AUX SPACE : O(N)
  */
 
 public class EffSolutinUsingStack {
@@ -30,7 +31,7 @@ public class EffSolutinUsingStack {
         // System.out.print(-1+" ");
         list.add(-1);
 
-        for(int i=n-2; i>=0; i--){
+        for(int i=n-2; i>=0; i--){ // TC : O(N)
             while(!s.isEmpty() && s.peek() <= arr[i]){
                 s.pop();
             }
@@ -43,7 +44,7 @@ public class EffSolutinUsingStack {
             list.add(span);
             s.push(arr[i]);
         }
-        Collections.reverse(list);  
+        Collections.reverse(list);   // TC : O(NlogN)
         return list;
 
     }
