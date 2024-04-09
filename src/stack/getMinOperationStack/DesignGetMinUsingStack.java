@@ -9,7 +9,7 @@ import java.util.Stack;
  * AUX SPACE : O(N)
  */
 
-public class DesignGetMinO_1 {
+public class DesignGetMinUsingStack {
 
     static class MyStack{
         Stack<Integer> ms = new Stack<>();
