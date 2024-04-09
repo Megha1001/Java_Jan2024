@@ -1,41 +1,50 @@
 package stockSpanProblem.variations.nextGreaterOnRight;
 
-/*
- * 15 18 12 12 12 18 18 -1
- */
 import java.util.Stack;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Arrays;
+
+/*
+ * 
+ */
 
 public class EffSolutinUsingStack {
     public static void main(String args[]){
         int arr[] = {5,15,10,8,6,12,9,18};
 
         System.out.println("The nearest greatest element on righ side of each elements are : ");
-        getAndPrintGreatestNearestElement(arr);
+        System.out.println(Arrays.asList(getAndPrintGreatestNearestElement(arr)));
     }
 
-    public static void getAndPrintGreatestNearestElement(int []arr){
+    public static ArrayList<Integer> getAndPrintGreatestNearestElement(int []arr){
+        ArrayList<Integer> list = new ArrayList<>();
         int n = arr.length;
         if(n==0){
-            return;
+            return null;
         }
 
-        //print for last element
-        System.out.print(arr[n-1]+" ");
         Stack<Integer> s = new Stack<>();
+        
+        s.push(arr[n-1]);
+        // System.out.print(-1+" ");
+        list.add(-1);
 
         for(int i=n-2; i>=0; i--){
-            int j;
-            for(j=i+1; j<n; j++){
-                if(arr[i] < arr[j]){
-                    System.out.print(arr[j]+" ");
-                    break;
-                }
+            while(!s.isEmpty() && s.peek() <= arr[i]){
+                s.pop();
             }
-            //for element whose right side doesnot contain any greater element
-            if(j==n){
-                System.out.print(-1+" ");
-            }
+
+            int span = s.isEmpty() ? -1 : s.peek();
+            /*
+             * Issue is it will print in reverse order
+             */
+            // System.out.print(span+" ");
+            list.add(span);
+            s.push(arr[i]);
         }
+        Collections.reverse(list);  
+        return list;
 
     }
 }
