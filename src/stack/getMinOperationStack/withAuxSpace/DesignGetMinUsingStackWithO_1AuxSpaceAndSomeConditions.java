@@ -63,6 +63,13 @@ public class DesignGetMinUsingStackWithO_1AuxSpaceAndSomeConditions {
             return min;
         }
 
+        public int peek(){
+            if(ms.isEmpty()){
+                return -1; //underflow
+            }
+            return (ms.peek() <= 0) ? min : ms.peek();
+        }
+
     }
 
     public static void main(String args[]){
