@@ -11,7 +11,10 @@ Approach :
     ->  Span = index of current element +1 (since its the largest element till now.)
 
     TIME COMPLEXITY : O(N) ---> we are pushing and poping every item atmost once
-    AUX Space : O(N
+    AUX Space : O(N)
+
+    The span Si of the stock's price on a given day i is defined as the maximum number of
+    consecutive days just before the given day, for which the price of the stock on the current day is less than its price on the given day. 
  */
 public class EfficientSolutionUsingStack {
 
