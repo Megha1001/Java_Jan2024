@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/getMinOperationStack/DesignGetMinUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/getMinOperationStack/DesignGetMinUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stack/getMinOperationStack/withAuxSpace/DesignGetMinUsingStackWithO_1AuxSpaceAndSomeConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/getMinOperationStack/withAuxSpace/DesignGetMinUsingStackWithO_1AuxSpaceAndSomeConditions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
