@@ -39,7 +39,7 @@ public class DesignGetMinUsingStackWithO_1AuxSpace {
 
         public int pop(){
             if(ms.isEmpty()){
-                return;
+                return -1;
             }
 
             if(ms.peek() < 0){
