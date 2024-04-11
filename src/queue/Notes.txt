@@ -1,0 +1,29 @@
+Queue
+-----
+
+Insert add(e) offer(e)
+
+Difference : Inserts the specified element into the queue if its possible to do so immediately without violeting capacity restrictions. When using a
+capacity-restricted queue, this method is generally preferrable to add , which can fail an element only by throwing an exception.
+
+
+Remove remove() poll()
+Difference : Only in the behavior when queue is empty. the remove method throws an exception while the poll method returns null.
+
+
+
+Examine element() peek()
+Retriever, but does not remove, the head of the queue. element() is differes from peek() only in that it throws an exception when queue is empty
+
+
+
+Applications of Queue
+---------------------
+
+1. Single resource and multiple consumers
+2. Synchronization btw slow and fast devices
+    for ex : keyboard(slow) and processors(fast)
+    router use queue between high bandwidth and lB signals
+3. In operating systems(Semaphores, FCFS Scheduling, Spooling(in printers), buffer for devices like keyboard)
+4. In computer networks ( Routers/Switches and mail queues)
+5. Variations : Deque, Priority Queue, Doubly ended priority queue
