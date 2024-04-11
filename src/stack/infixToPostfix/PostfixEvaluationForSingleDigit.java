@@ -17,7 +17,7 @@ import java.util.Stack;
 public class PostfixEvaluationForSingleDigit {
 
     public static void main(String [] args){
-        String s = "231*+9-"; //space is delimiter
+        String s = "231*+9-";
 
         System.out.println("Evaluation of given postfix expression is :");
         evaluate(s);
