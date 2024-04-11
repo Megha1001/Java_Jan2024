@@ -42,7 +42,7 @@ public class DesignGetMinUsingStackWithO_1AuxSpace {
                 return -1;
             }
 
-            if(ms.peek() < 0){
+            if(ms.peek() <= 0){
                 //not actual value and have to update min
                 int temp = ms.peek();
                 int res = min;
