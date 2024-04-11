@@ -37,3 +37,10 @@ Infix, Postfix and Prefix introduction
 Advantages of Prefix and Postfix
 1. Do no require parenthesis, procedure rules and associativity rules
 2. Can be evaluated by writing a program that traverse the given expression exactly one. Where as in infix we require more than one pass
+
+
+
+Operators           |   Associativity   ^  Precedence
+^ (Exponential)     |   R To L          |
+*,/                 |   L To R          |
++,-                 |   L To R          |
