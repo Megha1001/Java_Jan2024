@@ -64,6 +64,7 @@ public class InfixToPostfixConversion {
                 //found (
                 stack.pop();
             }
+
             //for operators
             else{
                 while(!stack.isEmpty() && (prec(c) < prec(stack.peek())||(prec(c) == prec(stack.peek())&&(associativity(c)=='L')))){
@@ -79,7 +80,6 @@ public class InfixToPostfixConversion {
         }
 
         System.out.println(result);
-        
 
     }
     
