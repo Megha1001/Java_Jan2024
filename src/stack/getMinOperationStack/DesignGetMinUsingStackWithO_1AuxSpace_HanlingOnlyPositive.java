@@ -11,7 +11,7 @@ import java.util.Stack;
  * CONDITION : ONLY WORKS WITH +ve
  */
 
-public class DesignGetMinUsingStackWithO_1AuxSpace {
+public class DesignGetMinUsingStackWithO_1AuxSpace_HanlingOnlyPositive {
 
     static class MyStack{
         Stack<Integer> ms = new Stack<>();
