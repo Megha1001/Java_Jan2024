@@ -9,6 +9,13 @@ public class DesignGetMinUsingStackWithO_1AuxSpace {
         Stack<Integer> s = new Stack<>();
         int min;
 
+
+        /*
+         * How does this work?
+         * We push 2*x-min only when x<=min.
+         * so 2*x-min is always going to be less than or equal to x and x is going to be our new min
+         *  2*x-min = x+(x-min), and x<=min meaning x+(<=0) --> 2x-min <=x --> condition will use during popping operation
+         */
         void push(int x){
             if(s.isEmpty()){
                 s.push(x);
@@ -24,6 +31,11 @@ public class DesignGetMinUsingStackWithO_1AuxSpace {
                 s.push(x);
             }
         }
+
+        /*
+         * t = 2*min - prevMin
+         * prevMin = 2*min - t
+         */
 
         int pop(){
             int t = s.pop();
