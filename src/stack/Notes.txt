@@ -30,3 +30,10 @@ hence TIME COMPLEXITIES for below operations
 - push -> amortized O(1)
 - size, isEmpty, peek --> O(1)
 ------------------------------------
+
+
+Infix, Postfix and Prefix introduction
+
+Advantages of Prefix and Postfix
+1. Do no require parenthesis, procedure rules and associativity rules
+2. Can be evaluated by writing a program that traverse the given expression exactly one. Where as in infix we may require more than one traversal
