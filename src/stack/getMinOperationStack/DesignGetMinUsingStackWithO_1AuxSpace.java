@@ -49,6 +49,7 @@ public class DesignGetMinUsingStackWithO_1AuxSpace {
                 //have to pop min and update min
                 int prevMin = min - temp; //to sum actually - - => +
                 min = prevMin;
+                ms.pop();
                 return res;
             }
             return ms.pop(); //always
