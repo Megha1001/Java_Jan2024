@@ -77,6 +77,10 @@ public class InfixToPrefixConversion {
             }
 
         }
+        
+        while(!stack.isEmpty()){
+            result.append(stack.pop());
+        }
 
         System.out.println(result.reverse());
 
