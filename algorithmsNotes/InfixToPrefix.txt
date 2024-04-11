@@ -1,0 +1,23 @@
+Stack -> To store operators
+
+1. Create an empty stack, st.
+
+2. Do following for every character from R to L. --> NOTE : R TO L here
+
+        a. If x is
+            i. Operand  : output/print it.
+            ii. Right Paranthesis : Push to st.
+            iii. Left Paranthesis : Pop from st until left parenthesis is found. Output the popped characters/
+            iv. Operator :
+                -> If st is empty, push x to st else compare it with top of st.
+                    - x has higher Precendence than top of stack : Push to st.
+                    - x has lower Precendence than top of stack : Pop st top and output until a lower precendence found on top of stack. Then push x to st.
+                    - x has equal Precendence than top of stack : Deal with associativity
+                        > L to R : Meaning earlier came operator has higher precendence. pop until the lower Precendence found on top of stack then push x to st.
+                        > R to L : Meaning operator coming now has higher precedence push it on the stack.
+
+3. Pop and output from the stack
+
+
+
+Note : At each moment we maintain operator from lower precendence to higher precendence in Stack from bottom to Top
