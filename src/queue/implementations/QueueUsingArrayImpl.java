@@ -22,8 +22,8 @@ public class QueueUsingArrayImpl {
             if(size==cap){
                 return;
             }
+            arr[size] = x;
             ++size;
-            arr[size-1] = x;
         }
 
         /*
@@ -62,7 +62,7 @@ public class QueueUsingArrayImpl {
                 return -1;
             }
 
-            return arr[size-1];
+            return arr[size];
         }
 
         boolean isFull(){
