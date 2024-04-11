@@ -7,6 +7,8 @@ import java.util.Stack;
  *  Push, Pop , getMin : O(1)
  * 
  * AUX SPACE : O(1)
+ * 
+ * CONDITION : ONLY WORKS WITH +ve
  */
 
 public class DesignGetMinUsingStackWithO_1AuxSpace {
