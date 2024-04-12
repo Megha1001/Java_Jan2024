@@ -1,6 +1,6 @@
 package queue.implementations;
 
-public class QueueUsingArrayImpl {
+public class QueueUsingArrayImplHavingO_N_For_Deletion {
 
     static class Queue{
         int size;//size filled by elements
