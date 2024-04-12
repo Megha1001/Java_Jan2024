@@ -1,6 +1,10 @@
 Queue
 -----
 
+TIME COMPLEXITIES : O(1)
+LINKED LIST IMPL : Doubly LL --> have two pointer one at first and other at last
+ARRAYDEQUEUE -> (dynamic size array or circular array) but as per JAVA TC : amortized O(1)
+
 Insert add(e) offer(e) --> returns boolean generally(true -> if successfully added, false --> if not able to add)
 
 Difference : Inserts the specified element into the queue if its possible to do so immediately without violeting capacity restrictions. When using a
