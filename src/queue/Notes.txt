@@ -27,3 +27,9 @@ Applications of Queue
 3. In operating systems(Semaphores, FCFS Scheduling, Spooling(in printers), buffer for devices like keyboard)
 4. In computer networks ( Routers/Switches and mail queues)
 5. Variations : Deque, Priority Queue, Doubly ended priority queue
+
+
+----------------------------
+                        -> LinkedList(mainly doubly linkedlist)
+Collections     -> Queue
+                        -> ArrayDeque(use array)
