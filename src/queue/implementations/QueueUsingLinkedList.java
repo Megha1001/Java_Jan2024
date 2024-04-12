@@ -21,6 +21,13 @@ public class QueueUsingLinkedList {
         Node rear;
         int size;
 
+
+        Queue(){
+            this.front = null;
+            this.rear = null;
+            this.size = 0;
+        }
+
         void enqueue(int x){
             Node temp = new Node(x);
             ++size;
@@ -73,6 +80,8 @@ public class QueueUsingLinkedList {
 		q.dequeue(); 
 		System.out.println("Queue Front : " + q.front.data); 
 		System.out.println("Queue Rear : " + q.rear.data); 
+        q.dequeue(); 
+        q.dequeue(); 
         System.out.println("Size : "+q.getSize());
     }
     
