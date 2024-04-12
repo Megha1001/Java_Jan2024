@@ -33,3 +33,13 @@ Applications of Queue
                         -> LinkedList(mainly doubly linkedlist)
 Collections     -> Queue
                         -> ArrayDeque(use array)
+
+
+Prefer : ArrayDeque
+    - Since array, cache friendly and faster
+
+TIME COMPLEXITIES : BOTH IS O(1)
+    Array : amortized 1
+    LinkedList : Always 1
+
+    so if perticular about operations that no operation should take more than O(1) then go with LL since its worst case is O(1)
