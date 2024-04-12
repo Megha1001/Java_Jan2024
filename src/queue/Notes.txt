@@ -1,10 +1,12 @@
 Queue
 -----
 
-Insert add(e) offer(e)
+Insert add(e) offer(e) --> returns boolean generally(true -> if successfully added, false --> if not able to add)
 
 Difference : Inserts the specified element into the queue if its possible to do so immediately without violeting capacity restrictions. When using a
-capacity-restricted queue, this method is generally preferrable to add , which can fail an element only by throwing an exception.
+capacity-restricted queue, this method is generally preferrable over add , which can fail an element only by throwing an exception.
+
+offer -> returns false even when we try to add beyond the capacity while add throws an exception in this case.
 
 
 Remove remove() poll()
