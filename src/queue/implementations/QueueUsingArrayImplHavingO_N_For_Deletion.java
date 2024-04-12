@@ -1,5 +1,8 @@
 package queue.implementations;
 
+/*
+ * TIME COMPLEXITY : O(1) except for deletion ; O(N)
+ */
 public class QueueUsingArrayImplHavingO_N_For_Deletion {
 
     static class Queue{
