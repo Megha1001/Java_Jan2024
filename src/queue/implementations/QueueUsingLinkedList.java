@@ -65,6 +65,22 @@ public class QueueUsingLinkedList {
         int getSize(){
             return size;
         }
+
+        int getFront(){
+            if(front==null){
+                return -1;
+            }
+
+            return front.data;
+        }
+
+        int getRear(){
+            if(front==null){
+                return -1;
+            }
+
+            return rear.data;
+        }
     }
 
 
@@ -80,9 +96,11 @@ public class QueueUsingLinkedList {
 		q.dequeue(); 
 		System.out.println("Queue Front : " + q.front.data); 
 		System.out.println("Queue Rear : " + q.rear.data); 
-        q.dequeue(); 
-        q.dequeue(); 
+        // q.dequeue(); 
+        // q.dequeue(); 
         System.out.println("Size : "+q.getSize());
+        System.out.println("Front : "+q.getFront());
+        System.out.println("Rear : "+q.getRear());
     }
     
 }
