@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/getMinOperationStack/withAuxSpace/DesignGetMinUsingStackWithO_1AuxSpaceAndSomeConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/getMinOperationStack/withAuxSpace/DesignGetMinUsingStackWithO_1AuxSpaceAndSomeConditions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +92,11 @@
           <url>file://$PROJECT_DIR$/src/stack/getMinOperationStack/withAuxSpace/DesignGetMinUsingStackWithO_1AuxSpaceAndSomeConditions.java</url>
           <line>68</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queue/implementations/QueueUsingArrayImplHavingAllOperationsO_1.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
