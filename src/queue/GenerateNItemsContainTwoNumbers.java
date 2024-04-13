@@ -16,6 +16,11 @@ import java.util.ArrayDeque;
  *          -> poll the number and same it in temp
  *          -> print temp
  *          -> add temp+"5", and temp+"6" to the queue  (order is imp)
+ * 
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(N) -> for queue
+ * 
  */
 
 public class GenerateNItemsContainTwoNumbers {
