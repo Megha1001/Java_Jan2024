@@ -1,0 +1,11 @@
+Deque : (Doubly ended queue) can be use as Stack or Queue
+two ends : Front and rear
+
+IMplementation : 
+    1. Linked List ->For all operation in O(1)-> use Doubly linked list (why not singly LL -> can't delete from Rear in O(1) time)
+    2. Array -> Normal array can't do operation in O(1) hence use Circular Array(For all operation in O(1)) with size variable and front reference.
+
+
+
+Applications :
+--------------------
