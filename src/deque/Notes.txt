@@ -29,4 +29,4 @@ Applications :
             --> when the prioritiy is 1 we can add at front and when the priority is 2 we can add at rear
                 -> when we have to process we can take the process from front/ delete the process from front 
 
-5. 
+5. Maximum/Minimum of all subarrays of size k in  an array
