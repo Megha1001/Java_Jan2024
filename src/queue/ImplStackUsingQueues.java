@@ -8,6 +8,8 @@ import java.util.ArrayDeque;
  * - Use two Queue(main queue -> ma and Auxilary queue ->aq)
  * - While pushing element we take all the items present in mq->aq then push in mq then push back all the elements of aq->mq
  * - to delete an items poll from front of the queue since it would be containing last pushed element at front
+ * 
+ * TIME COMPLEXITY : O(1) except for push item.
  */
 
 public class ImplStackUsingQueues {
