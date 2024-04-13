@@ -9,3 +9,24 @@ IMplementation :
 
 Applications :
 --------------------
+1. A Deque can be used as both stack and queue
+
+2. Maintaining history of actions
+    - When you have a buffer in limited size and you want to store the actions of user browser history
+        -> when somebody visits the page add that page to rear and when buffer becomes full you start removing from rear.
+        -> when someone go back and back you remove from rear
+
+3.  A Steal Process Scheduling algorithm
+    -> Multiple processors have there own different queues
+        P1 -> t1, t2, t3
+        P2 -> empty
+
+        to Pick the process by P2 from P1 as its free it can pick from P1 rear and normal queue not allows deletion from rear hence need deque
+
+4. Implementing a Priority queue with two types of priority
+    - > Example : you will have two priorities 1,2
+        --> priority with value 1 should be process first below any priority 2
+            --> when the prioritiy is 1 we can add at front and when the priority is 2 we can add at rear
+                -> when we have to process we can take the process from front/ delete the process from front 
+
+5. 
