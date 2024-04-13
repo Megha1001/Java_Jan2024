@@ -2,7 +2,6 @@ package queue.reverseQueue;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
-import java.util.Stack;
 
 public class RecursiveSolution {
     public static void main(String args[]){
