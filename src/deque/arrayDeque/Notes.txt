@@ -1,0 +1,18 @@
+Collection
+    ^
+    |
+  Queue
+    ^
+    |
+ArrayDeque
+
+
+
+Note : Queue interface is different from list interface. List also inherits from collection but queue and list, they are sepearate
+So, whatever list specific functionalities are there. They are not there in the classes, which implement queu interface only.
+For example : Getting an item at a given index, setting an item at a given index.
+
+Get and set are there in the LL so LL class is a class that implements both deque and List interface.
+
+The great thing about array deque is it is faster than LL on average, because its an array implementation and it can be used as a Stack.
+It can be used as a queue and it can be used as a dequeue also.
