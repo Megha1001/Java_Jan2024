@@ -44,6 +44,15 @@ public class DequeOperations {
             System.out.print(x+" ");
         }
 
+        System.out.println();
+
+        //traverse in descending order
+        it = dq.descendingIterator();
+
+        while(it.hasNext()){
+            System.out.print(it.next()+" ");
+        }
+
     }
     
 }
