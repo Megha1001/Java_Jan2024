@@ -4,3 +4,23 @@
 Descendants : All the nodes that lie in this subtree with this particular node as root
 Degree of a node : Number of children it has(degree of leaf node : 0)
 Internal Node : Node with degree !=0
+
+
+Application of Trees
+    - Organization Structure
+    - Folder Structure
+    - XML/HTML Content(JSON CONTENTS)
+    - In OOPS(Inheritance)
+
+-Binary Search Trees
+-Binary Heap -> Used to represent Priority Queue
+- B and B+ Trees --> used for indexing <-- or use hashing 
+    Common is B and B+ Trees
+- Computer Networks : Spanning(Used by Bridges) and shortest path tree(Used by routers)
+- Parse Tree : Used by compiler to parse source code
+- Trie : Used to represent dictionaries
+- Suffix Tree
+- Binary Index Tree : for range query searchs
+- Segment Tree : : for range query searchs 
+
+Segment Tree is more powerful but Binary Index Tree is faster for limited set of operations
