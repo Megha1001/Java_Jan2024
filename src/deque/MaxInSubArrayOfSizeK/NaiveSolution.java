@@ -1,4 +1,4 @@
-package deque.arrayDeque.MaxInSubArrayOfSizeK;
+package deque.MaxInSubArrayOfSizeK;
 
 /*
  * Approach : 

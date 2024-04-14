@@ -1,4 +1,4 @@
-package deque.arrayDeque.MaxInSubArrayOfSizeK;
+package deque.MaxInSubArrayOfSizeK;
 
 import java.util.Deque;
 import java.util.LinkedList;
