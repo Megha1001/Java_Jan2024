@@ -24,3 +24,7 @@ Application of Trees
 - Segment Tree : : for range query searchs 
 
 Segment Tree is more powerful but Binary Index Tree is faster for limited set of operations
+
+------------------------------------------------------------------------------------------------------------------------
+
+Binary Tree : Tree where every node has atmost two childrens
