@@ -36,8 +36,8 @@ Normally trees are represent as linked structure. But there are some trees repre
 
 TRAVERSAL
 
-    - Breadth First (Level order traversal)
-    - Depth First
+    - Breadth First (Level order traversal)(Queue)
+    - Depth First (Recursion)
         - Inoder
         - Preorder
         - Postorder
