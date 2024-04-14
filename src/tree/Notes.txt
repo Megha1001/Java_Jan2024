@@ -1,0 +1,6 @@
+-Use to represent hierarchy unline Array, ArrayList, Stack, Queue, Deque( they all are sequentials), tree non linear.
+-Its recursive(has many trees inside it/subtree)
+
+Descendants : All the nodes that lie in this subtree with this particular node as root
+Degree of a node : Number of children it has(degree of leaf node : 0)
+Internal Node : Node with degree !=0
