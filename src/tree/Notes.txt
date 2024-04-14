@@ -13,7 +13,7 @@ Application of Trees
     - In OOPS(Inheritance)
 
 -Binary Search Trees
--Binary Heap -> Used to represent Priority Queue
+-Binary Heap(A Binary Heap is either Min Heap or Max Heap) -> Used to represent Priority Queue
 - B and B+ Trees --> used for indexing <-- or use hashing 
     Common is B and B+ Trees
 - Computer Networks : Spanning(Used by Bridges) and shortest path tree(Used by routers)
