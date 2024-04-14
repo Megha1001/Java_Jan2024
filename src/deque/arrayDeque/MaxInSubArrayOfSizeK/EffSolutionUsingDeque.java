@@ -44,6 +44,10 @@ public class EffSolutionUsingDeque {
             d.offerLast(i);
         }
 
+        /*
+         * We are trying to maintain in non-incresing order
+         */
+
 
         for(int i=k; i<n; i++){
             //print for previous subarray
