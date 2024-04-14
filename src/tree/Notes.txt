@@ -30,3 +30,14 @@ Segment Tree is more powerful but Binary Index Tree is faster for limited set of
 Binary Tree : Tree where every node has atmost two childrens
 
 Normally trees are represent as linked structure. But there are some trees represent with array strcture like binary head and segmenet trees
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+TRAVERSAL
+
+    - Breadth First (Level order traversal)
+    - Depth First
+        - Inoder
+        - Preorder
+        - Postorder
