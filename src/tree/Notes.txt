@@ -18,8 +18,8 @@ Application of Trees
     Common is B and B+ Trees
 - Computer Networks : Spanning(Used by Bridges) and shortest path tree(Used by routers)
 - Parse Tree : Used by compiler to parse source code
-- Trie : Used to represent dictionaries
-- Suffix Tree
+- Trie : Used to represent dictionaries(The pattern matching can be done efficiently using tries.)
+- Suffix Tree : Pattern Searching
 - Binary Index Tree : for range query searchs
 - Segment Tree : : for range query searchs 
 
