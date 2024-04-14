@@ -15,6 +15,11 @@ import java.util.LinkedList;
 *   peekLast
 *   pollLast
 *   offerFirst
+*
+*   TIME COMPLEXITY : O(N)
+*   Why : Because for inner while loops that are actually like doing 2 N operation(each element add and remove atmost once)
+*
+*
 */
 
 public class EffSolutionUsingDeque {
