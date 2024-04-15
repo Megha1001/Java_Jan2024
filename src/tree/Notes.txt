@@ -41,3 +41,6 @@ TRAVERSAL
         - Inoder
         - Preorder
         - Postorder
+
+-------
+ArrayDeque does not allow null elements to be added to the queue. When you attempt to add null to an ArrayDeque, it throws a NullPointerException. This behavior is different from LinkedList, which allows null elements.
