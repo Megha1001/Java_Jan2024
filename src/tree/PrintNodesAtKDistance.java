@@ -1,5 +1,10 @@
 package tree;
 
+/*
+ * TIME COMPLEXITY : O(N) //might have to traverse all the nodes
+ * AUX COMPLEXITY : O(H) //height of the tree
+ */
+
 public class PrintNodesAtKDistance {
 
     static class Node{
@@ -30,7 +35,7 @@ public class PrintNodesAtKDistance {
 
         System.out.println("Nodes present at distance K are ");
         // printNodes(root, 3-1);
-        printNodes(root, 3);
+        printNodes(root, 0);
     
     }
 
