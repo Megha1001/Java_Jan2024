@@ -3,6 +3,18 @@ package tree.traversal.levelOrderTraversal.relatedQuestions;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/*
+ * Approach :
+ *  When you traverse last node of level  your next level will already be there in the queue.
+ *  null indicates end of level marker
+ * 
+ * TIME COMPLEXITY : O(N+H), height can we ignored
+ * Every node enqueu and deque exactly once, 
+ * how much time to process extra nulls (O(H), we have H null , where H is height)
+ * 
+ * AUX SPACE : Theta(W), more specially , O(W+1(for null)) or O(N)--> for perfectly binary
+ */
+
 public class LevelOrderTraversalLineByLine {
 
     static class Node{
