@@ -10,7 +10,7 @@ import java.util.ArrayDeque;
  *      -> Dequeue (TC : O(1))
  * 
  * 
- * AUX SPACE : O(N)
+ * AUX SPACE : O(W), where w is width of binary tree
  *  *  We have (atmost one next level) already in the queue --> so AS : O(WIDTH oF BiNARY TREE)
  *  sometimes O(1)-> skew tree
  * 
