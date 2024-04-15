@@ -1,4 +1,4 @@
-package tree.traversal.depthFirst.levelOrderTraversal;
+package tree.traversal.levelOrderTraversal.algo;
 
 import java.util.Queue;
 import java.util.ArrayDeque;
