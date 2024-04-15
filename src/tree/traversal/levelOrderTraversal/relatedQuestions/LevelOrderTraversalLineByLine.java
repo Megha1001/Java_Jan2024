@@ -1,5 +1,6 @@
 package tree.traversal.levelOrderTraversal.relatedQuestions;
 
+import java.util.LinkedList;
 import java.util.Queue;
 import java.util.ArrayDeque;
 
@@ -39,39 +40,34 @@ public class LevelOrderTraversalLineByLine {
         }
 
 
-        Queue<Node> q = new ArrayDeque<>();
+        /*
+         * ArrayDeque does not allow null elements to be added to the queue. When you attempt to add null to an ArrayDeque, 
+         * it throws a NullPointerException. This behavior is different from LinkedList, which allows null elements.
+         */
+        Queue<Node> q = new LinkedList<>();
 
         q.add(root);
-        q.add(new Node(-1)); //to find where to put new line , assuming -1 will never be present in that
+        q.add(null);
 
-        while(!q.isEmpty()){
+        while(q.size() > 1){
             
             Node temp = q.poll();
-            if(q.isEmpty()){
-                break;
-            }
-            if(temp.data==-1){
-                q.add(temp);
+            if(temp==null){
                 System.out.println();
-            }else{ //have data
-                System.out.print(temp.data+" ");
+                q.add(null);
+                continue;
+            }
+            System.out.print(temp.data+" ");
+            if(temp.left!=null){
+                q.add(temp.left);
+            }
 
-                if(temp.left!=null){
-                    q.add(temp.left);
-                }
-
-                if(temp.right!=null){
-                    q.add(temp.right);
-                }
+            if(temp.right!=null){
+                q.add(temp.right);
             }
 
         }
 
-        
-
-
-
     }
-
     
 }
