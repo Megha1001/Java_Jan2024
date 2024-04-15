@@ -4,10 +4,20 @@ import java.util.Queue;
 import java.util.ArrayDeque;
 
 /*
- * TIME COMPLEXITY : O(N)
+ * TIME COMPLEXITY : O(N) oR THETA(N)
  *  -> for every node we do two operations
  *      -> enqueu (TC : O(1))
  *      -> Dequeue (TC : O(1))
+ * 
+ * 
+ * AUX SPACE : O(N)
+ *  *  We have (atmost one next level) already in the queue --> so AS : O(WIDTH oF BiNARY TREE)
+ *  sometimes O(1)-> skew tree
+ * 
+ * In perfect binary tree : N/2 nodes will be at last level
+ * so in general , O(N)
+ * 
+ * 
  */
 
 public class EffiLevelOrderTraversal {
