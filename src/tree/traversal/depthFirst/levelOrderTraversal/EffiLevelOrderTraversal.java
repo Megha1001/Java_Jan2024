@@ -3,6 +3,13 @@ package tree.traversal.depthFirst.levelOrderTraversal;
 import java.util.Queue;
 import java.util.ArrayDeque;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ *  -> for every node we do two operations
+ *      -> enqueu (TC : O(1))
+ *      -> Dequeue (TC : O(1))
+ */
+
 public class EffiLevelOrderTraversal {
     
     static class Node{
