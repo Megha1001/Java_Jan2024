@@ -12,7 +12,7 @@ import java.util.Queue;
  * Every node enqueu and deque exactly once, 
  * how much time to process extra nulls (O(H), we have H null , where H is height)
  * 
- * AUX SPACE : Theta(W), more specially , O(W+1(for null)) or O(N)--> for perfectly binary
+ * AUX SPACE : Theta(W), more specially , O(W+1(for null)) or O(N/2)--> for perfectly binary --> so O(N)
  */
 
 public class LevelOrderTraversalLineByLine {
