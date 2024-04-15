@@ -2,7 +2,6 @@ package tree.traversal.levelOrderTraversal.relatedQuestions;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.ArrayDeque;
 
 public class LevelOrderTraversalLineByLine {
 
