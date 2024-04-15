@@ -2,7 +2,7 @@ package tree.traversal;
 
 /*
  * TIME COMPLEXITY : O(N) --> constant amount of work for every node
- * AUX SPACE : O(Height of Tree)
+ * AUX SPACE : O(Height of Tree) [Exact : O(H+1) , 1 for null]
  */
 public class InOrderTraversal{
     
