@@ -1,4 +1,4 @@
-package tree.traversal;
+package tree.traversal.depthFirst;
 
 /*
  * TIME COMPLEXITY : O(N) --> constant amount of work for every node
