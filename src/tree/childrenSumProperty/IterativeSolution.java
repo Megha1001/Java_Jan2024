@@ -10,6 +10,9 @@ import java.util.LinkedList;
  * present , else if only one child is presen then the value of the child should be equal to its node value
  * 
  * in none of the child is present(return true for leaf or single node) or root is null then return true
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(W),where w is width
  */
 
 
