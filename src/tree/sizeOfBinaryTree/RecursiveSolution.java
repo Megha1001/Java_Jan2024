@@ -5,7 +5,7 @@ package tree.sizeOfBinaryTree;
  * AUX SPACE : O(H)
  */
 
-public class NaiveSolution {
+public class RecursiveSolution {
 
     static class Node{
         int data;
