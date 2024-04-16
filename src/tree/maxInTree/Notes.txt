@@ -1,0 +1,5 @@
+Choice from both the algo depends on type of input
+
+
+INPUT : Skew Tree -> Iterative will perform better
+INPUT : Prefectly balanced tree --> Recursive will perform better
