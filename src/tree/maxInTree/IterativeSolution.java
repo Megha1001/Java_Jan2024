@@ -7,7 +7,7 @@ import java.util.LinkedList;
 TIME COMPLEXITY : O(N)
 AUX SPACE : O(W), where w is width
  *
- * Pros : Have overhead when tree is perfectly balanced
+ * Pros : Perform good in skew tree, Have overhead when tree is perfectly balanced, doesn't have recursive overhead
 
  */
 
