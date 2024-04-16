@@ -43,6 +43,26 @@ public class IterativeSolution {
         }
 
         Queue<Node> q = new LinkedList<>();
+        q.offer(root);
+
+        while(!q.isEmpty()){
+            int size = q.size();
+
+            for(int i=0 ; i<size; i++){
+                Node curr = q.poll();
+                if(i==0){
+                    System.out.print(curr.data+" ");
+                }
+
+                if(curr.left!=null){
+                    q.add(curr.left);
+                }
+
+                if(curr.right!=null){
+                    q.add(curr.right);
+                }
+            }
+        }
     
     }
     
