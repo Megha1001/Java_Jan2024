@@ -53,7 +53,7 @@ public class IterativeSolution {
     public static boolean checkChildrenSumProperty(Node root){
         
         //base cases
-        if(root==null || (root.left==null && root.right == null)){
+        if(root==null || (root.left==null && root.right == null)){ //SECOND CONDITION IS IMP
             return true;
         }
 
