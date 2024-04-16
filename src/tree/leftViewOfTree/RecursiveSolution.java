@@ -11,7 +11,7 @@ package tree.leftViewOfTree;
  * AUX SPACE : O(H)
  */
 
-public class Recursive {
+public class RecursiveSolution {
 
     public static int maxLevel = 0;
 
