@@ -60,9 +60,8 @@ public class NaiveSolution {
             }
             
         }
+        return res;
 
     }
-
-    return res;
     
 }
