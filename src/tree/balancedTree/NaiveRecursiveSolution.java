@@ -1,5 +1,9 @@
 /*
 Balanced Tree : Math.abs (Height(Left sub tree) - Height(Right Sub tree)) <=1
+
+TIME COMPLEXITY : O(N^2)
+
+Calling height func for every node of left sub tree and right sub tree (except root) so basically height function will be executed N-1 times for N-1 nodes --> Overall O(N^2)
 */
 
 class NaiveRecursiveSolution{
