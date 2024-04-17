@@ -1,9 +1,5 @@
 package tree.childrenSumProperty;
 
-import java.util.Queue;
-import java.util.LinkedList;
-
-
 /*
  * Problem : Children Sum property is a property in which the sum of values of the
  * left child and right child should be equal to the value of their nodes if both children
