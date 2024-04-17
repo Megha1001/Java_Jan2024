@@ -2,7 +2,7 @@
 Balanced Tree : Math.abs (Height(Left sub tree) - Height(Right Sub tree)) <=1
 */
 
-class RecursiveSolution{
+class NaiveRecursiveSolution{
     
     
     static class Node{
