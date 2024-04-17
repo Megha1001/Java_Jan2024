@@ -1,5 +1,3 @@
-package tree.balancedTree;
-
 /*
 Balanced Tree : Math.abs (Height(Left sub tree) - Height(Right Sub tree)) <=1
 
