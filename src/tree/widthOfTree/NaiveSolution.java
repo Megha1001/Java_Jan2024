@@ -5,6 +5,9 @@ import java.util.LinkedList;
 
 /*
  * use solution of printing left view iterative solution
+ * 
+ * TIME COMPLEXITY : THeta(N) , every nodes goes into the queue once
+ * AUX SPACE : O(W) , where w is width or O(N)[in prefect binary tree, N/2]
  */
 
 public class NaiveSolution {
