@@ -29,7 +29,6 @@ public class EfficientSolution {
 
         root.right.right = new Node(60);
 //        root.right.right.right = new Node(70);
-
         System.out.println("is the given tree balanced ? "+(isBalanced(root)==-1?false: true));
     }
 
