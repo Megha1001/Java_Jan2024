@@ -1,5 +1,8 @@
 package tree.treeContructionFromOrders;
 
+/*
+ * TIME COMPLEXITIES : O(N^2)
+ */
 public class TreeConstWithInorderAndPreOrder {
 
     static class Node{
@@ -49,7 +52,7 @@ public class TreeConstWithInorderAndPreOrder {
 
         //search root in inorder
         int inIndex=is;
-        for(int i=is; i<=ie; i++){
+        for(int i=is; i<=ie; i++){ //--> For every node we are doing O(N) work
             if(root.data == in[i]){
                 inIndex = i;
                 break;
