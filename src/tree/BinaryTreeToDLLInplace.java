@@ -2,6 +2,8 @@ package tree;
 
 public class BinaryTreeToDLLInplace {
 
+    public static Node prev = null;
+
     static class Node{
         int data;
         Node left;
@@ -23,6 +25,18 @@ public class BinaryTreeToDLLInplace {
         Node head = convertBTToDLL(root);
         traverse(head);
     }
+
+    public static void traverse(Node head){
+        if(head==null){
+            return;
+        }
+
+        Node temp = head;
+        while(temp!=null){
+            System.out.print(temp.data+" ");
+            temp=temp.right;
+        }
+    }
     
     /*
      * Consider inorder traversal
@@ -32,6 +46,21 @@ public class BinaryTreeToDLLInplace {
         if(root==null){
             return null;
         }
+
+        Node head = convertBTToDLL(root.left);
+        
+        if(prev == null){
+            head = root;
+        }else{
+            prev.right = root;
+            root.left = prev;
+        }
+        prev = root;
+        convertBTToDLL(root.right);
+
+        return head;
+
+        
 
 
     }
