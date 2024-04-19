@@ -1,5 +1,13 @@
 package tree;
 
+/*
+ * Approach
+ * 1. Do inorder traversal and maintain previous reference
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(H), where h is height.
+ */
+
 public class BinaryTreeToDLLInplace {
 
     public static Node prev = null;
