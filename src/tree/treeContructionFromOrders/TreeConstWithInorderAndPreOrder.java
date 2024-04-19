@@ -18,7 +18,7 @@ public class TreeConstWithInorderAndPreOrder {
         int pre[] = {10,20,30,40,50};
 
         System.out.println("The binary tree is : ");
-        Node root = constructTree(in, pre, in.length, pre.length-1);
+        Node root = constructTree(in, pre, 0, pre.length-1);
 
         //do preorder traversal
         preOrderTraversal(root);
@@ -48,7 +48,7 @@ public class TreeConstWithInorderAndPreOrder {
         Node root = new Node(pre[preIndex++]);
 
         //search root in inorder
-        int inIndex=0;
+        int inIndex=is;
         for(int i=is; i<=ie; i++){
             if(root.data == in[i]){
                 inIndex = i;
