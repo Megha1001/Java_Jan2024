@@ -1,0 +1,4 @@
+LCA
+ancestor of a node is node itself, its parent, its parent parent and so on.
+
+- This is useful to find distance between two nodes in given binary tree
