@@ -12,7 +12,6 @@ TIME COMPLEXITY : O(N)[for first findPath](for skew) + O(N)[for second findPath]
 Three traversal for binary tree
  */
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class NaiveSolution {
