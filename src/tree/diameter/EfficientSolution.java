@@ -3,6 +3,7 @@ package tree.diameter;
 /*
  * Approach : While calculating height also calculate diameter but return height
  * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(H)
  */
 
 public class EfficientSolution {
