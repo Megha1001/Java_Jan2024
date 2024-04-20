@@ -1,5 +1,11 @@
 package tree.diameter;
 
+/*
+WORSt case : Skew tree
+ * TIME COMPLEXITY : O(N^2)
+ * T(N) = T(N-1)+O(N)
+ */
+
 public class NaiveSolution {
 
     public static int res = 0;
