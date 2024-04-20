@@ -13,6 +13,9 @@ import java.util.Stack;
  * - while s2 is not empty
  *      - take out a node, print it
  *      - PUSH CHILDREN OF TAKE OUT NODE IN REVERSE ORDER
+ * 
+ * In naive solution , every item that needs to be print in reverse order traversed 4 times(enqueu, dequeue, push, pop). Here for every time --> push and pop
+ * TIME COMPLEXITY : O(N)
  */
 
 
