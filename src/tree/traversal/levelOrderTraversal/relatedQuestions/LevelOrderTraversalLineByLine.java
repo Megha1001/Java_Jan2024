@@ -68,7 +68,7 @@ public class LevelOrderTraversalLineByLine {
                 q.add(null);
                 continue;
             }
-            System.out.print(temp.data+" ");
+            System.out.print(temp.  data+" ");
             if(temp.left!=null){
                 q.add(temp.left);
             }
