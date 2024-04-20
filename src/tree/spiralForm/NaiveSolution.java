@@ -14,6 +14,8 @@ import java.util.ArrayDeque;
  * - push left check and right check as normal in queue
  * 4. after loop if reversed is true --> pop item from stack and print until it gets empty
  * 5. toggle the reversed variable
+ * 
+ * TIME COMPLEXITY : O(N), Enqueue and dequeue in queue exactly once  (Also pushed and pop in Stack --> O(4N))
  */
 
 
