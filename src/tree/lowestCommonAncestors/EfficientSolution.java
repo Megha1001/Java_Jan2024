@@ -10,6 +10,11 @@ package tree.lowestCommonAncestors;
  *  - If one of its subtree contains n1 and other contains n2
  *  - If one of its subtree contains n1 and n2 both
  *  - If none of its subtree contains any of n1 and n2;
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX SPACE : O(H)
+ * 
+ * Advantage : require one traversal in binary tree
  */
 
 public class EfficientSolution {
