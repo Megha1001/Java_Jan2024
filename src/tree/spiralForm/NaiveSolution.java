@@ -78,11 +78,14 @@ public class NaiveSolution {
             }
 
             if(reversed){
-                System.out.print(s.pop()+" ");
+                while(!s.isEmpty()){
+                    System.out.print(s.pop()+" ");
+                }
             }
 
             reversed = !reversed;
 
+            System.out.println();
         }
 
     }
