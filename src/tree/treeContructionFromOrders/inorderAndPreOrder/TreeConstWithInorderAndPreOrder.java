@@ -1,4 +1,4 @@
-package tree.treeContructionFromOrders;
+package tree.treeContructionFromOrders.inorderAndPreOrder;
 
 /*
  * TIME COMPLEXITIES : O(N^2)
