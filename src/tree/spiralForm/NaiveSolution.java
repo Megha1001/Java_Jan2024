@@ -16,6 +16,7 @@ import java.util.ArrayDeque;
  * 5. toggle the reversed variable
  * 
  * TIME COMPLEXITY : O(N), Enqueue and dequeue in queue exactly once  (Also pushed and pop in Stack --> O(4N))
+ * Amount of work while printing %2==0 level node is twice of other level(root level=1)
  */
 
 
