@@ -10,3 +10,4 @@
     - Search
     - FindCloset
 Note : But in case of self BST ==> Operations are O(logn)
+Ideally we want to have Balanced BST
