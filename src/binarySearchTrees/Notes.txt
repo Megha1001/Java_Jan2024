@@ -2,3 +2,11 @@
 - All keys are typically considered as distinct
 - Like linked list its a linked data structure.(Not cache friendly)
 - Implemented using TreeMap and TreeSet in java(Self balancing BST)
+
+
+- Below operations in BST are O(H), hence height matters it will become O(N) for skew trees
+    - Insert
+    - Delete
+    - Search
+    - FindCloset
+Note : But in case of self BST ==> Operations are O(logn)
