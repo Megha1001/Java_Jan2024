@@ -1,12 +1,12 @@
-package binarySearchTrees.search;
+package tree.binarySearchTrees.search;
 
 /*
  * TIME COMPLEXITY : O(H)[It can become N in case of skew]
- * AUX SPACE : O(H)
+ * AUX SPACE : O(1)
  */
 
-public class RecursiveSolution {
-
+public class IterativeSolution {
+    
     static class Node{
         int data;
         Node left;
@@ -31,28 +31,19 @@ public class RecursiveSolution {
         System.out.println("Is the search element present in BST ?"+isPresent(root, search));
 
     }
-   
-    
+
     public static boolean isPresent(Node root, int x){
-        if(root == null){
-            return false;
+        
+        while(root!=null){
+            if(root.data == x){
+                return true;
+            }else if(root.data < x){
+                root = root.right;
+            }else{
+                root = root.left;
+            }
         }
-
-        if(root.data == x){
-            return true;
-        }
-
-        //search in left
-        if(root.data > x){
-            return isPresent(root.left, x);
-        }
-
-        //search in right
-        if(root.data < x){
-            return isPresent(root.right, x);
-        }
-
         return false;
     }
-
+    
 }

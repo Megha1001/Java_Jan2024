@@ -1,4 +1,4 @@
-package binarySearchTrees.insert;
+package tree.binarySearchTrees.insert;
 
 public class RecursiveSolution {
 
