@@ -2,7 +2,7 @@ package tree.burnTree;
 
 public class BurnTreeFromLeafNode {
 
-    public static int res=-1;
+    public static int res=0;
 
     static class Node{
         int data;
@@ -44,11 +44,12 @@ public class BurnTreeFromLeafNode {
      */
     public static int burnTree(Node root, int leaf, Distance dis){
         if(root==null){
-            return 0; //when node is null height is0;
+            return 0; //when node is null height is 0;
         }
 
         if(root.data==leaf){
             dis.val = 0;//found the leaf
+            return 1;
         }
 
         Distance ldist = new Distance(-1);
@@ -77,6 +78,4 @@ public class BurnTreeFromLeafNode {
         return Math.max(lh, rh) + 1;
 
     }
-    
-    
 }
