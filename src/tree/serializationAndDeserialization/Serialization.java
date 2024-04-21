@@ -5,6 +5,10 @@ import java.util.ArrayList;
 /*
  * converting tree to arraylist
  * Traversal used :- preorder
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUX sPACE : O(N) //2N+1 entries
+ * 
  */
 public class Serialization {
 
