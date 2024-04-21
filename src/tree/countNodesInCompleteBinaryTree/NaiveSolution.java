@@ -1,8 +1,10 @@
 package tree.countNodesInCompleteBinaryTree;
 
 /*
- * TIME coMPLEXITY : O(N)
+ * TIME coMPLEXITY : Theta(N)
  * AUX SPACE : O(H)
+ * 
+ * BUT it doesn't uses the fact that its complete binary tree, it will work for any tree
  */
 
 public class NaiveSolution {
