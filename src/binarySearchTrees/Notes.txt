@@ -1,0 +1,4 @@
+- For every node, keys in left side are smaller and keys in right sides are greater
+- All keys are typically considered as distinct
+- Like linked list its a linked data structure.
+- Implemented using TreeMap and TreeSet in java.
