@@ -19,18 +19,33 @@ public class Deserialization {
         int arr[] = {10, 20, 40, -1, -1, 50, -1, -1, 30, -1, 60, -1, -1};
         System.out.println("Construct tree : ");
         Node root = buildTree(arr);
+        traverse(root);
     }
 
+    //pre-order traversal
+    public static void traverse(Node root){
+        if(root==null){
+            return;
+        }
+
+        System.out.print(root.data+" ");
+        traverse(root.left);
+        traverse(root.right);
+    }
 
     public static int idx = -1;
 
     public static Node buildTree(int arr[]){
+        ++idx;
         if(arr[idx]==-1){
             return null;
         }
 
         Node newNode = new Node(arr[idx]);
-        newNode.left = 
+        newNode.left = buildTree(arr);
+        newNode.right = buildTree(arr);
+
+        return newNode;
 
     }
     
