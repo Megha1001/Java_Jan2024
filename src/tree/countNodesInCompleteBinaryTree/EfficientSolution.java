@@ -7,6 +7,7 @@ package tree.countNodesInCompleteBinaryTree;
  * 
  * COMPLEXITY ANALYSIS
  *  - for perfectly balanced tree : require O(H)[for cal lh]+O(H)[for cal rh]
+ * At every level doing logN work --> have logN(base 3/2) levels
  * 
  * This use the fact that its complete binary tree
  */
