@@ -1,7 +1,7 @@
 package binarySearchTrees.search;
 
 /*
- * TIME COMPLEXITY : O(H)
+ * TIME COMPLEXITY : O(H)[It can become N]
  * AUX SPACE : O(H)
  */
 
