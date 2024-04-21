@@ -1,5 +1,10 @@
 package binarySearchTrees.search;
 
+/*
+ * TIME COMPLEXITY : O(logN)
+ * AUX SPACE : O(1)
+ */
+
 public class IterativeSolution {
     
     static class Node{
