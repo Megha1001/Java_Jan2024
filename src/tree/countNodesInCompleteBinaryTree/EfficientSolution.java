@@ -5,6 +5,9 @@ package tree.countNodesInCompleteBinaryTree;
  * T(N) = T(2N/3)+O(H)
  * AUX SPACE : O(H)
  * 
+ * COMPLEXITY ANALYSIS
+ *  - for perfectly balanced tree : require O(H)[for cal lh]+O(H)[for cal rh]
+ * 
  * This use the fact that its complete binary tree
  */
 
@@ -57,6 +60,9 @@ public class EfficientSolution {
         return (int) (Math.pow(2,lh)-1);
        }
 
+       /*
+        * one of the countNode 100% into lh==rh case
+        */
        return 1+countNode(root.left) + countNode(root.right);
 
 
