@@ -3,7 +3,7 @@ package tree.traversal.levelOrderTraversal.iterativeSolution;
 import java.util.Stack;
 
 
-public class PreOrderTraversal {
+public class PreOrderTraversalMethod1 {
 
     static class Node{
         int data;
