@@ -1,5 +1,8 @@
 package tree.serializationAndDeserialization;
 
+/*
+ *  * TIME COMPLEXITY : O(N)
+ */
 public class Deserialization {
 
     static class Node{
