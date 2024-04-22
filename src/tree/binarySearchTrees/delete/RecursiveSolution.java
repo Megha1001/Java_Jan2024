@@ -1,5 +1,10 @@
 package tree.binarySearchTrees.delete;
 
+/*
+ * TIME COMPLEXITY : O(H)
+ * AUX SPACE : O(H)
+ */
+
 public class RecursiveSolution {
 
     static class Node{
