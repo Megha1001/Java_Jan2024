@@ -26,7 +26,7 @@ public class IterativeSolution {
         root.right.right = new Node(18);
 
         System.out.println("After inseration the tree is : ");
-        Node newRoot = insert(root, 20);
+        insert(root, 20);
     }
 
     public static Node insert(Node root, int x){
