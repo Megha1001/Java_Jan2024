@@ -11,3 +11,12 @@
     - FindCloset
 Note : But in case of self BST ==> Operations are O(logn)
 Ideally we want to have Balanced BST
+
+- Inorder traversal of BST is always sorted
+
+--------------------------------------
+Deletion in BST (after deletion it should still be BST)
+- if key to be deleted
+    - leaf --> direct delete
+    - node with one child --> delete node and fill its position with one child
+    - node with two child --> since inorder traversal of BST is sorted. Hence, it would be immediate successor that we will replace(can we immediate predecessor)
