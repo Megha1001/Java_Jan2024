@@ -3,6 +3,8 @@ package tree.binarySearchTrees.delete;
 /*
  * TIME COMPLEXITY : O(H)
  * AUX SPACE : O(H)
+ * 
+ * it can become O(logn) in case of self balancing BST
  */
 
 public class RecursiveSolution {
