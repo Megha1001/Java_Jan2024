@@ -79,6 +79,9 @@ public class RecursiveSolution {
 
     /*
      * To find successor --> go right then go left, left left until not found null
+     * 
+     * This is not a generic code to calculate successor since we are calling ti in thrid case(when both the child exist), for ex: in case of cal succ of 40(which is a leaf node--> 50 is the actual successor), 
+     * but this code will fail since 50 is root and 40 is leaf(with no childrens)
      */
     public static Node getSuccessor(Node root, int x){
         Node curr = root.right; // root should be there, otherwise got caught at earlier stages
