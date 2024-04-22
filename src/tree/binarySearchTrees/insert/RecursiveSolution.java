@@ -1,6 +1,11 @@
 package tree.binarySearchTrees.insert;
 
-class RecursiveSolution2 {
+/*
+TIME COMPLEXITY : O(H)
+AUX SPACE : O(H)
+*/
+
+class RecursiveSolution {
     static class Node{
         int data;
         Node left;
