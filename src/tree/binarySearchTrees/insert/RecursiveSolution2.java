@@ -1,3 +1,5 @@
+package tree.binarySearchTrees.insert;
+
 class RecursiveSolution2 {
     static class Node{
         int data;
