@@ -58,3 +58,6 @@ AVL TREE;
 - Self balancing BST(left smaller right greater)
 - It is balanced(For every node, difference between left and right heights does not exceeds one)
         Balance factor = |lh-rh| <=1
+
+
+
