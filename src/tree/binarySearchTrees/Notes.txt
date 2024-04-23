@@ -51,3 +51,10 @@ Self balancing BST Example
 
 In general , Red-black tree is preferred more as compare to AVL Tree. In java, under TreeMap and TreeSet
 they use red black Tree
+
+
+AVL TREE;
+---------------
+- Self balancing BST(left smaller right greater)
+- It is balanced(For every node, difference between left and right heights does not exceeds one)
+        Balance factor = |lh-rh| <=1
