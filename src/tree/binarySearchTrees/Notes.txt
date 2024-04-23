@@ -61,3 +61,13 @@ AVL TREE;
 
 
 Note : Only insert or delete operation are different , search is still same as BST
+
+INSERT OPERATION
+------------------------
+PERFORM normal BST serach.
+- Traverse all ancestors(since only ancestors will get affect the balance factor) of the newly inserted node from the node to the root.
+- If find an unbalanced node, check for below cases
+    - left-left
+    - right-right
+    - left-right
+    - right-left
