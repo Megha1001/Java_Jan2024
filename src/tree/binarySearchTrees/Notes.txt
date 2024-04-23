@@ -75,3 +75,5 @@ PERFORM normal BST serach.
 One interesting fact :- about insertion, when we fix the unbalanced ancestor the whole tree will get aVL balanced, meaning only
 one rotation is required.
 This is not the case with deletion. In deletion, when we delete and fix the unbalanced ancestor we have to traverse again to ancestors to check
+
+TIME COMPLEXITY : O(logN) (to travel to ancestor --> for rotation complexity is O(1))
