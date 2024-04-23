@@ -33,3 +33,5 @@ Self balancing BST
     Note : Above functions complexities are O(H) where H can go till N
 
 Same set of keys can make different height BSTs
+
+If we know the keys in advance, we can make a perfectly balanced BST.
