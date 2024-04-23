@@ -20,3 +20,14 @@ Deletion in BST (after deletion it should still be BST)
     - leaf --> direct delete
     - node with one child --> delete node and fill its position with one child
     - node with two child --> since inorder traversal of BST is sorted. Hence, it would be immediate successor that we will replace(can we immediate predecessor)
+
+
+------------------------------------------------------
+Self balancing BST
+- make sure to keep the height as O(logN) so below operations can be done in O(LogN) time
+    - search
+    - insert
+    - delete
+    - FindCloset
+
+    Note : Above functions complexities are O(H) where H can go till N
