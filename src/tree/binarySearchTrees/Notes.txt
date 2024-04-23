@@ -40,4 +40,6 @@ Pick the middle make it root and do it recursively
 
 How to control if user are providing input(no gurantee of order)
 
-Idea : to do some extra work during inserting and deletion
+Idea : to do some extra work during inserting and deletion --> ROTATION
+
+ROTATION : is O(1) operation
