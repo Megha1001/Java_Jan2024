@@ -77,3 +77,8 @@ one rotation is required.
 This is not the case with deletion. In deletion, when we delete and fix the unbalanced ancestor we have to traverse again to ancestors to check
 
 TIME COMPLEXITY : O(logN) (to travel to ancestor --> for rotation complexity is O(1))
+
+Height of AVL Tree
+- h < clogbase2(n+2)+b
+    where, c ~ 1.4405
+            b ~ -1.3277
