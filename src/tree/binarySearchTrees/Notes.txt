@@ -60,4 +60,4 @@ AVL TREE;
         Balance factor = |lh-rh| <=1
 
 
-
+Note : Only insert or delete operation are different , search is still same as BST
