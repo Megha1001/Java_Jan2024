@@ -49,4 +49,5 @@ Self balancing BST Example
     - Red black Tree -> lose in balance hence required less rotations
     - AVL Tree -> Very strict in terms of balance;
 
-In general , Red-black tree is preferred more as compare to AVL Tree
+In general , Red-black tree is preferred more as compare to AVL Tree. In java, under TreeMap and TreeSet
+they use red black Tree
