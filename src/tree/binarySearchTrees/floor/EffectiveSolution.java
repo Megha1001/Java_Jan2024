@@ -26,8 +26,10 @@ public class EffectiveSolution {
         root.right.right = new Node(80);
         root.right.left.left = new Node(16);
 
-        int search = 16;
-        System.out.println("The floor of given element is  "+findFloor(root, search).data);
+        // int search = 16;
+        int search = 1;
+        Node res = findFloor(root, search);
+        System.out.println("The floor of given element is  "+(res!=null ? res.data : null));
     }
 
     public static Node findFloor(Node root, int x){
