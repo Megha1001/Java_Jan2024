@@ -35,3 +35,5 @@ Self balancing BST
 Same set of keys can make different height BSTs
 
 If we know the keys in advance, we can make a perfectly balanced BST.
+
+Pick the middle make it root and do it recursively
