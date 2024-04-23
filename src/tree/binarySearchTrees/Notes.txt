@@ -31,3 +31,5 @@ Self balancing BST
     - FindCloset
 
     Note : Above functions complexities are O(H) where H can go till N
+
+Same set of keys can make different height BSTs
