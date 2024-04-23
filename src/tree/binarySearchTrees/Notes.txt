@@ -39,3 +39,5 @@ If we know the keys in advance, we can make a perfectly balanced BST.
 Pick the middle make it root and do it recursively
 
 How to control if user are providing input(no gurantee of order)
+
+Idea : to do some extra work during inserting and deletion
