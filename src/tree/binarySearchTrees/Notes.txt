@@ -100,7 +100,7 @@ If search has more importance then AVL is preferred otherwise RB
 - Number of black nodes from every node to all of its descandatns should be same
 (Also called as blank height through all the nodes to its descendants should be same)
 
-Analogy : Number of nodes on teh path from a node to its farther descendent leaf should not be more than TWICE thena the number of nodes
+Analogy : Number of nodes on the path from a node to its farther descendent leaf should not be more than TWICE then the number of nodes
 on the path of closest descendant leaf. --> THATS WHY RB IS LESS STRICT AND REQUIRE LESS ROTATIONS SINCE IT ALLOW THE DIFFERENCE
 OF ATMOST TWICE
 
