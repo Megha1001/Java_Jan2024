@@ -107,3 +107,10 @@ OF ATMOST TWICE
 In insertion, we first try to avoid rotations by recolouring, if not possible then we do rotation.
 
 
+APPLICATION OF BST/ PERTICULARTY FOR SELF BST
+- To maintain sorted stream or data/ or sorted set of data
+- To implement doubly ended priority queue
+    - Singly ended can be done by hEAP(max heap and min heap)
+
+
+
