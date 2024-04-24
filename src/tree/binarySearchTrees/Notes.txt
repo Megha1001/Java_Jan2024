@@ -82,3 +82,10 @@ Height of AVL Tree
 - h < clogbase2(n+2)+b
     where, c ~ 1.4405
             b ~ -1.3277
+
+
+RED BLACK TREE
+-----------------
+- Every node is either Red or black
+- Root is always black
+- No two consecutive Red
