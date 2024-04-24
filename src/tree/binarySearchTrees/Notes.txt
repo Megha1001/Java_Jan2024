@@ -104,4 +104,6 @@ Analogy : Number of nodes on teh path from a node to its farther descendent leaf
 on the path of closest descendant leaf. --> THATS WHY RB IS LESS STRICT AND REQUIRE LESS ROTATIONS SINCE IT ALLOW THE DIFFERENCE
 OF ATMOST TWICE
 
+In insertion, we first try to avoid rotations by recolouring, if not possible then we do rotation.
+
 
