@@ -98,6 +98,6 @@ If search has more importance then AVL is preferred otherwise RB
 - Root is always black
 - No two consecutive Red(Red node cannot have a red parent)
 - Number of black nodes from every node to all of its descandatns should be same
-- 
+(Also called as blank height through all the nodes to its descendants should be same)
 
 
