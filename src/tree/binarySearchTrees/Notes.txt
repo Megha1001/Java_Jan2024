@@ -96,5 +96,8 @@ If search has more importance then AVL is preferred otherwise RB
 
 - Every node is either Red or black
 - Root is always black
-- No two consecutive Red
+- No two consecutive Red(Red node cannot have a red parent)
+- Number of black nodes from every node to all of its descandatns should be same
+- 
+
 
