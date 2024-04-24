@@ -89,6 +89,9 @@ RED BLACK TREE
 Search is same as BST
 AVL tree is very strict , RB is loose as compared to AVL
 
+What is being advantage of being lose --> less rotation
+disadvantage --> search may become costly as compared to AVL
+
 - Every node is either Red or black
 - Root is always black
 - No two consecutive Red
