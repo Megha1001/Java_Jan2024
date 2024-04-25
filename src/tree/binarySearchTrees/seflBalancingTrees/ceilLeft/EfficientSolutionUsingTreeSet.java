@@ -9,7 +9,8 @@ TIME COMPLEXITY : O(NLogN)
 
 public class EfficientSolutionUsingTreeSet {
     public static void main(String[] args) {
-        int arr[] ={2,8,30,15,25,12};
+//        int arr[] ={2,8,30,15,25,12};
+        int arr[] ={2,2,30,15,25,12};
         System.out.println(" The ceil on left side of every element is : ");
         findCeil(arr);
     }
