@@ -1,9 +1,9 @@
-package tree.binarySearchTrees.seflBalancingTrees;
+package tree.binarySearchTrees.seflBalancingTrees.ceilLeft;
 
 /*
 TIME COMPLEXITY : O(N^2)
  */
-public class CeilLeft {
+public class NaiveSolution {
     public static void main(String[] args) {
         int arr[] ={2,8,30,15,25,12};
         System.out.println(" The ceil on left side of every element is : ");
