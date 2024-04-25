@@ -113,7 +113,11 @@ APPLICATION OF BST/ PERTICULARTY FOR SELF BST
     still we are able to maintain the sorted order
 - To implement doubly ended priority queue(what if we want to find out max and min at the same time -> for example : at doctor clinic want to find out most priority and low priority patient
         . Self balancing BST can provided max and min element both in O(1) time and we can do insert/delete operation in logN time. Why O(1)--> can maintain max and min and update in insert/delete operations)
-    - Singly ended can be done by hEAP(max heap and min heap)
+    Singly ended can be done by hEAP(max heap and min heap)
+
+    - To solve problems like
+        - Count smaller/greater in a stream
+        - Floor/ceiling/greater/smaller in a strem
 
 
 
