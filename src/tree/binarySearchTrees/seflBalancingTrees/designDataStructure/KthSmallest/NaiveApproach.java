@@ -8,7 +8,7 @@ Given : BST
        -> until count != k
             -> print k
 
-   TIME COMPLEXITY : O(K)
+   TIME COMPLEXITY : O(K+H)
  */
 public class NaiveApproach {
 
@@ -46,6 +46,7 @@ public class NaiveApproach {
             ++count;
             if(count==k){
                 System.out.println(root.key);
+                return;
             }
             printKth(root.right,k);
         }
