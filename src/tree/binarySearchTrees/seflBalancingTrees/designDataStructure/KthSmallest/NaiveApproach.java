@@ -7,6 +7,8 @@ Given : BST
     - Do inorder traversal(print sorted values)
        -> until count != k
             -> print k
+
+   TIME COMPLEXITY : O(K)
  */
 public class NaiveApproach {
 
