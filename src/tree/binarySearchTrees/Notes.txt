@@ -120,4 +120,8 @@ APPLICATION OF BST/ PERTICULARTY FOR SELF BST
         - Floor/ceiling/greater/smaller in a strem
 
 
+Note : if we have subset of insert/search/delete --> recommended to use Hashtable
+if we have more operations  like find floor,ceiling count then use self balancing BST
+
+
 
