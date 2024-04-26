@@ -9,9 +9,9 @@ Augmented tree : Maintain  lCount of nodes in the left subtree
 
     HOW TO MAINTAIN lCount
     -> Insertion (insert x)
-        -> compare with root --> if x < root.key then only increment lCount of root and do that until we find correct position to insert
+        -> compare with root --> if x < root.key then only increment lCount of root and do that until we find correct position to insert(if going to right dont do anything)
     -> Deletion(delete x)
-        -> compare with root --> if x <root.key then only decrement lCount of root and do that until we delete the actual.
+        -> compare with root --> if x <root.key then only decrement lCount of root and do that until we delete the actual.(if going to right dont do anything)
  */
 public class EfficientApproach {
 
