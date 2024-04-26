@@ -6,6 +6,12 @@ Augmented tree : Maintain  lCount of nodes in the left subtree
         -> If same, return root
         -> if greater, recur for left subtree with same K
         -> if smaller, recur for right subtree with K as (k-lCount-1)
+
+    HOW TO MAINTAIN lCount
+    -> Insertion (insert x)
+        -> compare with root --> if x < root.key then only increment lCount of root and do that until we find correct position to insert
+    -> Deletion(delete x)
+        -> compare with root --> if x <root.key then only decrement lCount of root and do that until we delete the actual.
  */
 public class EfficientApproach {
 
@@ -16,7 +22,7 @@ public class EfficientApproach {
         Node right;
 
         int lCount;
-        Node(int k){
+        Node(int k, int ){
             key=k;
             lCount=0;
         }
