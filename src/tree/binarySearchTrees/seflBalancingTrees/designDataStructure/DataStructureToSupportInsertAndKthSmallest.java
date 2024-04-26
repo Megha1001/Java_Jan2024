@@ -1,6 +1,9 @@
 package tree.binarySearchTrees.seflBalancingTrees.designDataStructure;
 /*
 Augmented tree : Maintain  lCount of nodes in the left subtree
+
+Augmenting is simply changing the existing data structure to solve our problem
+
     1. Compare (lCount+1) with K
         -> If same, return root
         -> if greater, recur for left subtree with same K
