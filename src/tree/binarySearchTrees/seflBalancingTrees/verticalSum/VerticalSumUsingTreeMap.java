@@ -7,8 +7,15 @@ Approach
 3. Print the Map
 
 Why using hasmap --> since it prints in sorted order
+
+TIME CoMPLEXITY : O(NLoghd + hd), where hd is horizontal distance (O(loghd) --> work for every node, we can have hd nodes in tree map and insertion
+in treemap is log operation), hd is traversal
+hd-> total number of possible horizontal distances.
+
+AUX SPACE : O(hd)
  */
 
+import java.util.Map;
 import java.util.TreeMap;
 
 public class VerticalSumUsingTreeMap {
@@ -33,25 +40,29 @@ public class VerticalSumUsingTreeMap {
         int hd = 0;
         TreeMap<Integer, Integer> tm = new TreeMap<>();
 
-        printVerticalSum(root, hd, tm);
+        getVerticalSum(root, hd, tm);
+
+        //print treemap
+        for(Map.Entry map : tm.entrySet()){
+            System.out.print(map.getValue()+" ");
+        }
     }
 
-    public static void printVerticalSum(Node root, int hd, TreeMap<Integer, Integer> tm){
+    public static void getVerticalSum(Node root, int hd, TreeMap<Integer, Integer> tm){
 
         if(root == null){
             return;
         }
 
         //left
-        printVerticalSum(root.left, hd-1, tm);
+        getVerticalSum(root.left, hd-1, tm);
 
         //node
         int currSum = tm.get(hd)==null ? 0 : tm.get(hd);
         tm.put(hd, currSum+root.data);
 
         //right
-        printVerticalSum(root.right, hd+1, tm);
-
+        getVerticalSum(root.right, hd+1, tm);
     }
 
 
