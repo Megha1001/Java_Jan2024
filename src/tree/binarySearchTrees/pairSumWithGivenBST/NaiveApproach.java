@@ -6,7 +6,11 @@ import java.util.ArrayList;
 Approach :
 1. Do inorder traversal --> print in sorted order
 2. Use two pointer approach to check the pair
+
+TIME COMPLEXITY : O(N) [inorder traversal(O(N)) , two pointer app(O(N))]
+AUX SPACE : O(N) [O(N) -> for arraylist, O(H)--> for call stack -> O(N+H) = O(N)]
  */
+
 public class NaiveApproach {
 
     static class Node{
@@ -37,6 +41,8 @@ public class NaiveApproach {
         int first = 0;
         int last = list.size()-1;
 
+
+        //O(N)
         for(int i=0; i< list.size(); i++){
             int sum = list.get(first) + list.get(last);
 
@@ -55,6 +61,7 @@ public class NaiveApproach {
     }
 
 
+    //O(N)
     public static void inOrder(Node root, ArrayList<Integer> list){
         if(root==null){
             return;
