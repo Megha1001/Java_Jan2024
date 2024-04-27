@@ -2,6 +2,10 @@ package tree.binarySearchTrees.seflBalancingTrees.checkBST;
 
 /*
 A binary tree is a BST iff its inorder traversal is in increasing order.
+
+TIME COMPLEXITY : O(N) --> inorder traversal
+AUX SPACE : O(H), where h is height
+
  */
 public class MostEfficient {
         static class Node{
