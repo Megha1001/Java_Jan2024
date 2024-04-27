@@ -10,7 +10,7 @@ Approach : for every node
  */
 
 
-public class EfficientApproach1 {
+public class NaiveSolution {
 
     static class Node{
         int data;
