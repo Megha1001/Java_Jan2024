@@ -7,7 +7,7 @@ Approach :
 3. for left  child of a node , in range we change the upper bound as the node's value
 4. For right child of a node, in range we change the lower bound as the node's value.
 
-TIME CoMPLEXITY : O(N)
+TIME COMPLEXITY : O(N)
 
  */
 public class EfficientSolution1 {
