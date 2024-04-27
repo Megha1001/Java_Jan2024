@@ -5,6 +5,8 @@ Approach : for every node
     1. find max in left subtree
     2. find min in right subtree
     3. root.data > max && root.data < min
+
+    TIME COMPLEXITY : O(N^2) --> in case of skew tree for nth node we have to find max in n-1 for n-1th node find max in n-2 and so on
  */
 
 
@@ -26,7 +28,7 @@ public class EfficientApproach1 {
         root.left = new Node(2);
         root.right = new Node(5);
         root.left.left = new Node(1);
-        root.left.right = new Node(3);
+//        root.left.right = new Node(3);
         root.left.right = new Node(100);
 
         if(isBST(root)==1){
