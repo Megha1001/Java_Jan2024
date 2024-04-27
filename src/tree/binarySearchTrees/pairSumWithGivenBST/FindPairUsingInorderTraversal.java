@@ -11,7 +11,7 @@ TIME COMPLEXITY : O(N) [inorder traversal(O(N)) , two pointer app(O(N))]
 AUX SPACE : O(N) [O(N) -> for arraylist, O(H)--> for call stack -> O(N+H) = O(N)]
  */
 
-public class NaiveApproach {
+public class FindPairUsingInorderTraversal {
 
     static class Node{
         int key;
