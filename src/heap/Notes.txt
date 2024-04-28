@@ -18,3 +18,9 @@ Use of priority queue
 
 why there is a restriction to store as an array ?
 - Because its stored as array and there should not be any gap in between them
+
+
+left(i) = 2i+1
+right(i) = 2i+2
+
+parent(i)= floor(i-1)/2
