@@ -1,0 +1,9 @@
+Binary Heap
+-----------------
+- Used in heapsort
+- Used to implement priority Queue
+
+
+Two Types 
+    - Min Heap(highest priority item is assigned lowest value)
+    - Max heap(highest priority item is assigned highest value)
