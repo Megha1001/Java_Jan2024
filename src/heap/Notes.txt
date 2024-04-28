@@ -26,3 +26,9 @@ right(i) = 2i+2
 parent(i)= floor(i-1)/2
 
 Beauty of binary heap : dont have to store references
+
+
+Min Heap
+-------------
+- Complete binary tree
+- Every node has value smaller than its descendants
