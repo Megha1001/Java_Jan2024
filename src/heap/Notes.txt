@@ -15,3 +15,6 @@ Use of priority queue
 - Huffman algo
 
 - Binary heap is a complete binary tree(stored as an array(levelwise))
+
+why there is a restriction to store as an array ?
+- Because its stored as array and there should not be any gap in between them
