@@ -7,3 +7,9 @@ Binary Heap
 Two Types 
     - Min Heap(highest priority item is assigned lowest value)
     - Max heap(highest priority item is assigned highest value)
+
+
+Use of priority queue
+- Dijkstra's algo
+- Prim's algo
+- Huffman algo
