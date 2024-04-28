@@ -13,3 +13,5 @@ Use of priority queue
 - Dijkstra's algo
 - Prim's algo
 - Huffman algo
+
+- Binary heap is a complete binary tree(stored as an array(levelwise))
