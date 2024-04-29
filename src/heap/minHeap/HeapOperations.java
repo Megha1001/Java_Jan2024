@@ -158,8 +158,10 @@ public class HeapOperations {
 
         /*
         Build heap
-        1. Start from right most internal node( size-1-1)/2 --> get Parent(size-1)[last element]
+        1. Start from right most internal(Parent of last leaf) node( size-1-1)/2 --> get Parent(size-1)[last element]
         2. call minHeapify until i>=0
+
+        TIME COMPLEXITY :   O(N)
          */
 
         void buildHeap(){
