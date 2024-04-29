@@ -85,6 +85,9 @@ public class MinHeapifyAndExtract {
         2. do --size
         3. minHeapify for root
         4. return arr[size], not size-1, that we usually do.
+
+        TIME COMPLEXITY : O(1) + O(logN)
+        Aux space : O(LogN) for recursive and O(1) : iterative
          */
         public int extractMin(){
 
