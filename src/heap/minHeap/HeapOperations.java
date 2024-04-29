@@ -5,7 +5,7 @@ package heap.minHeap;
 Assuming only the given index (i) node is violating the property of min heap. Hence, have to fix that only
 i is zero indexed
  */
-public class MinHeapifyAndExtract {
+public class HeapOperations {
 
     static class MinHeap{
         int [] arr;
