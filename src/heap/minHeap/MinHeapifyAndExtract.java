@@ -94,7 +94,7 @@ public class MinHeapifyAndExtract {
             }
 
             // one element
-            if(size==1){ // why base case , since in case of 1 element minheapify can thrown error
+            if(size==1){ // why base case , since in case of 1 element minheapify can thrown error(2i+1, 2i+2)
                 --size;
                 return arr[0];
             }
