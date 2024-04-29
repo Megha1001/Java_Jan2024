@@ -114,6 +114,26 @@ public class HeapOperations {
 
 
         }
+
+        /*
+        decrease key :
+        Given : new value(x), index=i
+        1. update value at i index with x and then make sure its still a heap(same like insert)
+         */
+
+        void decreseKey(int x, int i){
+            arr[i] = x;
+
+            while(i!=0 && arr[getParent(i)]>arr[i]){
+                //swap
+                int temp = arr[getParent(i)];
+                arr[getParent(i)] = arr[i];
+                arr[i] = temp;
+
+                i = getParent(i);
+            }
+
+        }
     }
 
 
@@ -125,6 +145,11 @@ public class HeapOperations {
         h.insert(15);
         h.insert(20);
         System.out.print("After extraction the min element is : "+h.extractMin());
+
+        System.out.println(" decrease key for index=3 : ");
+        h.decreseKey(1, 3);//index=3, insert 1
+
+        System.out.println("Root element is : "+h.arr[0]);
     }
 
 
