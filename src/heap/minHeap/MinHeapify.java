@@ -49,6 +49,10 @@ public class MinHeapify {
 
         }
 
+        /*
+        TIME COMPLEXITY : O(H), where H is height
+        best case : O(1) , when already min heap
+         */
 
         void minHeapify(int i){
             int leftChild = getLeft(i);
