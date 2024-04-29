@@ -141,6 +141,8 @@ public class HeapOperations {
         Given : index
         1. apply decresekey(index, Integer.MIN_VALUE) --> hence it will come to toot
         2. apply extractMin
+
+        TIME COMPLEXITY : O(logN)
          */
 
         void delete(int i){
