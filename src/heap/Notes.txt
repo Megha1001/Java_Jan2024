@@ -32,3 +32,6 @@ Min Heap
 -------------
 - Complete binary tree
 - Every node has value smaller than its descendants
+
+
+Build heap : O(N) -> complexity
