@@ -3,7 +3,7 @@ package heap.minHeap;
 import java.util.Arrays;
 
 /*
-TIMEC
+TIME COMPLEXITY : O(Log(size)) 
  */
 
 public class Insertion{
