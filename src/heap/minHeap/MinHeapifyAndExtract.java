@@ -5,7 +5,7 @@ package heap.minHeap;
 Assuming only the given index (i) node is violating the property of min heap. Hence, have to fix that only
 i is zero indexed
  */
-public class MinHeapify {
+public class MinHeapifyAndExtract {
 
     static class MinHeap{
         int [] arr;
@@ -50,7 +50,7 @@ public class MinHeapify {
         }
 
         /*
-        TIME COMPLEXITY : O(H), where H is height ==>O(logN)
+        TIME COMPLEXITY : O(H), where H is height ==>O(logN),since its complete binary tree
         best case : O(1) , when already min heap
         AUX : O(H)
          */
@@ -77,7 +77,42 @@ public class MinHeapify {
                 minHeapify(smallest);
             }
         }
+
+        /*
+        Kind of delete func
+        TO extract root :
+        1. swap it with last element
+        2. do --size
+        3. minHeapify for root
+        4. return arr[size], not size-1, that we usually do.
+         */
+        public int extractMin(){
+
+            //no elements
+            if(size==0){
+                return Integer.MIN_VALUE;
+            }
+
+            // one element
+            if(size==1){
+                --size;
+                return arr[0];
+            }
+
+            //swap last and root
+            int temp = arr[0];
+            arr[0] = arr[size-1];
+            arr[size-1] = temp;
+
+            --size;
+            minHeapify(0);//since, we swapped last with first it must needs to be heapify
+
+            return arr[size];
+
+
+        }
     }
+
 
 
     public static void main(String[] args) {
@@ -86,7 +121,7 @@ public class MinHeapify {
         h.insert(2);
         h.insert(15);
         h.insert(20);
-        System.out.print(h.extractMin());
+        System.out.print("After extraction the min element is : "+h.extractMin());
     }
 
 
