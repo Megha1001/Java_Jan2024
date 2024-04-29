@@ -134,6 +134,24 @@ public class HeapOperations {
             }
 
         }
+
+
+        /*
+        Delete :
+        Given : index
+        1. apply decresekey(index, Integer.MIN_VALUE) --> hence it will come to toot
+        2. apply extractMin
+         */
+
+        void delete(int i){
+            if(i>(size-1)){
+                //invalid
+                return;
+            }
+
+            decreseKey(Integer.MIN_VALUE, i);
+            extractMin();
+        }
     }
 
 
