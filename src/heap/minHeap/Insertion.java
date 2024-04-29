@@ -3,7 +3,7 @@ package heap.minHeap;
 import java.util.Arrays;
 
 /*
-TIME COMPLEXITY : O(Log(size)) 
+TIME COMPLEXITY : O(Log(size)) , because we are travelling across the height
  */
 
 public class Insertion{
