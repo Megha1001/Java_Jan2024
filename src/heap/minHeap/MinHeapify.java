@@ -50,7 +50,7 @@ public class MinHeapify {
         }
 
         /*
-        TIME COMPLEXITY : O(H), where H is height
+        TIME COMPLEXITY : O(H), where H is height ==>O(logN)
         best case : O(1) , when already min heap
          */
 
