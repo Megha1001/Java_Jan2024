@@ -81,7 +81,7 @@ public class MinHeapifyAndExtract {
         /*
         Kind of delete func
         TO extract root :
-        1. swap it with last element
+        1. swap it with last element (why choosing last since removal is easy, just need to do --size)
         2. do --size
         3. minHeapify for root
         4. return arr[size], not size-1, that we usually do.
