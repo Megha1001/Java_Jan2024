@@ -154,6 +154,13 @@ public class HeapOperations {
             decreseKey(Integer.MIN_VALUE, i);
             extractMin();
         }
+
+
+        /*
+        Build heap
+        1. Start from right most internal node( size-1-1)/2 --> get Parent(size-1)[last element]
+        2. call minHeapify until i>=0
+         */
     }
 
 
