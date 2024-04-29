@@ -90,7 +90,7 @@ public class MinHeapifyAndExtract {
 
             //no elements
             if(size==0){
-                return Integer.MIN_VALUE;
+                return Integer.MAX_VALUE;
             }
 
             // one element
