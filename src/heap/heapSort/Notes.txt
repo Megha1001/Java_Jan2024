@@ -1,0 +1,6 @@
+HeapSort can mainly seen as improvement of selection sort. Selection sort worst case time complexity is O(N^2)
+HeapSort complexity is O(NLogN) this is the best we can get in any comparision based sorting algorithm.
+
+There are other sorting algo -> quick sort , and merge sort -> takes O(NlogN) time
+    quickSort --> average case is O(NlogN), mergeSort -> worst case is O(NlogN)
+
