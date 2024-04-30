@@ -4,3 +4,15 @@ HeapSort complexity is O(NLogN) this is the best we can get in any comparision b
 There are other sorting algo -> quick sort , and merge sort -> takes O(NlogN) time
     quickSort --> average case is O(NlogN), mergeSort -> worst case is O(NlogN)
 
+    HeapSort --> takes O(NLogN) -> in all cases
+
+Compare heapSort with merge and quick Sort
+- The constants hidden in heapSort is much higher as compare to M/Q. In practise M/Q takes less time hence used more
+
+
+However, there are hybrid algo base on heapSort-> IntroSort
+
+IntroSort = QuickSort + Insertion Sort + HeapSort
+
+QuickSort can go beyond O(nLogN) in certain cases its recursion depth can goes to O(N);
+So, introSort switch to HeapSort when recursion depth go beyond O(logN)
