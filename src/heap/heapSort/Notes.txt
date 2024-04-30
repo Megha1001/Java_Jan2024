@@ -16,3 +16,7 @@ IntroSort = QuickSort + Insertion Sort + HeapSort
 
 QuickSort can go beyond O(nLogN) in certain cases its recursion depth can goes to O(N);
 So, introSort switch to HeapSort when recursion depth go beyond O(logN)
+
+INTROSORT -> Use in standard libraries of C++
+
+Hence, heapSort not used as main sorting algo but used as helper algo in hybrid algo
