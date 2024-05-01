@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54818736-383a-4182-bec4-e8acb1b662a2" name="Changes" comment="Codebase for DSA-24">
-      <change afterPath="$PROJECT_DIR$/src/heap/findKMaxElements/FIndKMaxUsingPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/findKMaxElements/MostEffiicientSolutionUsingMinHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
