@@ -6,6 +6,7 @@ Approach :
 2. Run a loop for k iteration , in every iterations find the next closest element
 
 TIME COMPLEXITY : O(NK);
+AUX SPACE : O(N)
  */
 public class NaiveSolution {
 
