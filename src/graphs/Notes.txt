@@ -28,3 +28,9 @@ TERMS
     - Directed
     - Undirected
 4. Acyclic graph : That doesn't have any cycle
+    - Directed Acyclic Graph (DAG) --> HAS MANY APPLICATIONS
+        - Topological sorting --> used specially for this and used for job scheduling
+
+5. Weighted graph : ex : road n/w(weight : length of roads), Routers
+    - Directed
+    - Undirected
