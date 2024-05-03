@@ -10,8 +10,9 @@ Types
     - Sum of indegree : |E|
     - Sum of outdegree : |E|
     (Every edge contribute to one indegree and one outdegree)
-    - Maximum number of edges : |V1| * |V1-1| [Maximum num of edges in undirected graph/2]
+    - Maximum number of edges : |V| * |V-1| [Maximum num of edges in undirected graph/2]
 - Undirected graph
     - Degree of vertex : Number of edges going through it.
     - Sum of degress : 2*|E| , (one edge contributes to 2 degree)
-    - Maximum number of edges : (|v1|*|V1-1|)/2
+    - Maximum number of edges : (|v|*|V-1|)/2,
+    When graph is completely connected , every vertex can connect to v-1 vertex
