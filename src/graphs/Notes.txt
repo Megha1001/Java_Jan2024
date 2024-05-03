@@ -8,3 +8,5 @@ Types
 - Directed graph --> used by crawlers
     -
 - Undirected graph
+    - Degree of vertex : Number of edges going through it.
+    - Sum of degress : 2*|E|
