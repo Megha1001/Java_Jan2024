@@ -1,0 +1,10 @@
+GRAPHS
+---------------------
+- Random connection among nodes
+
+
+Types
+---------------------
+- Directed graph --> used by crawlers
+    -
+- Undirected graph
