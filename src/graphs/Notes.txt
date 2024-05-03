@@ -34,3 +34,9 @@ TERMS
 5. Weighted graph : ex : road n/w(weight : length of roads), Routers
     - Directed
     - Undirected
+
+-----------------------------
+REPRESENTATIONS
+Has many representations but two are most popular
+- Adjacency list
+- Adjacency matrix
