@@ -48,3 +48,6 @@ ADJACENCY MATRIX
 mat[i][j] = {1 if there is an edge from vertex i to vertex j, 0 otherwise}
 
 For undirected graph : its a symmetric metric
+
+How to handle vertics with arbitary names
+- For efficient implementations one has table h would also be required to do reverse mapping
