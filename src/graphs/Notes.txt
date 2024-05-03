@@ -11,10 +11,10 @@ Types
     - Sum of outdegree : |E|
     (Every edge contribute to one indegree and one outdegree)
     - Maximum number of edges : |V| * |V-1| [Maximum num of edges in undirected graph/2]
+        When graph is completely connected , every vertex can connect to v-1 vertex. There are v vertex
 - Undirected graph
     - Degree of vertex : Number of edges going through it.
     - Sum of degress : 2*|E| , (one edge contributes to 2 degree)
     - Maximum number of edges : (|v|*|V-1|)/2,
-    When graph is completely connected , every vertex can connect to v-1 vertex
 
 Note : Have not considered self loop
