@@ -22,6 +22,6 @@ Note : Have not considered self loop
 
 -----------------------------
 TERMS
-1. Walk : Sequence of vertices that we get by following edges in the graph
-2. Path : Special type of walk that doesn't allow repetations
+1. Walk(aka Path) : Sequence of vertices that we get by following edges in the graph
+2. Path(aka Simple Path) : Special type of walk that doesn't allow repetations
 3. Cyclic : There exists a walk that starts and ends with same vertex.
