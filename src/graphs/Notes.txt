@@ -16,3 +16,5 @@ Types
     - Sum of degress : 2*|E| , (one edge contributes to 2 degree)
     - Maximum number of edges : (|v|*|V-1|)/2,
     When graph is completely connected , every vertex can connect to v-1 vertex
+
+Note : Have not considered self loop
