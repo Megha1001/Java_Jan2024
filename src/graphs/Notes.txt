@@ -39,4 +39,12 @@ TERMS
 REPRESENTATIONS
 Has many representations but two are most popular
 - Adjacency list
-- Adjacency matrix
+- Adjacency matrix -> https://www.geeksforgeeks.org/adjacency-matrix-meaning-and-definition-in-dsa/
+------------------------------
+
+ADJACENCY MATRIX
+- Size : |V| * |V|, where n is numbber of vertices
+
+mat[i][j] = {1 if there is an edge from vertex i to vertex j, 0 otherwise}
+
+For undirected graph : its a symmetric metric
