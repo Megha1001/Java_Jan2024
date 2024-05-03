@@ -1,4 +1,4 @@
-GRAPHS
+GRAPHS : G(V,E)
 ---------------------
 - Random connection among nodes
 
