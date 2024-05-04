@@ -36,7 +36,15 @@ public class DFSImplUsingUndirectedConnectedGraph {
     }
 
     public static void DFSTraversal(ArrayList<ArrayList<Integer>>adj, int s, boolean [] visited){
-        v
+        visited[s] = true;
+        System.out.print(s+" ");
+
+        //get the adjacent
+        for(int u : adj.get(s)){
+            if(!visited[u]){
+                DFSTraversal(adj, u, visited);
+            }
+        }
 
     }
 
