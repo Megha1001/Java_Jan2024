@@ -141,3 +141,4 @@ Applications
 - Cycle detection -> can use BFS and DFS in directed and undirected graph
 - Ford fulkerson algorithm -> BFS is better as compare to DFS(can be impl by both)
 - Brodcasting
+- Prim's algorithm -> Minimum Spanning Tree
