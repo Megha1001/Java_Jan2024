@@ -43,6 +43,7 @@ Has many representations but two are most popular
 ------------------------------
 
 ADJACENCY MATRIX
+------------------------------
 - Size : |V| * |V|, where n is numbber of vertices
 
 mat[i][j] = {1 if there is an edge from vertex i to vertex j, 0 otherwise}
@@ -51,3 +52,16 @@ For undirected graph : its a symmetric metric
 
 How to handle vertics with arbitary names
 - For efficient implementations one has table h would also be required to do reverse mapping
+
+
+Properties of Adjacency Matrix
+
+Space required : Θ(V*V)
+Operations :
+    - Check if u and v are adjacent : Θ(1);
+    - Find all vertices adjacent to u : Θ(V);
+    - Find degree of u : Θ(V);
+    - Add/Remove an edge : Θ(1);
+    - Add/Remove a vertex : Θ(V*V);
+        -> for adding , need to make a matrix with 1 number bigger size and then copy the elements of original matrix to new one.
+        Similarly needs to be done for removing a vertex
