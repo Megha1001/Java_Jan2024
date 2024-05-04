@@ -40,8 +40,9 @@ REPRESENTATIONS
 Has many representations but two are most popular
 - Adjacency list
 - Adjacency matrix -> https://www.geeksforgeeks.org/adjacency-matrix-meaning-and-definition-in-dsa/
-------------------------------
 
+
+------------------------------
 ADJACENCY MATRIX
 ------------------------------
 - Size : |V| * |V|, where n is numbber of vertices
@@ -65,3 +66,15 @@ Operations :
     - Add/Remove a vertex : Θ(V*V);
         -> for adding , need to make a matrix with 1 number bigger size and then copy the elements of original matrix to new one.
         Similarly needs to be done for removing a vertex
+
+
+
+------------------------------
+ADJACENCY LIST
+------------------------------
+
+Adjacency matrix store redundant information(like it stores which vertex are connected to it , it also stores which are not connected to it(that is redundant))
+
+Adjacency list only stores the vertices that are adjancent to the vertex. (Not store the vertices which the vertex is not connected)
+
+-> It makes finding the adjacent vertices operation fast.
