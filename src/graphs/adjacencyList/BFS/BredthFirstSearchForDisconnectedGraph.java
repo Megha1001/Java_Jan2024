@@ -6,6 +6,10 @@ import java.util.LinkedList;
 
 /*
  * TIME COMPLEXITY : O(V+E)
+ * 
+ * Reason for O(E) : we are visiting every edge (Total number of edges : 2E(undirected graph), E(directed graph))
+ * 
+ * Why V : There might be the case when there are no edges all vertices are disconnected. In that case too we still run the outermost loop
  */
 
 
