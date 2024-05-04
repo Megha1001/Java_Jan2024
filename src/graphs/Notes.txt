@@ -85,3 +85,6 @@ Adjacency list is an array of list that list can be linked list, dynamic size ar
 Most popular
     - Dynamic sized arrays -> cache friendly(faster code)
         disadvantages -> since it pre-allocates memory hence wastage of space, amortized O(1)
+
+
+Space requirement : θ(V+E)[for directed graph], θ(V+2E)[for undirected graph]
