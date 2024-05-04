@@ -80,4 +80,4 @@ Adjacency list only stores the vertices that are adjacent to the vertex. (Not st
 -> It makes finding the adjacent vertices operation fast.
 
 
-Adjacency list is an array of list that list can be linked list, dynamic size array or any other data structures
+Adjacency list is an array of list that list can be linked list, dynamic size array or other data structures
