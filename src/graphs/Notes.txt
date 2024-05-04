@@ -108,6 +108,8 @@ Add an edge                                 θ(1)                    θ(1)
 Remove an edge                              O(V)                    θ(1)
 
 
+Find all adjacent of u                      θ(degree(u))->   θ(outdegree(u))-> for directed graph --> THIS IS MOST COMMON IN MANY STANDARD ALGO LIKE BFS, DFS, DIJKSTRA'S, PRIM'S ETC
+
 MOST PREFERABLE : LIST
 
 Undirected graph
