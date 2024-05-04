@@ -1,10 +1,10 @@
-package graphs.adjacencyList;
+package graphs.adjacencyList.BFS;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BredthFirstSearch {
+public class BreadthFirstSearch {
 
     public static void main(String []args){
         int V = 5;
