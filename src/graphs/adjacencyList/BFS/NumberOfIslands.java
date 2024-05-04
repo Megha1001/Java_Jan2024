@@ -7,6 +7,7 @@ import java.util.LinkedList;
 /*
  * -> Approach 
 Similar to traversal of BFS in case of given disconnected graph.
+Number of island = number of times BFS Called;
  */
 
 public class NumberOfIslands {
