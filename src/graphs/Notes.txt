@@ -88,3 +88,9 @@ Most popular
 
 
 Space requirement : θ(V+E)[for directed graph], θ(V+2E)[for undirected graph]
+Operations :
+    - Check if there is an edge from u to v : O(V)
+    - Find all adjacent to u : Θ(degree(u))
+    - Find degree of u : Θ(1) (by size operations)
+    - Add an edge : Θ(1) [maintain tail pointer in LL, and for arraylist its just an add operation(list.add(newElement)]
+    - Remove an edge : O(V)
