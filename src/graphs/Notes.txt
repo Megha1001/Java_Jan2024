@@ -75,6 +75,9 @@ ADJACENCY LIST
 
 Adjacency matrix store redundant information(like it stores which vertex are connected to it , it also stores which are not connected to it(that is redundant))
 
-Adjacency list only stores the vertices that are adjancent to the vertex. (Not store the vertices which the vertex is not connected)
+Adjacency list only stores the vertices that are adjacent to the vertex. (Not store the vertices which the vertex is not connected)
 
 -> It makes finding the adjacent vertices operation fast.
+
+
+Adjacency list is an array of list that list can be linked list, dynamic size array or any other data structures
