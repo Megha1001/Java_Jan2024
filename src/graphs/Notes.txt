@@ -106,6 +106,7 @@ Check if there is an edge from u to v       O(V)                    θ(1)
 Find all adjacent of u                      θ(degree(u))            O(V)
 Add an edge                                 θ(1)                    θ(1)
 Remove an edge                              O(V)                    θ(1)
+ADD/REMOVE                                  Less than O(V*V)        O(V*V)
 
 
 Find all adjacent of u                      θ(degree(u))->   θ(outdegree(u))-> for directed graph --> THIS IS MOST COMMON IN MANY STANDARD ALGO LIKE BFS, DFS, DIJKSTRA'S, PRIM'S ETC
