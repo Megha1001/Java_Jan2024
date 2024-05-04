@@ -124,3 +124,20 @@ A graph which is not complete and have edges close to the maximum are called Den
 
 
 For above reason Adjacency list is preferable.
+
+
+------------------------------------------------------------------------------------------
+Breadth First Search
+------------------------------------------------------------------------------------------
+Applications
+- Shortest Path in an unweighted graph
+    - since if its one edge away, we can find it. if two edge away we can find it and so on
+    - Dijkstra : based on BFS just that it used priority queue to find shorted path in weighted graph
+
+- Crawlers in search engine
+- Peer to peer networks
+- Social networking search
+- In garbage collection(Cheney's algorithm)
+- Cycle detection -> can use BFS and DFS in directed and undirected graph
+- Ford fulkerson algorithm -> BFS is better as compare to DFS(can be impl by both)
+- Brodcasting
