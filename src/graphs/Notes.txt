@@ -94,3 +94,30 @@ Operations :
     - Find degree of u : Θ(1) (by size operations)
     - Add an edge : Θ(1) [maintain tail pointer in LL, and for arraylist its just an add operation(list.add(newElement)]
     - Remove an edge : O(V)
+
+------------------------------------------------------------------------------------------
+COMPARISION OF ADJACENCY LIST AND ADJACENCY MATRIX
+------------------------------------------------------------------------------------------
+
+                                            LIST                    Matrix
+------------------------------------------------------------------------------------------
+Memory                                      θ(V+E)                  θ(V*V)
+Check if there is an edge from u to v       O(V)                    θ(1)
+Find all adjacent of u                      θ(degree(u))            O(V)
+Add an edge                                 θ(1)                    θ(1)
+Remove an edge                              O(V)                    θ(1)
+
+
+MOST PREFERABLE : LIST
+
+Undirected graph
+0<=E<= v*(v-1)/2;
+
+directed graph
+0<=E<=v*(v-1)
+
+A graph which is not complete and doesn't have edges close to the maximum are called Sparse graph (Use in most real world examples)
+A graph which is not complete and have edges close to the maximum are called Dense graph
+
+
+For above reason Adjacency list is preferable.
