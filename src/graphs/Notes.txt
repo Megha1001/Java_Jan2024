@@ -109,7 +109,7 @@ Remove an edge                              O(V)                    θ(1)
 
 
 Find all adjacent of u                      θ(degree(u))->   θ(outdegree(u))-> for directed graph --> THIS IS MOST COMMON IN MANY STANDARD ALGO LIKE BFS, DFS, DIJKSTRA'S, PRIM'S ETC
-
+Remove an edge                              O(V)  -> UNDIRECTED -> O(2V)
 MOST PREFERABLE : LIST
 
 Undirected graph
