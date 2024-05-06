@@ -151,6 +151,8 @@ Depth First Search
 
 - Cycle Detection
 - Topological Sorting
+    - When we have dependency among the jobs and we want to schedules the jobs
+        - Makefile utility
 - Strongly connected components
 - Solving Maze and Similar puzzles
 - Path Finding
