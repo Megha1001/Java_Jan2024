@@ -155,5 +155,7 @@ Depth First Search
         - Makefile utility : In MU, we specify dependency among the files. Like this files should be compiled before that file.
         Because other file is going to use the first file. MU takes these dependency from you and generates a schedule (do topological sorting)
 - Strongly connected components
+    - kosaraju's --> do DFS traversal
+    - Tarjans algo --> optimization over kosaraju's algo and do one traversal
 - Solving Maze and Similar puzzles
 - Path Finding
