@@ -1,5 +1,10 @@
 package graphs.adjacencyList.BFS;
 
+/*
+APPROACH :
+1. We do BFS in shortest path only. since we first visit vertex that are 1 distance away then 2 distance away and so on
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
