@@ -24,7 +24,7 @@ public class ShortestPathInUnWeightedGraph {
 
     }
 
-    pubilc static void addAnEdge(ArrayList<ArrayList<Integer>> adj, int u, int v){
+    public static void addAnEdge(ArrayList<ArrayList<Integer>> adj, int u, int v){
         adj.get(u).add(v);
         adj.get(v).add(u);
     }
