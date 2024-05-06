@@ -158,4 +158,5 @@ Depth First Search
     - kosaraju's --> do DFS traversal
     - Tarjans algo --> optimization over kosaraju's algo and do one traversal
 - Solving Maze and Similar puzzles
+    - DFS is preferred
 - Path Finding
