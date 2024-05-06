@@ -2,6 +2,8 @@ package graphs.adjacencyList.BFS;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class ShortestPathInUnWeightedGraph {
 
@@ -27,7 +29,28 @@ public class ShortestPathInUnWeightedGraph {
         int dist[] = new int[V];
         Arrays.fill(dist, Integer.MAX_VALUE);
         System.out.println();
-//        printShortestPath(adj, visited, dist);
+        printShortestPath(adj, visited, dist, 0);
+
+    }
+
+    public static void printShortestPath(ArrayList<ArrayList<Integer>>adj, boolean[] visited, int[] dist, int s){
+        Queue<Integer> q = new LinkedList<>();
+        visited[s] = true;
+        dist[s] = 0;
+        q.offer(s);
+
+        while(!q.isEmpty()){
+            int p = q.poll();
+            for(int v : adj.get(p)){
+                if(!visited[v]){
+                    visited[v] = true;
+                    dist[v] = dist[p]+1; //+1 since its adjacent to p;
+                    q.offer(v);
+                }
+            }
+        }
+
+        Arrays.stream(dist).forEach(System.out::println);
 
     }
 
