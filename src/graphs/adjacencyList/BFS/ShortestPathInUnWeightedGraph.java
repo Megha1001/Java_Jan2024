@@ -1,6 +1,7 @@
 package graphs.adjacencyList.BFS;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ShortestPathInUnWeightedGraph {
 
@@ -21,6 +22,11 @@ public class ShortestPathInUnWeightedGraph {
         addAnEdge(adj, 2, 3);
 
         System.out.println("Shortest path for unweighted graph for each vertex is : ");
+
+        boolean [] visited = new boolean[V];
+        int dist[] = new int[V];
+        Arrays.stream(dist).forEach(i-> dist[i]=Integer.MAX_VALUE);
+//        printShortestPath(adj, visited, dist);
 
     }
 
