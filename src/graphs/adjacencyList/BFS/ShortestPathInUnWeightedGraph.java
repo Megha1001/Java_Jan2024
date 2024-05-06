@@ -12,6 +12,21 @@ public class ShortestPathInUnWeightedGraph {
             adj.add(new ArrayList<>());
         }
 
+        addAnEdge(adj, 0, 1);
+        addAnEdge(adj, 0, 2);
+
+        addAnEdge(adj, 1, 2);
+        addAnEdge(adj, 1, 3);
+
+        addAnEdge(adj, 2, 3);
+
+        System.out.println("Shortest path for unweighted graph for each vertex is : ");
+
+    }
+
+    pubilc static void addAnEdge(ArrayList<ArrayList<Integer>> adj, int u, int v){
+        adj.get(u).add(v);
+        adj.get(v).add(u);
     }
 
 }
