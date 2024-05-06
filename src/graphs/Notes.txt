@@ -152,7 +152,8 @@ Depth First Search
 - Cycle Detection
 - Topological Sorting
     - When we have dependency among the jobs and we want to schedules the jobs
-        - Makefile utility
+        - Makefile utility : In MU, we specify dependency among the files. Like this files should be compiled before that file.
+        Because other file is going to use the first file. MU takes these dependency from you and generates a schedule (do topological sorting)
 - Strongly connected components
 - Solving Maze and Similar puzzles
 - Path Finding
