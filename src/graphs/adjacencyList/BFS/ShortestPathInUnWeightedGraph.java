@@ -25,7 +25,8 @@ public class ShortestPathInUnWeightedGraph {
 
         boolean [] visited = new boolean[V];
         int dist[] = new int[V];
-        Arrays.stream(dist).forEach(i-> dist[i]=Integer.MAX_VALUE);
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        System.out.println();
 //        printShortestPath(adj, visited, dist);
 
     }
