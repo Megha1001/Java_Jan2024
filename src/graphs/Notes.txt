@@ -127,7 +127,7 @@ For above reason Adjacency list is preferable.
 
 
 ------------------------------------------------------------------------------------------
-Breadth First Search
+Breadth First Search - O(V+E)
 ------------------------------------------------------------------------------------------
 Applications
 - Shortest Path in an unweighted graph
@@ -146,7 +146,7 @@ Applications
 
 
 ------------------------------------------------------------------------------------------
-Depth First Search
+Depth First Search - O(V+E)
 ------------------------------------------------------------------------------------------
 
 - Cycle Detection
