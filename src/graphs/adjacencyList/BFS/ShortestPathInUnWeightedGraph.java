@@ -3,6 +3,10 @@ package graphs.adjacencyList.BFS;
 /*
 APPROACH :
 1. We do BFS in shortest path only. since we first visit vertex that are 1 distance away then 2 distance away and so on
+
+TIME COMPLEXITY : Is same as BFS
+what extra we are doing => maintaining distance array --> for that O(V)
+TOTAL TC : O(V+E+V) = O(V+E)
  */
 
 import java.util.ArrayList;
