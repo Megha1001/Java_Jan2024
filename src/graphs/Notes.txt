@@ -160,3 +160,4 @@ Depth First Search
 - Solving Maze and Similar puzzles
     - DFS is preferred (backtracking)
 - Path Finding
+    - its natural in case of DFS, to find path from source to destination. In BFS we will have other nodes as well in the queue, but with DFS it comes naturally.
