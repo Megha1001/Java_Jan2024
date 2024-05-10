@@ -47,5 +47,3 @@ Euclidiean algorithm
    - all ones are treated as 2^32 - 1;
 Range in java for signed numbers = -2^n-1 to 2^n-1 -1
 
-
-
