@@ -14,6 +14,7 @@ import java.util.Arrays;
  * 
  * 
  * FOR disconnected graph --> run the same algo for every disconnted component
+ * TIME COMPLEXITY : O(V+E)
  */
 
 public class DetectCycleUsingBFS {
