@@ -45,14 +45,14 @@ Has many representations but two are most popular
 ------------------------------
 ADJACENCY MATRIX
 ------------------------------
-- Size : |V| * |V|, where n is numbber of vertices
+- Size : |V| * |V|, where V is number of vertices
 
 mat[i][j] = {1 if there is an edge from vertex i to vertex j, 0 otherwise}
 
 For undirected graph : its a symmetric metric
 
 How to handle vertics with arbitary names
-- For efficient implementations one has table h would also be required to do reverse mapping
+- For efficient implementations one has table additonally to array that  would also be required to do reverse mapping
 
 
 Properties of Adjacency Matrix
