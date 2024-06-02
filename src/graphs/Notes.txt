@@ -87,7 +87,7 @@ Most popular
         disadvantages -> since it pre-allocates memory hence wastage of space, amortized O(1)
 
 
-Space requirement : θ(V+E)[for directed graph], θ(V+2E)[for undirected graph]
+Space requirement : θ(V+E)[for directed graph (V when none of the vertices are connected)], θ(V+2E)[for undirected graph]
 Operations :
     - Check if there is an edge from u to v : O(V)
     - Find all adjacent to u : Θ(degree(u))
