@@ -9,4 +9,3 @@ Implementing Data Structures and Algorithms from scratch using Java.
 
 ![Tree](https://github.com/Megha1001/Java_Jan2024/blob/master/Trees.jpg)
 
-
